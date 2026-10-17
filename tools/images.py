@@ -27,7 +27,7 @@ OK_COMMONS = re.compile(r"^(CC0|Public domain|PD|CC BY(-SA)? \d(\.\d)?)", re.I)
 OV_FAILS = 0
 
 
-def get(url, binary=False, tries=2, timeout=20):
+def get(url, binary=False, tries=2, timeout=20, wait429=False):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -37,7 +37,10 @@ def get(url, binary=False, tries=2, timeout=20):
         except Exception as e:  # noqa: BLE001
             print(f"  fail {i + 1} {url[:90]}: {e}", flush=True)
             if "429" in str(e):
-                return None
+                if not wait429:
+                    return None
+                time.sleep(4 * (i + 1))
+                continue
             time.sleep(2)
     return None
 
@@ -126,7 +129,7 @@ def candidates():
     TW, TH = 200, 134
 
     def thumb(c):
-        raw = get(c["thumb"], binary=True, tries=1, timeout=15) or get(c["full"], binary=True, tries=1, timeout=25)
+        raw = get(c["thumb"], binary=True, tries=4, timeout=20, wait429=True) or get(c["full"], binary=True, tries=2, timeout=30, wait429=True)
         try:
             im = Image.open(io.BytesIO(raw)).convert("RGB")
             im.thumbnail((TW * 2, TH * 2))
@@ -135,7 +138,7 @@ def candidates():
             return None
 
     from concurrent.futures import ThreadPoolExecutor
-    with ThreadPoolExecutor(12) as pool:
+    with ThreadPoolExecutor(3) as pool:
         flat = [(k, c) for k in keys for c in allc[k]]
         thumbs = dict(zip([(k, c["label"]) for k, c in flat], pool.map(lambda kc: thumb(kc[1]), flat)))
     print("thumbs done", flush=True)
