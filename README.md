@@ -45,8 +45,8 @@ scripts/
 
 ## Deployment
 
-- **Repository:** https://github.com/OmotolaDomain/amad
-- **Live site:** https://omotoladomain.github.io/amad/
+- **Repository:** https://github.com/OmotolaDomain/Amad
+- **Live site:** https://omotoladomain.github.io/Amad/
 
 Every push to `main` that changes `site/` deploys through `.github/workflows/deploy.yml`. Each workflow declares its own `permissions:`, so the repository's default token setting doesn't need changing.
 

@@ -24,7 +24,7 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "site" / "data"
-USER_AGENT = "AMADFeedBot/1.0 (+https://github.com/OmotolaDomain/amad)"
+USER_AGENT = "AMADFeedBot/1.0 (+https://github.com/OmotolaDomain/Amad)"
 ATOM = "{http://www.w3.org/2005/Atom}"
 SUMMARY_LEN = 280
 

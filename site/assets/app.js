@@ -4,7 +4,7 @@
 
   // ---------- Config ----------
   // On GitHub Pages (owner.github.io/repo) the repo is detected automatically, so forks just work.
-  const FALLBACK_REPO = "OmotolaDomain/amad";
+  const FALLBACK_REPO = "OmotolaDomain/Amad";
   const REPO = (() => {
     const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
     const seg = location.pathname.split("/").filter(Boolean)[0];
