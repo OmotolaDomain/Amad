@@ -24,16 +24,21 @@ UA = "AMADImageTool/1.0 (https://github.com/OmotolaDomain/Amad; open-source lear
 OK_COMMONS = re.compile(r"^(CC0|Public domain|PD|CC BY(-SA)? \d(\.\d)?)", re.I)
 
 
-def get(url, binary=False, tries=3):
+OV_FAILS = 0
+
+
+def get(url, binary=False, tries=2, timeout=20):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 data = r.read()
             return data if binary else json.loads(data)
         except Exception as e:  # noqa: BLE001
-            print(f"  retry {i + 1} {url[:90]}: {e}", file=sys.stderr)
-            time.sleep(5 * (i + 1))
+            print(f"  fail {i + 1} {url[:90]}: {e}", flush=True)
+            if "429" in str(e):
+                return None
+            time.sleep(2)
     return None
 
 
@@ -42,9 +47,13 @@ def strip(s):
 
 
 def openverse(q):
+    global OV_FAILS
+    if OV_FAILS >= 3:  # rate limited: rely on Wikimedia Commons for the rest
+        return []
     params = urllib.parse.urlencode({"q": q, "license": "cc0,pdm,by,by-sa", "page_size": 20, "mature": "false"})
     data = get(f"https://api.openverse.org/v1/images/?{params}")
-    time.sleep(3.5)  # anonymous rate limit
+    OV_FAILS = 0 if data else OV_FAILS + 1
+    time.sleep(1.5)
     out = []
     for r in (data or {}).get("results", []):
         w, h = r.get("width") or 0, r.get("height") or 0
@@ -95,23 +104,38 @@ def candidates():
             found += [c for c in openverse(q) if c["id"] not in {f["id"] for f in found}]
             if len(found) >= 6:
                 break
-        found = found[:6]
+        found = found[:5]
         cm = []
         for q in qs:
             cm += [c for c in commons(q) if c["id"] not in {f["id"] for f in cm}]
-            if len(cm) >= 3:
+            if len(cm) >= 9 - len(found):
                 break
-        found += cm[:3]
+        found += cm[:9 - len(found)]
         for i, c in enumerate(found):
             c["label"] = f"{'o' if c['src'] == 'openverse' else 'c'}{i}"
         allc[key] = found
-        print(f"{key}: {len(found)} candidates")
-    (ROOT / "tools/candidates.json").write_text(json.dumps(allc, indent=1))
+        print(f"{key}: {len(found)} candidates", flush=True)
+        (ROOT / "tools/candidates.json").write_text(json.dumps(allc, indent=1))
     # contact sheets: 8 keys per sheet, 9 thumbs per row
     keys = list(allc)
     sheets = ROOT / "tools/sheets"
     sheets.mkdir(exist_ok=True)
     TW, TH = 200, 134
+
+    def thumb(c):
+        raw = get(c["thumb"], binary=True, tries=1, timeout=15) or get(c["full"], binary=True, tries=1, timeout=25)
+        try:
+            im = Image.open(io.BytesIO(raw)).convert("RGB")
+            im.thumbnail((TW * 2, TH * 2))
+            return im.resize((TW, TH))
+        except Exception:  # noqa: BLE001
+            return None
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(12) as pool:
+        flat = [(k, c) for k in keys for c in allc[k]]
+        thumbs = dict(zip([(k, c["label"]) for k, c in flat], pool.map(lambda kc: thumb(kc[1]), flat)))
+    print("thumbs done", flush=True)
     for s in range(0, len(keys), 8):
         chunk = keys[s:s + 8]
         sheet = Image.new("RGB", (130 + 9 * (TW + 4), len(chunk) * (TH + 6)), "white")
@@ -120,15 +144,9 @@ def candidates():
             y = row * (TH + 6)
             d.text((4, y + TH // 2 - 6), key, fill="black")
             for col, c in enumerate(allc[key]):
-                raw = get(c["thumb"], binary=True) or (get(c["full"], binary=True) if c["src"] == "commons" else None)
-                if not raw:
+                im = thumbs.get((key, c["label"]))
+                if im is None:
                     continue
-                try:
-                    im = Image.open(io.BytesIO(raw)).convert("RGB")
-                except Exception:  # noqa: BLE001
-                    continue
-                im.thumbnail((TW * 2, TH * 2))
-                im = im.resize((TW, TH))
                 x = 130 + col * (TW + 4)
                 sheet.paste(im, (x, y))
                 d.rectangle((x, y, x + 26, y + 14), fill="black")

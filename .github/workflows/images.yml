@@ -18,8 +18,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow==11.0.0
-      - run: python tools/images.py
+      - run: python -u tools/images.py
       - name: Commit results
+        if: always()
         run: |
           git config user.name "amad-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
