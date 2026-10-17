@@ -22,11 +22,23 @@ It runs entirely on GitHub: **GitHub Pages** hosts it, **GitHub Actions** refres
 | **Share and discuss** | Share any idea by link, or discuss it in a GitHub issue. |
 | **Mobile-first and dark mode** | Plain HTML/CSS/JS with no build step and no frameworks. |
 
+## Design
+
+AMAD's visual system is documented in [DESIGN.md](DESIGN.md). Each of the seven categories is a *world* with its own duotone photography, colours and an animated line-art motif. Ideas appear as magazine-style covers, and the reader is a swipeable, illustrated story. Sixteen ideas include an **interactive visual explanation**, such as the sales velocity calculator, NRR waterfall, ERRC grid, buying-group time split, territory balancer and Pyramid Principle. Motion is purposeful and switches off when the visitor's device asks for reduced motion.
+
+Photos are openly licensed (CC0, public domain, CC BY, CC BY-SA) from Openverse and Wikimedia Commons. Credits are in `site/data/credits.json` and on the About page. To add or replace one, put `<key>.jpg` and a `credits.json` entry in a folder, then run `python scripts/process_images.py <folder>`.
+
 ## How it works
 
 ```
 site/                     ← the website (deployed as-is to GitHub Pages)
-  index.html, assets/     ← UI (vanilla JS)
+  index.html              ← page shell
+  assets/app.js           ← views, reader, onboarding, progress (vanilla JS, no build step)
+  assets/art.js           ← seeded line-art motifs for each world
+  assets/visuals.js       ← interactive visual explanations
+  assets/img/             ← duotone WebP photos (480px and 960px)
+  data/collections.json   ← curated learning paths
+  data/credits.json       ← photo attribution
   data/topics.json        ← the 7 topics + keywords used to classify news
   data/ideas.json         ← the idea library (curated + community)
   data/sources.json       ← RSS/Atom feeds pulled every day
@@ -35,6 +47,7 @@ scripts/
   fetch_feeds.py          ← pulls feeds into feed.json (Python stdlib only)
   add_idea_from_issue.py  ← turns an approved "Share an idea" issue into an idea
   validate.py             ← schema checks run on every PR
+  process_images.py       ← turns photos into world duotone WebP files
 .github/workflows/
   daily-feed.yml          ← 05:17 UTC every day: fetch → validate → commit
   publish-idea.yml        ← label an idea issue `approved` → it's published

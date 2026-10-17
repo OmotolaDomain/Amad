@@ -55,6 +55,8 @@ def validate_idea(idea: dict, topics: set[str]) -> list[str]:
         errs.append(f"{ref}: source.url must be an http(s) link")
     if not isinstance(idea.get("minutes"), int) or not 1 <= idea["minutes"] <= 10:
         errs.append(f"{ref}: minutes must be an integer 1-10")
+    if idea.get("visual") is not None and not (isinstance(idea["visual"], str) and re.match(r"^[a-z-]+$", idea["visual"])):
+        errs.append(f"{ref}: visual must be the name of an explanation in site/assets/visuals.js")
     if not isinstance(idea.get("contributor"), str) or not idea["contributor"].strip():
         errs.append(f"{ref}: contributor is required (your GitHub username)")
     try:
@@ -80,6 +82,27 @@ def validate_all() -> list[str]:
         bad = [t for t in feed.get("topics", []) if t not in topics]
         if not feed.get("topics") or bad:
             errs.append(f"sources.json: {feed.get('name')}: topics must be a non-empty list of known topics")
+    for t in load("topics.json")["topics"]:
+        for key in ("shadow", "highlight"):
+            if not re.match(r"^#[0-9A-Fa-f]{6}$", t.get(key, "")):
+                errs.append(f"topics.json: {t['id']}: {key} must be a #RRGGBB colour")
+    visuals_js = (DATA.parent / "assets" / "visuals.js").read_text()
+    for idea in ideas:
+        if idea.get("visual") and f'"{idea["visual"]}"' not in visuals_js and f"\n    {idea['visual']}:" not in visuals_js:
+            errs.append(f"{idea['id']}: visual {idea['visual']!r} is not defined in visuals.js")
+    for c in load("collections.json")["collections"]:
+        missing = [i for i in c.get("ideas", []) if i not in seen]
+        if not c.get("title") or not c.get("ideas") or missing:
+            errs.append(f"collections.json: {c.get('id')}: needs a title and existing idea ids (missing: {missing})")
+    credits_path = DATA / "credits.json"
+    if credits_path.exists():
+        img_dir = DATA.parent / "assets" / "img"
+        for key, c in json.loads(credits_path.read_text()).items():
+            if not c.get("creator") or not c.get("license"):
+                errs.append(f"credits.json: {key}: creator and license are required")
+            for w in (480, 960):
+                if not (img_dir / f"{key}-{w}.webp").exists():
+                    errs.append(f"credits.json: {key}: missing assets/img/{key}-{w}.webp")
     load("feed.json")  # must at least parse
     return errs
 

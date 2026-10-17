@@ -1,0 +1,91 @@
+{
+  "collections": [
+    {
+      "id": "enterprise-deal",
+      "title": "Win the enterprise deal",
+      "blurb": "From buying groups to business cases: how complex B2B deals are really won.",
+      "ideas": [
+        "enterprise-001",
+        "enterprise-002",
+        "enterprise-003",
+        "enterprise-005",
+        "enterprise-004",
+        "executive-002"
+      ]
+    },
+    {
+      "id": "first-90-days",
+      "title": "Your first 90 days leading a commercial team",
+      "blurb": "Set the scoreboard, find the bottleneck and coach what predicts results.",
+      "ideas": [
+        "performance-001",
+        "performance-004",
+        "performance-002",
+        "performance-003",
+        "territory-001",
+        "performance-005"
+      ]
+    },
+    {
+      "id": "territory-plan",
+      "title": "Design a territory plan",
+      "blurb": "Tier accounts, balance potential, find whitespace and re-carve without losing customers.",
+      "ideas": [
+        "territory-002",
+        "territory-001",
+        "territory-003",
+        "territory-004",
+        "territory-005"
+      ]
+    },
+    {
+      "id": "key-accounts",
+      "title": "Grow your key accounts",
+      "blurb": "Relationship maps, joint plans and the signals that predict renewal.",
+      "ideas": [
+        "accounts-002",
+        "accounts-004",
+        "accounts-003",
+        "accounts-005",
+        "accounts-001",
+        "territory-003"
+      ]
+    },
+    {
+      "id": "strategy",
+      "title": "Strategy fundamentals",
+      "blurb": "Five classic ideas that separate real strategy from wish lists.",
+      "ideas": [
+        "strategy-001",
+        "strategy-002",
+        "strategy-003",
+        "strategy-005",
+        "strategy-004"
+      ]
+    },
+    {
+      "id": "boardroom",
+      "title": "Get heard in the boardroom",
+      "blurb": "Earn the meeting, lead with the answer and leave with a decision.",
+      "ideas": [
+        "executive-003",
+        "executive-001",
+        "executive-002",
+        "executive-005",
+        "executive-004"
+      ]
+    },
+    {
+      "id": "brand",
+      "title": "Brand foundations",
+      "blurb": "How brands grow, how to position, and how to build a reputation that lasts.",
+      "ideas": [
+        "branding-001",
+        "branding-005",
+        "branding-003",
+        "branding-002",
+        "branding-004"
+      ]
+    }
+  ]
+}

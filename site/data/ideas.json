@@ -10,10 +10,13 @@
         "If you can't say what problem your plan solves, you have a wish list, not a strategy."
       ],
       "takeaway": "Before you set any targets, write one sentence that names the main obstacle.",
-      "source": { "name": "Good Strategy / Bad Strategy, Richard Rumelt" },
+      "source": {
+        "name": "Good Strategy / Bad Strategy, Richard Rumelt"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "kernel"
     },
     {
       "id": "strategy-002",
@@ -25,7 +28,10 @@
         "Activities that fit together and reinforce each other are much harder to copy than any single best practice."
       ],
       "takeaway": "Write down three customers, products or deals you will deliberately turn down this year.",
-      "source": { "name": "What Is Strategy?, Michael E. Porter, HBR (1996)", "url": "https://hbr.org/1996/11/what-is-strategy" },
+      "source": {
+        "name": "What Is Strategy?, Michael E. Porter, HBR (1996)",
+        "url": "https://hbr.org/1996/11/what-is-strategy"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -40,10 +46,13 @@
         "A useful test: what would have to be true for this choice to succeed? Check those conditions before you commit."
       ],
       "takeaway": "Before backing any plan, write down where it plays and how it wins in one line each.",
-      "source": { "name": "Playing to Win, A. G. Lafley & Roger L. Martin" },
+      "source": {
+        "name": "Playing to Win, A. G. Lafley & Roger L. Martin"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "cascade"
     },
     {
       "id": "strategy-004",
@@ -55,10 +64,14 @@
         "The result is a list of risks you can address while change is still cheap."
       ],
       "takeaway": "Give your next big plan ten minutes of 'it failed. Why?' before kickoff.",
-      "source": { "name": "Performing a Project Premortem, Gary Klein, HBR (2007)", "url": "https://hbr.org/2007/09/performing-a-project-premortem" },
+      "source": {
+        "name": "Performing a Project Premortem, Gary Klein, HBR (2007)",
+        "url": "https://hbr.org/2007/09/performing-a-project-premortem"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "premortem"
     },
     {
       "id": "strategy-005",
@@ -70,12 +83,15 @@
         "The aim is to cut cost and add buyer value at the same time, so you stop competing on the same checklist as everyone else."
       ],
       "takeaway": "Fill in an ERRC grid for your offer and pick one item to remove.",
-      "source": { "name": "Blue Ocean Strategy, Kim & Mauborgne, HBR (2004)", "url": "https://hbr.org/2004/10/blue-ocean-strategy" },
+      "source": {
+        "name": "Blue Ocean Strategy, Kim & Mauborgne, HBR (2004)",
+        "url": "https://hbr.org/2004/10/blue-ocean-strategy"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "errc"
     },
-
     {
       "id": "enterprise-001",
       "topic": "enterprise",
@@ -86,10 +102,14 @@
         "So much of the deal happens when you aren't in the room. Your job is to equip your champion to sell internally."
       ],
       "takeaway": "List every person in your biggest deal's buying group and what each one needs to believe.",
-      "source": { "name": "Gartner, The B2B Buying Journey", "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey" },
+      "source": {
+        "name": "Gartner, The B2B Buying Journey",
+        "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "buying-group"
     },
     {
       "id": "enterprise-002",
@@ -101,10 +121,13 @@
         "Review each letter at every stage and treat an unknown as a task, not a guess."
       ],
       "takeaway": "Score your top three deals against MEDDICC today and book a meeting to close the weakest letter.",
-      "source": { "name": "MEDDIC methodology (originated at PTC in the 1990s)" },
+      "source": {
+        "name": "MEDDIC methodology (originated at PTC in the 1990s)"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "meddicc"
     },
     {
       "id": "enterprise-003",
@@ -116,7 +139,10 @@
         "Agreeable meetings feel good. Constructive tension is what moves a deal forward."
       ],
       "takeaway": "Prepare one surprising insight about the customer's industry for your next discovery call.",
-      "source": { "name": "The End of Solution Sales, Adamson, Dixon & Toman, HBR (2012)", "url": "https://hbr.org/2012/07/the-end-of-solution-sales" },
+      "source": {
+        "name": "The End of Solution Sales, Adamson, Dixon & Toman, HBR (2012)",
+        "url": "https://hbr.org/2012/07/the-end-of-solution-sales"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -131,10 +157,13 @@
         "If a customer won't agree to a timeline, that tells you something important about the deal."
       ],
       "takeaway": "Draft a MAP that works backward from the customer's go-live date and send it to your champion.",
-      "source": { "name": "Common enterprise sales practice" },
+      "source": {
+        "name": "Common enterprise sales practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "map-timeline"
     },
     {
       "id": "enterprise-005",
@@ -146,12 +175,13 @@
         "A CFO approves a business case they recognise as their own much faster than a vendor's ROI calculator."
       ],
       "takeaway": "Ask your champion: 'What does it cost you each quarter if nothing changes?' and write down the answer.",
-      "source": { "name": "Value selling principles" },
+      "source": {
+        "name": "Value selling principles"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
     },
-
     {
       "id": "territory-001",
       "topic": "territory",
@@ -162,10 +192,13 @@
         "Two things to balance: workload (can the rep cover it?) and opportunity (is there enough to hit quota?)."
       ],
       "takeaway": "Plot every territory's total potential against its quota. The outliers are where to act.",
-      "source": { "name": "Sales Territory Alignment: An Overlooked Productivity Tool, Zoltners & Lorimer (2000)" },
+      "source": {
+        "name": "Sales Territory Alignment: An Overlooked Productivity Tool, Zoltners & Lorimer (2000)"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "balance"
     },
     {
       "id": "territory-002",
@@ -177,10 +210,13 @@
         "Lines on a map come last: they're how you package the tiers into workable books of business."
       ],
       "takeaway": "Build a simple fit × potential matrix for your top 100 accounts.",
-      "source": { "name": "Sales coverage design practice" },
+      "source": {
+        "name": "Sales coverage design practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "tiering"
     },
     {
       "id": "territory-003",
@@ -192,10 +228,13 @@
         "Expansion from existing customers is often cheaper than winning new logos because trust is already established."
       ],
       "takeaway": "Build an accounts × products grid for your territory and mark your three largest empty cells.",
-      "source": { "name": "Account whitespace analysis practice" },
+      "source": {
+        "name": "Account whitespace analysis practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "whitespace"
     },
     {
       "id": "territory-004",
@@ -207,7 +246,10 @@
         "A coverage model that worked at one stage can quietly hold the business back at the next."
       ],
       "takeaway": "Ask yourself: was our coverage model designed for the business we have today or the one we had three years ago?",
-      "source": { "name": "Match Your Sales Force Structure to Your Business Life Cycle, HBR (2006)", "url": "https://hbr.org/2006/07/match-your-sales-force-structure-to-your-business-life-cycle" },
+      "source": {
+        "name": "Match Your Sales Force Structure to Your Business Life Cycle, HBR (2006)",
+        "url": "https://hbr.org/2006/07/match-your-sales-force-structure-to-your-business-life-cycle"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -222,12 +264,13 @@
         "Measure success by both the balance you gain and the disruption you cause."
       ],
       "takeaway": "Before any re-alignment, list every account that changes owner and plan its handover.",
-      "source": { "name": "Sales operations practice" },
+      "source": {
+        "name": "Sales operations practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
     },
-
     {
       "id": "performance-001",
       "topic": "performance",
@@ -238,7 +281,10 @@
         "Few, visible and reviewed often beats many, hidden and reviewed once a year."
       ],
       "takeaway": "Rewrite one of your activity goals as an outcome you can measure.",
-      "source": { "name": "Measure What Matters, John Doerr", "url": "https://www.whatmatters.com" },
+      "source": {
+        "name": "Measure What Matters, John Doerr",
+        "url": "https://www.whatmatters.com"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -253,10 +299,13 @@
         "Find the weakest lever first. Improving it usually costs less than adding more pipeline."
       ],
       "takeaway": "Calculate your velocity this quarter and pick one lever to improve by 10%.",
-      "source": { "name": "Common sales operations metric" },
+      "source": {
+        "name": "Common sales operations metric"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "velocity"
     },
     {
       "id": "performance-003",
@@ -268,10 +317,13 @@
         "In a commercial team the constraint might be solution engineers, legal review or top-of-funnel. Effort elsewhere won't move revenue."
       ],
       "takeaway": "Ask: where do deals wait the longest? That's your constraint.",
-      "source": { "name": "The Goal, Eliyahu M. Goldratt" },
+      "source": {
+        "name": "The Goal, Eliyahu M. Goldratt"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "constraint"
     },
     {
       "id": "performance-004",
@@ -283,7 +335,9 @@
         "Coach on the leading measures. Celebrate the lagging ones."
       ],
       "takeaway": "Pick two leading indicators that best predict your results and track them weekly.",
-      "source": { "name": "Performance management practice" },
+      "source": {
+        "name": "Performance management practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -298,12 +352,14 @@
         "A short session of targeted practice can do more than many routine calls."
       ],
       "takeaway": "Record yourself handling your toughest objection, review it, and redo it once.",
-      "source": { "name": "The Making of an Expert, Ericsson, Prietula & Cokely, HBR (2007)", "url": "https://hbr.org/2007/07/the-making-of-an-expert" },
+      "source": {
+        "name": "The Making of an Expert, Ericsson, Prietula & Cokely, HBR (2007)",
+        "url": "https://hbr.org/2007/07/the-making-of-an-expert"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
     },
-
     {
       "id": "accounts-001",
       "topic": "accounts",
@@ -314,10 +370,13 @@
         "Break it down: gross retention shows how well you keep customers, and expansion shows how well you grow them. Fix them separately."
       ],
       "takeaway": "Calculate gross and net retention for your book and work out which one is holding you back.",
-      "source": { "name": "SaaS and recurring revenue metrics" },
+      "source": {
+        "name": "SaaS and recurring revenue metrics"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "nrr"
     },
     {
       "id": "accounts-002",
@@ -329,10 +388,13 @@
         "Aim for several strong threads at different levels, including one at executive level."
       ],
       "takeaway": "Map your top account. If one person's departure would put it at risk, add a second thread this month.",
-      "source": { "name": "Key account management practice" },
+      "source": {
+        "name": "Key account management practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "relationship-map"
     },
     {
       "id": "accounts-003",
@@ -344,7 +406,9 @@
         "If the customer would not forward your QBR deck to their boss, it isn't about them."
       ],
       "takeaway": "Open your next QBR with the customer's objectives, not your agenda.",
-      "source": { "name": "Customer success practice" },
+      "source": {
+        "name": "Customer success practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -359,7 +423,10 @@
         "A plan the customer helped write also becomes their commitment to you."
       ],
       "takeaway": "Share one page of your account plan with the client and ask what's missing.",
-      "source": { "name": "Strategic Account Management Association (SAMA)", "url": "https://strategicaccounts.org" },
+      "source": {
+        "name": "Strategic Account Management Association (SAMA)",
+        "url": "https://strategicaccounts.org"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -374,12 +441,13 @@
         "The renewal conversation starts at onboarding, not 90 days before the contract ends."
       ],
       "takeaway": "Mark each of your accounts green, amber or red today and build a plan for every red one.",
-      "source": { "name": "Customer success practice" },
+      "source": {
+        "name": "Customer success practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
     },
-
     {
       "id": "executive-001",
       "topic": "executive",
@@ -390,10 +458,14 @@
         "Structure: situation → complication → question → answer. Then group your supporting arguments under the answer."
       ],
       "takeaway": "Rewrite your next exec email so the first sentence is the recommendation.",
-      "source": { "name": "The Pyramid Principle, Barbara Minto", "url": "https://www.barbaraminto.com" },
+      "source": {
+        "name": "The Pyramid Principle, Barbara Minto",
+        "url": "https://www.barbaraminto.com"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "pyramid"
     },
     {
       "id": "executive-002",
@@ -405,7 +477,9 @@
         "Then frame every point as: 'this moves your [metric] by [amount], because [mechanism].'"
       ],
       "takeaway": "Find your exec's top two metrics in their public reporting before your next meeting.",
-      "source": { "name": "Executive selling practice" },
+      "source": {
+        "name": "Executive selling practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -420,7 +494,9 @@
         "Lead with a clear point of view you're willing to defend, even if they end up disagreeing."
       ],
       "takeaway": "Write your exec outreach as one insight, one question and one short ask.",
-      "source": { "name": "Executive engagement practice" },
+      "source": {
+        "name": "Executive engagement practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -435,7 +511,9 @@
         "Presence can be learned. It comes from preparation and habit, not personality."
       ],
       "takeaway": "In your next senior meeting, state your view plainly, without hedges like 'I just think...'.",
-      "source": { "name": "Executive Presence, Sylvia Ann Hewlett" },
+      "source": {
+        "name": "Executive Presence, Sylvia Ann Hewlett"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -450,12 +528,13 @@
         "Afterwards, send a summary within 24 hours: what was decided, who owns what, and by when."
       ],
       "takeaway": "Use the one-page brief template for your next exec meeting, then send the 24-hour recap.",
-      "source": { "name": "Executive engagement practice" },
+      "source": {
+        "name": "Executive engagement practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
     },
-
     {
       "id": "branding-001",
       "topic": "branding",
@@ -466,7 +545,10 @@
         "Consistent, distinctive brand assets (colours, shapes, phrases) help buyers recognise you quickly."
       ],
       "takeaway": "List your brand's distinctive assets. Are you using them consistently everywhere?",
-      "source": { "name": "How Brands Grow, Byron Sharp / Ehrenberg-Bass Institute", "url": "https://marketingscience.info" },
+      "source": {
+        "name": "How Brands Grow, Byron Sharp / Ehrenberg-Bass Institute",
+        "url": "https://marketingscience.info"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -481,10 +563,13 @@
         "If you only invest in activation, you get short-term spikes but long-term growth stalls."
       ],
       "takeaway": "Estimate your current spend split. Are you investing in next year's demand or only this quarter's?",
-      "source": { "name": "The Long and the Short of It, Les Binet & Peter Field (IPA)" },
+      "source": {
+        "name": "The Long and the Short of It, Les Binet & Peter Field (IPA)"
+      },
       "minutes": 2,
       "contributor": "amad-team",
-      "added": "2026-10-16"
+      "added": "2026-10-16",
+      "visual": "brand-activation"
     },
     {
       "id": "branding-003",
@@ -496,7 +581,10 @@
         "Good positioning makes your strengths obvious to the right buyers, and makes it clear to everyone else that you're not for them."
       ],
       "takeaway": "Ask three happy customers what they'd use if you disappeared tomorrow.",
-      "source": { "name": "Obviously Awesome, April Dunford", "url": "https://www.aprildunford.com" },
+      "source": {
+        "name": "Obviously Awesome, April Dunford",
+        "url": "https://www.aprildunford.com"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -511,7 +599,9 @@
         "Choose two or three themes and show them repeatedly, through your work, what you share and how you help others."
       ],
       "takeaway": "Write the three words you want colleagues to use about you, and one action per word this month.",
-      "source": { "name": "Personal branding practice" },
+      "source": {
+        "name": "Personal branding practice"
+      },
       "minutes": 1,
       "contributor": "amad-team",
       "added": "2026-10-16"
@@ -526,7 +616,10 @@
         "In B2B, CEPs are often trigger events: funding rounds, leadership changes, regulation and expansion."
       ],
       "takeaway": "List five buying triggers in your market and check whether your content speaks to each one.",
-      "source": { "name": "Ehrenberg-Bass Institute for Marketing Science", "url": "https://marketingscience.info" },
+      "source": {
+        "name": "Ehrenberg-Bass Institute for Marketing Science",
+        "url": "https://marketingscience.info"
+      },
       "minutes": 2,
       "contributor": "amad-team",
       "added": "2026-10-16"

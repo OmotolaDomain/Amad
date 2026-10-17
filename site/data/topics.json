@@ -6,7 +6,21 @@
       "emoji": "♟️",
       "color": "#5b5bd6",
       "blurb": "Choosing where to play, how to win, and what not to do.",
-      "keywords": ["strategy", "strategic", "competitive advantage", "positioning", "business model", "scenario planning", "m&a", "growth plan", "corporate strategy"]
+      "keywords": [
+        "strategy",
+        "strategic",
+        "competitive advantage",
+        "positioning",
+        "business model",
+        "scenario planning",
+        "m&a",
+        "growth plan",
+        "corporate strategy"
+      ],
+      "shadow": "#1E1A5E",
+      "highlight": "#D9D4FF",
+      "motif": "knight",
+      "tagline": "Choose where to play and how to win."
     },
     {
       "id": "enterprise",
@@ -14,7 +28,24 @@
       "emoji": "🏢",
       "color": "#0b8a6f",
       "blurb": "Winning complex, multi-stakeholder B2B deals.",
-      "keywords": ["enterprise sales", "b2b sales", "b2b buying", "deal", "pipeline", "procurement", "revenue", "go-to-market", "gtm", "pricing", "commercial excellence", "sales"]
+      "keywords": [
+        "enterprise sales",
+        "b2b sales",
+        "b2b buying",
+        "deal",
+        "pipeline",
+        "procurement",
+        "revenue",
+        "go-to-market",
+        "gtm",
+        "pricing",
+        "commercial excellence",
+        "sales"
+      ],
+      "shadow": "#0B3B33",
+      "highlight": "#CFF1E4",
+      "motif": "network",
+      "tagline": "Win complex deals with many decision makers."
     },
     {
       "id": "territory",
@@ -22,7 +53,24 @@
       "emoji": "🗺️",
       "color": "#c2410c",
       "blurb": "Designing coverage, carving territories and finding whitespace.",
-      "keywords": ["territory", "territories", "sales coverage", "coverage model", "whitespace", "white space", "segmentation", "quota", "total addressable market", "tam", "ideal customer profile", "icp"]
+      "keywords": [
+        "territory",
+        "territories",
+        "sales coverage",
+        "coverage model",
+        "whitespace",
+        "white space",
+        "segmentation",
+        "quota",
+        "total addressable market",
+        "tam",
+        "ideal customer profile",
+        "icp"
+      ],
+      "shadow": "#5A2412",
+      "highlight": "#F5D9B8",
+      "motif": "contour",
+      "tagline": "Draw coverage around real opportunity."
     },
     {
       "id": "performance",
@@ -30,7 +78,24 @@
       "emoji": "📈",
       "color": "#b45309",
       "blurb": "Metrics, cadence and habits that compound results.",
-      "keywords": ["performance", "productivity", "okr", "kpi", "metrics", "forecast", "coaching", "incentive", "compensation", "operating rhythm", "high-performing", "sales enablement"]
+      "keywords": [
+        "performance",
+        "productivity",
+        "okr",
+        "kpi",
+        "metrics",
+        "forecast",
+        "coaching",
+        "incentive",
+        "compensation",
+        "operating rhythm",
+        "high-performing",
+        "sales enablement"
+      ],
+      "shadow": "#3A2600",
+      "highlight": "#FFC94D",
+      "motif": "velocity",
+      "tagline": "Build habits and metrics that compound."
     },
     {
       "id": "accounts",
@@ -38,7 +103,25 @@
       "emoji": "🤝",
       "color": "#0369a1",
       "blurb": "Growing, retaining and expanding the customers you have.",
-      "keywords": ["account management", "key account", "strategic account", "customer success", "retention", "churn", "net revenue retention", "nrr", "upsell", "cross-sell", "expansion", "renewal", "customer experience"]
+      "keywords": [
+        "account management",
+        "key account",
+        "strategic account",
+        "customer success",
+        "retention",
+        "churn",
+        "net revenue retention",
+        "nrr",
+        "upsell",
+        "cross-sell",
+        "expansion",
+        "renewal",
+        "customer experience"
+      ],
+      "shadow": "#0A2F4F",
+      "highlight": "#BFE3FF",
+      "motif": "rings",
+      "tagline": "Grow the customers you already have."
     },
     {
       "id": "executive",
@@ -46,7 +129,24 @@
       "emoji": "🎯",
       "color": "#be123c",
       "blurb": "Earning time, trust and decisions from senior leaders.",
-      "keywords": ["executive", "c-suite", "ceo", "cfo", "board", "director", "senior leader", "leadership", "executive presence", "stakeholder", "influence", "decision-maker"]
+      "keywords": [
+        "executive",
+        "c-suite",
+        "ceo",
+        "cfo",
+        "board",
+        "director",
+        "senior leader",
+        "leadership",
+        "executive presence",
+        "stakeholder",
+        "influence",
+        "decision-maker"
+      ],
+      "shadow": "#4A0D1D",
+      "highlight": "#FFD9DF",
+      "motif": "spotlight",
+      "tagline": "Earn time, trust and decisions from senior leaders."
     },
     {
       "id": "branding",
@@ -54,7 +154,22 @@
       "emoji": "✨",
       "color": "#7e22ce",
       "blurb": "Building memorable company and personal brands.",
-      "keywords": ["brand", "branding", "rebrand", "personal brand", "marketing", "positioning", "reputation", "thought leadership", "storytelling", "awareness"]
+      "keywords": [
+        "brand",
+        "branding",
+        "rebrand",
+        "personal brand",
+        "marketing",
+        "positioning",
+        "reputation",
+        "thought leadership",
+        "storytelling",
+        "awareness"
+      ],
+      "shadow": "#3B0F57",
+      "highlight": "#FFB4A2",
+      "motif": "prism",
+      "tagline": "Be remembered, and chosen."
     }
   ]
 }
