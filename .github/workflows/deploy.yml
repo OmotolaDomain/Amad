@@ -1,0 +1,39 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    paths: ["site/**", ".github/workflows/deploy.yml"]
+  # Commits made by the bot workflows don't trigger `push`, so redeploy when they finish.
+  workflow_run:
+    workflows: ["Daily feed refresh", "Publish approved idea"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: >-
+      github.ref_name == github.event.repository.default_branch &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

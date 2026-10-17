@@ -1,0 +1,65 @@
+name: 💡 Share an idea
+description: Add a bite-sized insight to the AMAD library. No coding needed.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share one insight that helped you, in your own words. A maintainer reviews it, and once it's labelled `approved` it's published automatically.
+        Please **summarise, don't copy**. Never paste paywalled text. Credit the original thinker and link to where people can read more.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Topic
+      options:
+        - Strategy
+        - Enterprise Commercial
+        - Territory Mapping
+        - Performance Optimization
+        - Account Management
+        - Director-Level Engagement
+        - Branding
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: A punchy headline, max 120 characters.
+      placeholder: "Make QBRs about their outcomes, not your features"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: 1–5 short paragraphs (blank line between each, max 600 characters each). Each paragraph becomes a swipeable card.
+    validations:
+      required: true
+  - type: input
+    id: takeaway
+    attributes:
+      label: One-line takeaway
+      description: What should the reader do today? Max 240 characters.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original source
+      description: Book, article, author, or "My own experience".
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Source link
+      description: Optional https:// link where people can read the full piece.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I wrote this summary in my own words and credited the source
+          required: true

@@ -1,0 +1,137 @@
+{
+  "_comment": "Public RSS/Atom feeds pulled daily by scripts/fetch_feeds.py. classify=true filters items by topic keywords (topics.json); classify=false files every item under the first topic. Suggest new sources via a GitHub issue or PR.",
+  "feeds": [
+    {
+      "name": "MIT Sloan Management Review",
+      "url": "https://sloanreview.mit.edu/feed/",
+      "topics": [
+        "strategy",
+        "performance",
+        "executive",
+        "branding"
+      ],
+      "classify": true
+    },
+    {
+      "name": "McKinsey Insights",
+      "url": "https://www.mckinsey.com/insights/rss",
+      "topics": [
+        "strategy",
+        "enterprise",
+        "performance",
+        "executive",
+        "branding"
+      ],
+      "classify": true
+    },
+    {
+      "name": "Knowledge at Wharton",
+      "url": "https://knowledge.wharton.upenn.edu/feed/",
+      "topics": [
+        "strategy",
+        "branding",
+        "executive",
+        "performance"
+      ],
+      "classify": true
+    },
+    {
+      "name": "strategy+business",
+      "url": "https://www.strategy-business.com/rss",
+      "topics": [
+        "strategy",
+        "executive",
+        "performance"
+      ],
+      "classify": true
+    },
+    {
+      "name": "HBR",
+      "url": "https://feeds.hbr.org/harvardbusiness",
+      "topics": [
+        "strategy",
+        "enterprise",
+        "accounts",
+        "executive",
+        "branding",
+        "performance"
+      ],
+      "classify": true
+    },
+    {
+      "name": "HubSpot Sales Blog",
+      "url": "https://blog.hubspot.com/sales/rss.xml",
+      "topics": [
+        "territory",
+        "accounts",
+        "enterprise",
+        "performance"
+      ],
+      "classify": true
+    },
+    {
+      "name": "Seth's Blog",
+      "url": "https://seths.blog/feed/",
+      "topics": [
+        "branding"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: business strategy",
+      "url": "https://news.google.com/rss/search?q=%22business+strategy%22+OR+%22corporate+strategy%22+OR+%22competitive+strategy%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "strategy"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: enterprise sales",
+      "url": "https://news.google.com/rss/search?q=%22enterprise+sales%22+OR+%22B2B+sales%22+OR+%22go-to-market+strategy%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "enterprise"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: territory planning",
+      "url": "https://news.google.com/rss/search?q=%22sales+territory%22+OR+%22territory+planning%22+OR+%22sales+coverage+model%22+OR+%22territory+mapping%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "territory"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: sales performance",
+      "url": "https://news.google.com/rss/search?q=%22sales+performance%22+OR+%22revenue+operations%22+OR+%22sales+productivity%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "performance"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: account management",
+      "url": "https://news.google.com/rss/search?q=%22key+account+management%22+OR+%22strategic+account+management%22+OR+%22net+revenue+retention%22+OR+%22customer+success%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "accounts"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: executive engagement",
+      "url": "https://news.google.com/rss/search?q=%22executive+presence%22+OR+%22C-suite%22+engagement+OR+%22selling+to+executives%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "executive"
+      ],
+      "classify": false
+    },
+    {
+      "name": "Google News: branding",
+      "url": "https://news.google.com/rss/search?q=%22brand+strategy%22+OR+%22B2B+branding%22+OR+%22personal+branding%22+when%3A7d&hl=en-US&gl=US&ceid=US%3Aen",
+      "topics": [
+        "branding"
+      ],
+      "classify": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+name: 📰 Suggest a feed source
+description: Suggest a public RSS/Atom feed for the daily "Fresh" feed.
+title: "[Source] "
+labels: ["source"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Publication name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: RSS or Atom feed URL
+      placeholder: https://example.com/feed/
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Which topics does it cover, and why is it worth reading?
+    validations:
+      required: true

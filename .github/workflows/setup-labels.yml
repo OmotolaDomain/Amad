@@ -1,0 +1,23 @@
+name: Set up issue labels
+
+# Creates the labels the idea-approval flow relies on. Safe to re-run (--force updates in place).
+on:
+  push:
+    paths: [".github/workflows/setup-labels.yml"]
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  labels:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create or update labels
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create idea     --repo "$GITHUB_REPOSITORY" --color "1b2550" --description "Idea submitted via the Share an idea form" --force
+          gh label create approved --repo "$GITHUB_REPOSITORY" --color "c9a25a" --description "Maintainer approved: the bot publishes this idea" --force
+          gh label create source   --repo "$GITHUB_REPOSITORY" --color "0369a1" --description "Suggested feed source" --force

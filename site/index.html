@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AMAD · Daily Learning for Business Growth</title>
+  <meta name="description" content="AMAD is a personalised daily learning and knowledge discovery platform for business growth, strategy, leadership and professional development. Free, open source, no sign-up.">
+  <meta name="application-name" content="AMAD">
+  <meta name="apple-mobile-web-app-title" content="AMAD">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AMAD · Daily Learning for Business Growth">
+  <meta property="og:description" content="Bite-sized daily ideas on strategy, enterprise commercial, territory mapping, performance, account management, executive engagement and branding.">
+  <meta property="og:image" content="assets/amad-mark.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0f16" media="(prefers-color-scheme: dark)">
+  <link rel="icon" type="image/svg+xml" href="assets/amad-mark.svg">
+  <link rel="apple-touch-icon" href="assets/amad-mark.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#/today" aria-label="AMAD home">
+      <img class="brand-mark" src="assets/amad-mark.svg" alt="" width="34" height="34">
+      <span class="brand-text"><span class="brand-name">AMAD</span><span class="brand-tag">Learn daily. Lead better.</span></span>
+    </a>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#/today" data-tab="today">Today</a>
+      <a href="#/explore" data-tab="explore">Explore</a>
+      <a href="#/fresh" data-tab="fresh">Fresh</a>
+      <a href="#/saved" data-tab="saved">Saved</a>
+      <a href="#/plan" data-tab="plan">My plan</a>
+    </nav>
+    <div class="topbar-right">
+      <span class="streak" id="streak" title="Daily reading streak">🔥 <b>0</b></span>
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+      <a class="btn btn-small" id="share-idea-link" target="_blank" rel="noopener">＋ Share an idea</a>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="footer">
+    <p><b>AMAD</b> is free, open source and needs no sign-up. Your progress stays in this browser.
+      <a id="repo-link" target="_blank" rel="noopener">Contribute on GitHub</a> ·
+      <a href="#/about">About &amp; sources</a></p>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Sections">
+    <a href="#/today" data-tab="today"><span aria-hidden="true">☀️</span>Today</a>
+    <a href="#/explore" data-tab="explore"><span aria-hidden="true">🧭</span>Explore</a>
+    <a href="#/fresh" data-tab="fresh"><span aria-hidden="true">📰</span>Fresh</a>
+    <a href="#/saved" data-tab="saved"><span aria-hidden="true">🔖</span>Saved</a>
+    <a href="#/plan" data-tab="plan"><span aria-hidden="true">📈</span>Plan</a>
+  </nav>
+
+  <div class="overlay" id="reader" role="dialog" aria-modal="true" aria-labelledby="reader-title" hidden></div>
+  <div class="overlay" id="onboarding" role="dialog" aria-modal="true" aria-labelledby="ob-title" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/app.js" defer></script>
+</body>
+</html>

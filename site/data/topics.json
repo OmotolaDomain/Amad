@@ -1,0 +1,60 @@
+{
+  "topics": [
+    {
+      "id": "strategy",
+      "name": "Strategy",
+      "emoji": "♟️",
+      "color": "#5b5bd6",
+      "blurb": "Choosing where to play, how to win, and what not to do.",
+      "keywords": ["strategy", "strategic", "competitive advantage", "positioning", "business model", "scenario planning", "m&a", "growth plan", "corporate strategy"]
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise Commercial",
+      "emoji": "🏢",
+      "color": "#0b8a6f",
+      "blurb": "Winning complex, multi-stakeholder B2B deals.",
+      "keywords": ["enterprise sales", "b2b sales", "b2b buying", "deal", "pipeline", "procurement", "revenue", "go-to-market", "gtm", "pricing", "commercial excellence", "sales"]
+    },
+    {
+      "id": "territory",
+      "name": "Territory Mapping",
+      "emoji": "🗺️",
+      "color": "#c2410c",
+      "blurb": "Designing coverage, carving territories and finding whitespace.",
+      "keywords": ["territory", "territories", "sales coverage", "coverage model", "whitespace", "white space", "segmentation", "quota", "total addressable market", "tam", "ideal customer profile", "icp"]
+    },
+    {
+      "id": "performance",
+      "name": "Performance Optimization",
+      "emoji": "📈",
+      "color": "#b45309",
+      "blurb": "Metrics, cadence and habits that compound results.",
+      "keywords": ["performance", "productivity", "okr", "kpi", "metrics", "forecast", "coaching", "incentive", "compensation", "operating rhythm", "high-performing", "sales enablement"]
+    },
+    {
+      "id": "accounts",
+      "name": "Account Management",
+      "emoji": "🤝",
+      "color": "#0369a1",
+      "blurb": "Growing, retaining and expanding the customers you have.",
+      "keywords": ["account management", "key account", "strategic account", "customer success", "retention", "churn", "net revenue retention", "nrr", "upsell", "cross-sell", "expansion", "renewal", "customer experience"]
+    },
+    {
+      "id": "executive",
+      "name": "Director-Level Engagement",
+      "emoji": "🎯",
+      "color": "#be123c",
+      "blurb": "Earning time, trust and decisions from senior leaders.",
+      "keywords": ["executive", "c-suite", "ceo", "cfo", "board", "director", "senior leader", "leadership", "executive presence", "stakeholder", "influence", "decision-maker"]
+    },
+    {
+      "id": "branding",
+      "name": "Branding",
+      "emoji": "✨",
+      "color": "#7e22ce",
+      "blurb": "Building memorable company and personal brands.",
+      "keywords": ["brand", "branding", "rebrand", "personal brand", "marketing", "positioning", "reputation", "thought leadership", "storytelling", "awareness"]
+    }
+  ]
+}

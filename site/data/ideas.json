@@ -1,0 +1,535 @@
+{
+  "ideas": [
+    {
+      "id": "strategy-001",
+      "topic": "strategy",
+      "title": "Good strategy has a kernel: diagnosis, guiding policy, coherent action",
+      "pages": [
+        "Most \"strategies\" are really goals, slogans or long lists of initiatives. Richard Rumelt argues that a real strategy has three parts he calls the kernel.",
+        "A diagnosis names the critical challenge and simplifies a messy situation. A guiding policy sets the overall approach for dealing with that challenge. Coherent actions are the coordinated steps that carry the policy out and reinforce one another.",
+        "If you can't say what problem your plan solves, you have a wish list, not a strategy."
+      ],
+      "takeaway": "Before you set any targets, write one sentence that names the main obstacle.",
+      "source": { "name": "Good Strategy / Bad Strategy, Richard Rumelt" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "strategy-002",
+      "topic": "strategy",
+      "title": "Strategy is choosing what NOT to do",
+      "pages": [
+        "Michael Porter separates operational effectiveness (doing the same things better than rivals) from strategy (doing different things, or doing similar things differently).",
+        "Lasting advantage comes from trade-offs: choices that make you very good for one kind of customer and deliberately worse for another. A company that tries to be everything to everyone ends up with no defensible position.",
+        "Activities that fit together and reinforce each other are much harder to copy than any single best practice."
+      ],
+      "takeaway": "Write down three customers, products or deals you will deliberately turn down this year.",
+      "source": { "name": "What Is Strategy?, Michael E. Porter, HBR (1996)", "url": "https://hbr.org/1996/11/what-is-strategy" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "strategy-003",
+      "topic": "strategy",
+      "title": "Five linked choices: Playing to Win",
+      "pages": [
+        "A. G. Lafley and Roger Martin frame strategy as five linked questions: What is our winning aspiration? Where will we play? How will we win? What capabilities must we have? What management systems do we need?",
+        "The two central choices are where to play (which segments, channels, geographies) and how to win (cost or differentiation in those places). The other three must support them.",
+        "A useful test: what would have to be true for this choice to succeed? Check those conditions before you commit."
+      ],
+      "takeaway": "Before backing any plan, write down where it plays and how it wins in one line each.",
+      "source": { "name": "Playing to Win, A. G. Lafley & Roger L. Martin" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "strategy-004",
+      "topic": "strategy",
+      "title": "Run a pre-mortem before you launch",
+      "pages": [
+        "Psychologist Gary Klein's pre-mortem flips the post-mortem around. Before a project starts, the team imagines it is a year later and the project has failed badly.",
+        "Everyone writes down, independently, the reasons it failed. Because failure is treated as already true, people feel safe raising doubts they would otherwise keep quiet about.",
+        "The result is a list of risks you can address while change is still cheap."
+      ],
+      "takeaway": "Give your next big plan ten minutes of 'it failed. Why?' before kickoff.",
+      "source": { "name": "Performing a Project Premortem, Gary Klein, HBR (2007)", "url": "https://hbr.org/2007/09/performing-a-project-premortem" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "strategy-005",
+      "topic": "strategy",
+      "title": "Eliminate, Reduce, Raise, Create",
+      "pages": [
+        "W. Chan Kim and Renée Mauborgne's Blue Ocean approach looks for uncontested market space instead of fighting rivals feature by feature.",
+        "The ERRC grid asks four questions. Which factors the industry takes for granted should be eliminated? Which should be reduced well below the norm? Which should be raised well above it? Which should be created that the industry has never offered?",
+        "The aim is to cut cost and add buyer value at the same time, so you stop competing on the same checklist as everyone else."
+      ],
+      "takeaway": "Fill in an ERRC grid for your offer and pick one item to remove.",
+      "source": { "name": "Blue Ocean Strategy, Kim & Mauborgne, HBR (2004)", "url": "https://hbr.org/2004/10/blue-ocean-strategy" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "enterprise-001",
+      "topic": "enterprise",
+      "title": "You're selling to a buying group, not a buyer",
+      "pages": [
+        "Gartner's research on B2B buying finds that a typical complex purchase involves a buying group of roughly six to ten decision makers, each bringing their own information.",
+        "Buyers spend only a small share of their buying time, around 17%, meeting potential suppliers. When several vendors are under consideration, any single seller gets only a fraction of that.",
+        "So much of the deal happens when you aren't in the room. Your job is to equip your champion to sell internally."
+      ],
+      "takeaway": "List every person in your biggest deal's buying group and what each one needs to believe.",
+      "source": { "name": "Gartner, The B2B Buying Journey", "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "enterprise-002",
+      "topic": "enterprise",
+      "title": "Qualify with MEDDICC",
+      "pages": [
+        "MEDDICC is a widely used qualification checklist for enterprise deals: Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion, Competition.",
+        "Its value is in the gaps it reveals. If you can't name the economic buyer, or explain how the decision gets signed, the deal is less real than your forecast suggests.",
+        "Review each letter at every stage and treat an unknown as a task, not a guess."
+      ],
+      "takeaway": "Score your top three deals against MEDDICC today and book a meeting to close the weakest letter.",
+      "source": { "name": "MEDDIC methodology (originated at PTC in the 1990s)" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "enterprise-003",
+      "topic": "enterprise",
+      "title": "Teach, tailor, take control",
+      "pages": [
+        "Research behind The Challenger Sale found that top performers in complex sales don't just build relationships. They teach customers something new about their business, tailor the message to each stakeholder, and take control of the buying process.",
+        "The strongest teaching reframes how the customer thinks about a problem, then leads naturally to where your solution is strongest.",
+        "Agreeable meetings feel good. Constructive tension is what moves a deal forward."
+      ],
+      "takeaway": "Prepare one surprising insight about the customer's industry for your next discovery call.",
+      "source": { "name": "The End of Solution Sales, Adamson, Dixon & Toman, HBR (2012)", "url": "https://hbr.org/2012/07/the-end-of-solution-sales" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "enterprise-004",
+      "topic": "enterprise",
+      "title": "Build a mutual action plan, not a close plan",
+      "pages": [
+        "A mutual action plan (MAP) is a shared, dated list of the steps both sides must take to reach go-live: security review, legal, budget approval, pilot success criteria, signature.",
+        "Building it together with the customer turns hidden steps into visible ones and shows early whether the buyer is really committed.",
+        "If a customer won't agree to a timeline, that tells you something important about the deal."
+      ],
+      "takeaway": "Draft a MAP that works backward from the customer's go-live date and send it to your champion.",
+      "source": { "name": "Common enterprise sales practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "enterprise-005",
+      "topic": "enterprise",
+      "title": "Quantify the cost of doing nothing",
+      "pages": [
+        "In enterprise sales, your strongest competitor is often the status quo. Many lost deals go to 'no decision' rather than to a rival vendor.",
+        "Build a business case with the customer that puts a number on the cost of inaction: hours lost, revenue leaking, risk exposure. Use their figures, not your marketing claims.",
+        "A CFO approves a business case they recognise as their own much faster than a vendor's ROI calculator."
+      ],
+      "takeaway": "Ask your champion: 'What does it cost you each quarter if nothing changes?' and write down the answer.",
+      "source": { "name": "Value selling principles" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "territory-001",
+      "topic": "territory",
+      "title": "Balance territories on potential, not account count",
+      "pages": [
+        "Many territories are carved by geography or by an equal number of accounts. But accounts differ enormously in potential, so 'equal' maps often leave some reps overloaded and others starved.",
+        "Andris Zoltners and Sally Lorimer, of ZS Associates, estimated that better-aligned territories can lift sales by roughly 2–7% with no added headcount, simply by matching effort to opportunity.",
+        "Two things to balance: workload (can the rep cover it?) and opportunity (is there enough to hit quota?)."
+      ],
+      "takeaway": "Plot every territory's total potential against its quota. The outliers are where to act.",
+      "source": { "name": "Sales Territory Alignment: An Overlooked Productivity Tool, Zoltners & Lorimer (2000)" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "territory-002",
+      "topic": "territory",
+      "title": "Tier accounts before you draw lines",
+      "pages": [
+        "Start with the accounts, not the map. Score every account on fit (how well it matches your ideal customer profile) and on potential (estimated wallet size).",
+        "Tier 1 accounts get named reps and deep coverage. Tier 2 get pooled or pod coverage. Tier 3 get digital or inside-sales motions.",
+        "Lines on a map come last: they're how you package the tiers into workable books of business."
+      ],
+      "takeaway": "Build a simple fit × potential matrix for your top 100 accounts.",
+      "source": { "name": "Sales coverage design practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "territory-003",
+      "topic": "territory",
+      "title": "Map the whitespace inside accounts you already have",
+      "pages": [
+        "Whitespace analysis compares what each customer buys today with everything they could buy across your product lines, business units and geographies.",
+        "A grid with accounts as rows and products or divisions as columns shows the empty cells, which are expansion opportunities you already have a relationship to reach.",
+        "Expansion from existing customers is often cheaper than winning new logos because trust is already established."
+      ],
+      "takeaway": "Build an accounts × products grid for your territory and mark your three largest empty cells.",
+      "source": { "name": "Account whitespace analysis practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "territory-004",
+      "topic": "territory",
+      "title": "Match sales structure to your stage",
+      "pages": [
+        "Zoltners, Sinha and Lorimer argue that the right sales force design changes as a business moves from start-up to growth to maturity to decline.",
+        "Early on, generalists and fast hiring help capture a market. In maturity, specialization, efficiency and protecting the installed base matter more.",
+        "A coverage model that worked at one stage can quietly hold the business back at the next."
+      ],
+      "takeaway": "Ask yourself: was our coverage model designed for the business we have today or the one we had three years ago?",
+      "source": { "name": "Match Your Sales Force Structure to Your Business Life Cycle, HBR (2006)", "url": "https://hbr.org/2006/07/match-your-sales-force-structure-to-your-business-life-cycle" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "territory-005",
+      "topic": "territory",
+      "title": "Protect relationships when you re-carve",
+      "pages": [
+        "Every territory change breaks some customer relationships. Moving an account to a new rep resets trust and can stall deals in flight.",
+        "Good practice: re-align on a predictable cycle (often annually), protect late-stage opportunities with a hold or a credit split, and plan proper handover meetings.",
+        "Measure success by both the balance you gain and the disruption you cause."
+      ],
+      "takeaway": "Before any re-alignment, list every account that changes owner and plan its handover.",
+      "source": { "name": "Sales operations practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "performance-001",
+      "topic": "performance",
+      "title": "OKRs: ambitious objectives, measurable key results",
+      "pages": [
+        "Objectives and Key Results, developed by Andy Grove at Intel and popularised by John Doerr, pair a qualitative objective (where we want to go) with three to five measurable key results (how we'll know we got there).",
+        "Key results should describe outcomes, not activities. 'Raise win rate from 22% to 28%' is a key result. 'Run five trainings' is a task.",
+        "Few, visible and reviewed often beats many, hidden and reviewed once a year."
+      ],
+      "takeaway": "Rewrite one of your activity goals as an outcome you can measure.",
+      "source": { "name": "Measure What Matters, John Doerr", "url": "https://www.whatmatters.com" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "performance-002",
+      "topic": "performance",
+      "title": "The sales velocity equation",
+      "pages": [
+        "Sales velocity = (number of qualified opportunities × win rate × average deal size) ÷ sales cycle length.",
+        "It turns 'sell more' into four levers you can manage separately. A 10% gain in each of the four compounds into a much bigger gain overall.",
+        "Find the weakest lever first. Improving it usually costs less than adding more pipeline."
+      ],
+      "takeaway": "Calculate your velocity this quarter and pick one lever to improve by 10%.",
+      "source": { "name": "Common sales operations metric" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "performance-003",
+      "topic": "performance",
+      "title": "Find the constraint, then fix only that",
+      "pages": [
+        "In Eliyahu Goldratt's Theory of Constraints, a system's output is limited by its single tightest bottleneck. Improving anything else mostly creates queues.",
+        "The five steps: identify the constraint, exploit it (get the most out of it), subordinate everything else to it, elevate it (add capacity), then repeat, because the constraint will move.",
+        "In a commercial team the constraint might be solution engineers, legal review or top-of-funnel. Effort elsewhere won't move revenue."
+      ],
+      "takeaway": "Ask: where do deals wait the longest? That's your constraint.",
+      "source": { "name": "The Goal, Eliyahu M. Goldratt" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "performance-004",
+      "topic": "performance",
+      "title": "Manage leading indicators, report lagging ones",
+      "pages": [
+        "Revenue, retention and quota attainment are lagging indicators. By the time you see them, the quarter is already decided.",
+        "Leading indicators, such as meetings with economic buyers, multi-threaded opportunities and pipeline created, predict those outcomes and can be changed this week.",
+        "Coach on the leading measures. Celebrate the lagging ones."
+      ],
+      "takeaway": "Pick two leading indicators that best predict your results and track them weekly.",
+      "source": { "name": "Performance management practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "performance-005",
+      "topic": "performance",
+      "title": "Deliberate practice beats experience",
+      "pages": [
+        "K. Anders Ericsson's research on expertise found that years on the job don't automatically make someone excellent. What matters is deliberate practice: focused effort on specific weaknesses, with immediate feedback, just beyond current ability.",
+        "For commercial teams, that means rehearsing difficult conversations, reviewing recorded calls and drilling objection handling. Experience alone isn't enough.",
+        "A short session of targeted practice can do more than many routine calls."
+      ],
+      "takeaway": "Record yourself handling your toughest objection, review it, and redo it once.",
+      "source": { "name": "The Making of an Expert, Ericsson, Prietula & Cokely, HBR (2007)", "url": "https://hbr.org/2007/07/the-making-of-an-expert" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "accounts-001",
+      "topic": "accounts",
+      "title": "Net revenue retention is the account manager's scoreboard",
+      "pages": [
+        "Net revenue retention (NRR) measures how much revenue you keep from a group of customers over a period, including expansion and subtracting churn and downgrades.",
+        "NRR above 100% means your existing customers grow on their own, even before you add any new logos.",
+        "Break it down: gross retention shows how well you keep customers, and expansion shows how well you grow them. Fix them separately."
+      ],
+      "takeaway": "Calculate gross and net retention for your book and work out which one is holding you back.",
+      "source": { "name": "SaaS and recurring revenue metrics" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "accounts-002",
+      "topic": "accounts",
+      "title": "Draw the relationship map",
+      "pages": [
+        "A relationship map charts the people in an account: their role, influence, attitude to you (champion, neutral, detractor) and who on your side owns the relationship.",
+        "Single-threaded accounts, where everything runs through one contact, are fragile. When that person leaves, the renewal is at risk.",
+        "Aim for several strong threads at different levels, including one at executive level."
+      ],
+      "takeaway": "Map your top account. If one person's departure would put it at risk, add a second thread this month.",
+      "source": { "name": "Key account management practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "accounts-003",
+      "topic": "accounts",
+      "title": "Make QBRs about their outcomes, not your features",
+      "pages": [
+        "Many quarterly business reviews end up as vendor slide shows: usage charts, a new feature roadmap, a renewal reminder.",
+        "A strong QBR starts from the customer's goals, reviews progress toward them, names what got in the way and agrees the next quarter's priorities together.",
+        "If the customer would not forward your QBR deck to their boss, it isn't about them."
+      ],
+      "takeaway": "Open your next QBR with the customer's objectives, not your agenda.",
+      "source": { "name": "Customer success practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "accounts-004",
+      "topic": "accounts",
+      "title": "Strategic accounts need a joint plan",
+      "pages": [
+        "Strategic account management treats your largest customers as partnerships with a written, jointly built account plan: the customer's strategy, where you can create value, initiatives, owners and dates.",
+        "The Strategic Account Management Association has long argued that the best plans are built with the customer, not just about them.",
+        "A plan the customer helped write also becomes their commitment to you."
+      ],
+      "takeaway": "Share one page of your account plan with the client and ask what's missing.",
+      "source": { "name": "Strategic Account Management Association (SAMA)", "url": "https://strategicaccounts.org" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "accounts-005",
+      "topic": "accounts",
+      "title": "Watch health signals, not just renewal dates",
+      "pages": [
+        "Churn rarely surprises you if you watch the right signals. Common ones: falling usage, a champion leaving, unanswered emails, support escalations, a new executive with a different agenda.",
+        "A simple health score that combines a few of these, reviewed monthly, gives you time to act while there are still months to go.",
+        "The renewal conversation starts at onboarding, not 90 days before the contract ends."
+      ],
+      "takeaway": "Mark each of your accounts green, amber or red today and build a plan for every red one.",
+      "source": { "name": "Customer success practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "executive-001",
+      "topic": "executive",
+      "title": "Start with the answer: the Pyramid Principle",
+      "pages": [
+        "Barbara Minto, a former McKinsey consultant, taught that clear business communication puts the main point first, then the supporting arguments, then the data.",
+        "Senior leaders are short on time. If your recommendation comes on slide 14, they may never get there.",
+        "Structure: situation → complication → question → answer. Then group your supporting arguments under the answer."
+      ],
+      "takeaway": "Rewrite your next exec email so the first sentence is the recommendation.",
+      "source": { "name": "The Pyramid Principle, Barbara Minto", "url": "https://www.barbaraminto.com" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "executive-002",
+      "topic": "executive",
+      "title": "Speak in their metrics",
+      "pages": [
+        "Directors and executives think in terms of their P&L, their board's priorities and their own targets, not in your product's features.",
+        "Before you meet, read the annual report, earnings call or public strategy. Find the two or three numbers they're judged on.",
+        "Then frame every point as: 'this moves your [metric] by [amount], because [mechanism].'"
+      ],
+      "takeaway": "Find your exec's top two metrics in their public reporting before your next meeting.",
+      "source": { "name": "Executive selling practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "executive-003",
+      "topic": "executive",
+      "title": "Earn the meeting with a point of view",
+      "pages": [
+        "Executives agree to meetings that promise something valuable: an insight about their market, a benchmark against their peers, a risk they haven't noticed.",
+        "'Catching up' or 'introducing our capabilities' doesn't earn time on a director's calendar.",
+        "Lead with a clear point of view you're willing to defend, even if they end up disagreeing."
+      ],
+      "takeaway": "Write your exec outreach as one insight, one question and one short ask.",
+      "source": { "name": "Executive engagement practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "executive-004",
+      "topic": "executive",
+      "title": "Executive presence: gravitas, communication, appearance",
+      "pages": [
+        "Sylvia Ann Hewlett's research on executive presence found it rests on three things: gravitas (how you act), communication (how you speak) and appearance (how you look). Gravitas mattered most.",
+        "Gravitas shows up as calm under pressure, decisiveness and being willing to say difficult things.",
+        "Presence can be learned. It comes from preparation and habit, not personality."
+      ],
+      "takeaway": "In your next senior meeting, state your view plainly, without hedges like 'I just think...'.",
+      "source": { "name": "Executive Presence, Sylvia Ann Hewlett" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "executive-005",
+      "topic": "executive",
+      "title": "The one-page brief",
+      "pages": [
+        "Before any director-level meeting, write a one-page brief: the objective, who's in the room and what each person cares about, your three key messages, the decision you want, and likely objections.",
+        "Share a short version with your internal sponsor in advance so there are no surprises.",
+        "Afterwards, send a summary within 24 hours: what was decided, who owns what, and by when."
+      ],
+      "takeaway": "Use the one-page brief template for your next exec meeting, then send the 24-hour recap.",
+      "source": { "name": "Executive engagement practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+
+    {
+      "id": "branding-001",
+      "topic": "branding",
+      "title": "Mental and physical availability",
+      "pages": [
+        "In How Brands Grow, Byron Sharp and the Ehrenberg-Bass Institute argue that brands grow mainly by reaching more buyers, including light and occasional ones, rather than by deepening loyalty among a few.",
+        "Two things drive this. Mental availability: how easily the brand comes to mind in buying situations. Physical availability: how easy it is to find and buy.",
+        "Consistent, distinctive brand assets (colours, shapes, phrases) help buyers recognise you quickly."
+      ],
+      "takeaway": "List your brand's distinctive assets. Are you using them consistently everywhere?",
+      "source": { "name": "How Brands Grow, Byron Sharp / Ehrenberg-Bass Institute", "url": "https://marketingscience.info" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "branding-002",
+      "topic": "branding",
+      "title": "Balance brand building and activation",
+      "pages": [
+        "Les Binet and Peter Field's analysis of IPA effectiveness data found that brand building (broad, emotional, long-term) and sales activation (targeted, rational, short-term) work on different timescales.",
+        "For many consumer brands their data suggested roughly 60% brand and 40% activation. Their later B2B work suggested a split closer to even.",
+        "If you only invest in activation, you get short-term spikes but long-term growth stalls."
+      ],
+      "takeaway": "Estimate your current spend split. Are you investing in next year's demand or only this quarter's?",
+      "source": { "name": "The Long and the Short of It, Les Binet & Peter Field (IPA)" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "branding-003",
+      "topic": "branding",
+      "title": "Positioning starts with your best-fit customer",
+      "pages": [
+        "April Dunford's positioning method starts from your best customers: what would they use if you didn't exist? Those are your real competitive alternatives.",
+        "Then identify your unique attributes, the value they enable, the customers who care most about that value, and the market category that makes your value obvious.",
+        "Good positioning makes your strengths obvious to the right buyers, and makes it clear to everyone else that you're not for them."
+      ],
+      "takeaway": "Ask three happy customers what they'd use if you disappeared tomorrow.",
+      "source": { "name": "Obviously Awesome, April Dunford", "url": "https://www.aprildunford.com" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "branding-004",
+      "topic": "branding",
+      "title": "Your personal brand is your track record",
+      "pages": [
+        "A line widely attributed to Jeff Bezos says your brand is what people say about you when you're not in the room. That applies to people as much as to companies.",
+        "A professional reputation comes from consistency: the topics you're known for, the quality of your work, and how reliably you deliver.",
+        "Choose two or three themes and show them repeatedly, through your work, what you share and how you help others."
+      ],
+      "takeaway": "Write the three words you want colleagues to use about you, and one action per word this month.",
+      "source": { "name": "Personal branding practice" },
+      "minutes": 1,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    },
+    {
+      "id": "branding-005",
+      "topic": "branding",
+      "title": "Own category entry points",
+      "pages": [
+        "Ehrenberg-Bass researchers use the term category entry points (CEPs) for the situations, needs and cues that lead buyers to start thinking about a category, such as 'we just lost a big customer' or 'new fiscal year planning'.",
+        "The more CEPs your brand is linked to in buyers' minds, the more often it comes to mind when a buying situation arises.",
+        "In B2B, CEPs are often trigger events: funding rounds, leadership changes, regulation and expansion."
+      ],
+      "takeaway": "List five buying triggers in your market and check whether your content speaks to each one.",
+      "source": { "name": "Ehrenberg-Bass Institute for Marketing Science", "url": "https://marketingscience.info" },
+      "minutes": 2,
+      "contributor": "amad-team",
+      "added": "2026-10-16"
+    }
+  ]
+}

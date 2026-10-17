@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+"""Validate site/data/*.json. Runs in CI on every pull request.
+
+Usage: python scripts/validate.py
+"""
+from __future__ import annotations
+
+import json
+import re
+import sys
+from datetime import date
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parent.parent / "site" / "data"
+ID_RE = re.compile(r"^[a-z]+-[a-z0-9-]+$")
+URL_RE = re.compile(r"^https?://\S+$", re.I)
+LIMITS = {"title": 120, "page": 600, "takeaway": 240, "source": 160}
+
+
+def load(name: str) -> dict:
+    return json.loads((DATA / name).read_text())
+
+
+def topic_ids() -> set[str]:
+    return {t["id"] for t in load("topics.json")["topics"]}
+
+
+def validate_idea(idea: dict, topics: set[str]) -> list[str]:
+    """Return a list of human-readable problems with one idea (empty list = valid)."""
+    errs = []
+    ref = idea.get("id", "<missing id>")
+    if not isinstance(idea.get("id"), str) or not ID_RE.match(idea["id"]):
+        errs.append(f"{ref}: id must look like 'topic-123'")
+    if idea.get("topic") not in topics:
+        errs.append(f"{ref}: unknown topic {idea.get('topic')!r} (one of {sorted(topics)})")
+    title = idea.get("title")
+    if not isinstance(title, str) or not title.strip() or len(title) > LIMITS["title"]:
+        errs.append(f"{ref}: title is required, max {LIMITS['title']} characters")
+    pages = idea.get("pages")
+    if not isinstance(pages, list) or not 1 <= len(pages) <= 5:
+        errs.append(f"{ref}: pages must be a list of 1-5 paragraphs")
+    else:
+        for i, p in enumerate(pages):
+            if not isinstance(p, str) or not p.strip() or len(p) > LIMITS["page"]:
+                errs.append(f"{ref}: page {i + 1} must be non-empty text, max {LIMITS['page']} characters")
+    takeaway = idea.get("takeaway")
+    if not isinstance(takeaway, str) or not takeaway.strip() or len(takeaway) > LIMITS["takeaway"]:
+        errs.append(f"{ref}: takeaway is required, max {LIMITS['takeaway']} characters")
+    src = idea.get("source")
+    if not isinstance(src, dict) or not isinstance(src.get("name"), str) or not src["name"].strip():
+        errs.append(f"{ref}: source.name is required (credit the original thinker or publication)")
+    elif len(src["name"]) > LIMITS["source"]:
+        errs.append(f"{ref}: source.name max {LIMITS['source']} characters")
+    elif src.get("url") is not None and not (isinstance(src["url"], str) and URL_RE.match(src["url"])):
+        errs.append(f"{ref}: source.url must be an http(s) link")
+    if not isinstance(idea.get("minutes"), int) or not 1 <= idea["minutes"] <= 10:
+        errs.append(f"{ref}: minutes must be an integer 1-10")
+    if not isinstance(idea.get("contributor"), str) or not idea["contributor"].strip():
+        errs.append(f"{ref}: contributor is required (your GitHub username)")
+    try:
+        date.fromisoformat(idea.get("added", ""))
+    except (TypeError, ValueError):
+        errs.append(f"{ref}: added must be a YYYY-MM-DD date")
+    return errs
+
+
+def validate_all() -> list[str]:
+    errs = []
+    topics = topic_ids()
+    ideas = load("ideas.json")["ideas"]
+    seen = set()
+    for idea in ideas:
+        errs += validate_idea(idea, topics)
+        if idea.get("id") in seen:
+            errs.append(f"{idea.get('id')}: duplicate id")
+        seen.add(idea.get("id"))
+    for feed in load("sources.json")["feeds"]:
+        if not URL_RE.match(feed.get("url", "")):
+            errs.append(f"sources.json: {feed.get('name')}: bad url")
+        bad = [t for t in feed.get("topics", []) if t not in topics]
+        if not feed.get("topics") or bad:
+            errs.append(f"sources.json: {feed.get('name')}: topics must be a non-empty list of known topics")
+    load("feed.json")  # must at least parse
+    return errs
+
+
+if __name__ == "__main__":
+    problems = validate_all()
+    for p in problems:
+        print(f"::error::{p}")
+    print(f"{len(problems)} problem(s) found" if problems else "All data files are valid ✔")
+    sys.exit(1 if problems else 0)

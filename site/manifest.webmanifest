@@ -1,0 +1,11 @@
+{
+  "name": "AMAD: Daily Learning for Business Growth",
+  "short_name": "AMAD",
+  "description": "A personalised daily learning and knowledge discovery platform for business growth, strategy, leadership and professional development.",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#141a38",
+  "icons": [{ "src": "assets/amad-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

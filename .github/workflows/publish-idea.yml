@@ -1,0 +1,60 @@
+name: Publish approved idea
+
+# A maintainer adds the `approved` label to a "Share an idea" issue -> the idea is
+# added to site/data/ideas.json, the issue is closed, and the site redeploys.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'idea')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Convert issue to idea
+        id: convert
+        env:
+          # Passed via env (never interpolated into the script) so issue text can't inject shell.
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ERRORS_FILE: ${{ runner.temp }}/errors.md
+        run: python scripts/add_idea_from_issue.py
+      - name: Commit and push
+        run: |
+          git config user.name "amad-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/ideas.json
+          if git diff --cached --quiet; then echo "Idea already up to date"; exit 0; fi
+          git commit -m "Add community idea from #${{ github.event.issue.number }}"
+          git pull --rebase
+          git push
+      - name: Thank and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body "🎉 Thanks! Your idea is now in the library and will appear on the site once the deploy finishes."
+          gh issue close "$NUMBER" --repo "$GITHUB_REPOSITORY" --reason completed
+      - name: Report problems
+        if: failure() && steps.convert.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          ERRORS_FILE: ${{ runner.temp }}/errors.md
+        run: |
+          { echo "Couldn't publish this idea yet. Please edit the issue to fix:"; echo; cat "$ERRORS_FILE" 2>/dev/null; echo; echo "Then remove and re-add the \`approved\` label."; } > body.md
+          gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" --body-file body.md
+          gh issue edit "$NUMBER" --repo "$GITHUB_REPOSITORY" --remove-label approved
