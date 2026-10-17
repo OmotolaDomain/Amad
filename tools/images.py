@@ -96,9 +96,12 @@ def commons(q):
 
 def candidates():
     queries = json.loads((ROOT / "tools/image-queries.json").read_text())
-    allc = {}
+    cpath = ROOT / "tools/candidates.json"
+    allc = json.loads(cpath.read_text()) if cpath.exists() else {}  # resume
     for item in queries:
         key, qs = item["key"], item["queries"]
+        if allc.get(key):
+            continue
         found = []
         for q in qs:
             found += [c for c in openverse(q) if c["id"] not in {f["id"] for f in found}]
