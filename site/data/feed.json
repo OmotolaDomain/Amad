@@ -1,5 +1,2026 @@
 {
-  "updated": null,
-  "items": [],
-  "errors": []
+  "updated": "2026-10-17T12:12:04Z",
+  "items": [
+    {
+      "id": "52f87ba4e13b",
+      "topic": "strategy",
+      "title": "The judgment bottleneck: Balancing AI and human speeds in strategy",
+      "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-judgment-bottleneck-balancing-ai-and-human-speeds-in-strategy",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Analysis now runs on AI time, but judgment still runs on human time. Three moves can help turn AI’s speed into better strategy decisions."
+    },
+    {
+      "id": "83c8e3f6c411",
+      "topic": "performance",
+      "title": "Rewiring capital projects to boost construction productivity",
+      "link": "https://www.mckinsey.com/capabilities/operations/our-insights/rewiring-capital-projects-to-boost-construction-productivity",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "McKinsey’s Capital Excellence experts discuss how AI and technology can boost construction productivity, address labor shortages, and accelerate delivery of complex capital projects."
+    },
+    {
+      "id": "94a8b2e77c36",
+      "topic": "strategy",
+      "title": "The six strategy roles a CEO must not delegate",
+      "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-six-strategy-roles-a-ceo-must-not-delegate",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Strategy is a team sport, but the value it creates ultimately depends on the CEO’s involvement."
+    },
+    {
+      "id": "8b22264f7677",
+      "topic": "strategy",
+      "title": "As the world order turns, leading companies are keeping pace. Here’s how",
+      "link": "https://www.mckinsey.com/capabilities/geopolitics/our-insights/as-the-world-order-turns-leading-companies-are-keeping-pace-heres-how",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Leading companies are tracking six emerging patterns of geopolitical change and realigning their businesses to achieve resilience, seize growth, and build competitive advantage."
+    },
+    {
+      "id": "fe7d170c17d8",
+      "topic": "enterprise",
+      "title": "For CPG companies, agentic AI’s real payoff is growth",
+      "link": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/for-cpg-companies-agentic-ais-real-payoff-is-growth",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "As the relationship between consumer-packaged-goods companies and retailers becomes more complex, agentic AI can recapture lost sales. But are leaders ready to harness the technology’s power?"
+    },
+    {
+      "id": "e21e7bdf9fe9",
+      "topic": "performance",
+      "title": "Medtech needs more than a market rotation to win back investors",
+      "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/medtech-needs-more-than-a-market-rotation-to-win-back-investors",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "With industry performance plateauing, medtech leaders must earn back investor trust with fresh strategies and better execution."
+    },
+    {
+      "id": "f9676d125052",
+      "topic": "performance",
+      "title": "Using production rates to excel at executing construction projects",
+      "link": "https://www.mckinsey.com/capabilities/operations/our-insights/using-production-rates-to-excel-at-executing-construction-projects",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "As construction productivity stagnates, companies can stand out by employing granular, achievable rates of production to optimize schedules, improve productivity, and make delivery predictable."
+    },
+    {
+      "id": "351e537d845b",
+      "topic": "executive",
+      "title": "Global Economics Intelligence executive summary, August 2026",
+      "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Public debt and search for growth exercise minds of economists and policymakers as US debt hits record high; inflation fueled by energy supply uncertainty limits room for maneuver on interest rates."
+    },
+    {
+      "id": "35a8a6aa2e63",
+      "topic": "executive",
+      "title": "The CEO’s singular impact on the success—or failure—of AI in organizations",
+      "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/the-ceos-singular-impact-on-the-success-or-failure-of-ai-in-organizations",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "There are certain aspects of the AI opportunity that chief executives cannot hand off to others—raising the organization’s ambition, rearchitecting how it works, and resetting its culture."
+    },
+    {
+      "id": "03d358426db8",
+      "topic": "executive",
+      "title": "Author Talks: Can you fulfill your ambition and compose a life?",
+      "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-can-you-fulfill-your-ambition-and-compose-a-life",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Mayfield’s former Chief Marketing Officer Kamini Ramani draws on Indian women leaders’ experiences in corporate America to bring a culturally rooted lens to ambition, resilience, and leadership."
+    },
+    {
+      "id": "232252fd767e",
+      "topic": "executive",
+      "title": "Make life better: Mikhail Lomtadze’s customer-first philosophy",
+      "link": "https://www.mckinsey.com/featured-insights/future-of-asia/make-life-better-mikhail-lomtadzes-customer-first-philosophy",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Mikhail Lomtadze, cofounder and CEO of Kaspi, believes the only measure that matters is whether Kaspi makes customers’ lives better or not—and why that single conviction changes everything else."
+    },
+    {
+      "id": "606638ab9355",
+      "topic": "performance",
+      "title": "LATAM’s reinvention at 35,000 feet",
+      "link": "https://www.mckinsey.com/industries/travel/how-we-help-clients/latams-reinvention-at-35000-feet",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Partnering with McKinsey, the airline rewired its organization to make digital and AI core parts of the business—transforming the passenger experience, accelerating growth, and unlocking new levels of operations performance."
+    },
+    {
+      "id": "284a21070504",
+      "topic": "strategy",
+      "title": "Navigating the new normal: Building resilience in fuel retail trading",
+      "link": "https://www.mckinsey.com/industries/oil-and-gas/our-insights/navigating-the-new-normal-building-resilience-in-fuel-retail-trading",
+      "source": "McKinsey Insights",
+      "published": "2026-10-17T12:12:03Z",
+      "summary": "Commodity markets have entered a new era of persistent volatility. For fuel retailers, this is a chance to strengthen resilience and unlock value, but only with strategic investment and a shift in mindset."
+    },
+    {
+      "id": "3994e2e16002",
+      "topic": "branding",
+      "title": "The race to the bottom feels inevitable…",
+      "link": "https://seths.blog/2026/10/the-race-to-the-bottom-feels-inevitable/",
+      "source": "Seth's Blog",
+      "published": "2026-10-17T09:03:00Z",
+      "summary": "but it isn’t. A company wants web traffic, so it dumbs down content, builds listicles and grows. But then others become even dumber or more convenient, so it has to race to keep up with them. Eventually, with nothing but junk, it fades away. A company builds a reputation for…"
+    },
+    {
+      "id": "c947588fbf1f",
+      "topic": "enterprise",
+      "title": "OpenAI hires former xAI sales executive to lead cybersecurity business",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUjVVcGJpbGtibjBNUTh3ZjJ6OElyeFNkenF0RHVVZW1Jd0wwT3hTVTBnZ1N1N2VmNnZkYnlFRDlBT0diVzNBdWR4VDlYVTk0d01UMWEzSWR6TVRReHJ2UVJZaGlrRlkzWHZseTZ5THdkV01FME5YTllrajZVZDRQckNBeE9vWTBlaTJGZDNCaUU0a2VCaUpOdllRVzJxbmpsTzd4eHdrX2NGdTJRa0QtdUZGSXpHdS1TMXFvdTVoOG4tN2RGMng2Tm55LXdNOXV2bE01SmhyZ190Ynh10gHiAUFVX3lxTFB1NXBCaWdyUGFjWE04eEV6dHV4cXVleEhCSVMweUdXQnBuNk1xV3J1OFFKN3MtTG9JdnQtVldCWnB0d05GWGNuU1pvM01aaHVsaDZtTDI0OUtMem9CcG5qakJGT1NTTy11SXl4bHZObWp5QTJ0bWdnYWhlMGRqZGxKUmFTb1V3UUJ3elE5UzBJVnpyazJtbXRQbFBuSXp3VTJXeGpnZDZDci05UXVlLWFTM1MzWjY2Z3JLM0tVV1dzQk1zU21PNXNjZU5EYklzRHN5ZHdJWS1YWm1GLThWbGZzRFE?oc=5",
+      "source": "ET Enterprise AI",
+      "published": "2026-10-17T08:07:30Z",
+      "summary": ""
+    },
+    {
+      "id": "24a7a41666f2",
+      "topic": "branding",
+      "title": "Beyond the Game Mark Bailey and Jobeth Bowers' Newly Released Book is a Personal Branding Blueprint for Athletes",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNZjdWdWVDZWVtZmZKRjFiajNwd1NKLWNYS2tpTzlDdGNpaE94YllJS0JxSmxBYmhlN2J2VXB0YmlMektwOTNvQUQtNzNvSkF6NG5UN2ZlZTljZWhzVXlXOENRZ1Ftcld1djhNRVc2cFhkd19XX3RIYVdPblpzbzJNM2gwQWpVZk5iU25IcTdPZzdMejl5YmEwa0E0bFpuWHNpQ3BTQjA0TnM1VVp1a3ZfejlycjVIMzVBLTBjY1JwNWhLVWh5RTFENm9PWjgtd3dKWWFVcGhyUlBxZlV6ck1DaUJSMkd3cHFnQ3Rla1hDazdTMkNNWGRra2d2SEs1NDVFbTdERHhqRDMweHJnWllDSTlwWGFwRl9yQkE?oc=5",
+      "source": "WBOC TV",
+      "published": "2026-10-17T08:01:01Z",
+      "summary": ""
+    },
+    {
+      "id": "02d7b95750cf",
+      "topic": "performance",
+      "title": "Building on Smoothie King's 13 Years of Accelerated Growth, The Brand's Big Bet on Delicious & Nutritious Food Drives Industry-Leading Sales Performance and Franchise Expansion in 2026",
+      "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPMzBDS3J6ZkJmMnEzWjlFa0dZUUdzQU9VQkIxeWhKdlJyWHRSQU1NSWZBcGNOM1Fha3VEN2EwWDExWTZITlduSnBJZzdDTm02bUY1X2ROMzRkaGpYbXZpaEx6dzczUnREMllncDJvcEFiUW9YMHc0Qi1JZ3B5WHN2cVB2d24xOUdpd3BKbEY2djNQTF8wamlhSUw1ZFJGSS0wVkwySmxtYkdmSnItSE13aHZheDRVYW5GZWpLRVRWZEhhdUJnRHo3dWJocTRjcHIwbTR5WEo1dHdhb0FxbVZXTEI1QkduNG1XbVNvS1hNcm9WUjhqTTRLLTQ2QjhqbXFfOFFZZ3VZUnlkWTNpVFd4YUFKeEhYbmJjeDFZS2xld0pta1FmaXBKXzV6R0h6LUpRbXRhbXFfc2Rsdw?oc=5",
+      "source": "Smoothie King",
+      "published": "2026-10-17T07:51:37Z",
+      "summary": ""
+    },
+    {
+      "id": "df11839ffed0",
+      "topic": "branding",
+      "title": "Design alone is not enough: branding is the missing piece",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QcUw2ME9TdG1pOUZHVWRvbHZOZmVNWFdOOE9LRjRtSGMtc0FCUkVWWEtlSldzdTFxaU1zamVvQ2RNR1BuMUIweU9DcF9oaWhZeVNOcE5MNDh1OUlKaTZteDdpR0c3dWlq?oc=5",
+      "source": "DesignWanted",
+      "published": "2026-10-17T05:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "8f3b75a15bfa",
+      "topic": "enterprise",
+      "title": "OpenAI poaches another SpaceX sales lead for cybersecurity business",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOakYtalBhY1ZNbHJzOURQbkRzRF8zU1VNdHcwVG1WVUgxV2ZmblNFU3hNcEdJUmIyZUltYWo2ZHBfbW56WmdESXBmUExDVlhBZWQ0SkxXYjNUc05GSW5ZZ2pPODlJd0YzbjNrMm1vamh0Nkd0VkhoSm1iazcxVlRib2VGZ0dEVzJLVHpmVG9Yd1pYNDdhejF2cXl0SzJ0VWhqdXdXUHdtZ3U2VkI3SVdXbW1IT2dna0IxQTFoU1IzUU5MOUFLS3o1R2RDMnl3azNwa0l5cmtSVXdpVkdlVlVZ0gHfAUFVX3lxTE5qRi1qUGFjVk1scnM5RFBuRHNEXzNTVU10dzBUbVZVSDFXZmZuU0VTeE1wR0lSYjJlSW1hajZkcF9tbnpaZ0RJcGZQTENWWEFlZDRKTFdiM1RzTkZJbllnak84OUl3RjNuM2sybW9qaHQ2R3RWSGhKbWJrNzFWVGJvZUZnR0RXMktUemZUb1h3Wlg0N2F6MXZxeXRLMnRVaGp1d1dQd21ndTZWQjdJV1dtbUhPZ2drQjFBMWhTUjNRTkw5QUtLejVHZEMyeXdrM3BrSXlya1JVd2lWR2VWVVk?oc=5",
+      "source": "Business Standard",
+      "published": "2026-10-17T03:43:27Z",
+      "summary": ""
+    },
+    {
+      "id": "24ed5b807815",
+      "topic": "branding",
+      "title": "Aavin's State Cooperative Brand Strategy in Tamil Nadu",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcnh6VHVEaW4wT3lId2htdUVIZF9zQllmdEdTeWRrUkd1dWhpTnBCUXh1YnJGeER3d05FRDBqbFo5MV9wcWQ3bmwxSlR5YUQ5Y0Zkelp3ajYzWHZMaTgxMHFFRzl2aEVLUDNXZXhZdHJnVVgyX2owRVBJcHlMZ3Y0a0RsdjR2dnRKTDFsdlhn?oc=5",
+      "source": "MarkHub24",
+      "published": "2026-10-17T03:29:37Z",
+      "summary": ""
+    },
+    {
+      "id": "b005bb60d70b",
+      "topic": "enterprise",
+      "title": "Hindware appoints Jyoti Arora as National Head - Commercial and Strategic Segments",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaUxDQ2lGU1R4RER0T2hxSkZyc3RtNC1lZVQxMmc1OF80TGY5ckZXY3U1eU80MGlWTEgxYzJfYnMyOExhZ3paSlU0UnR5ZmtLd2gxSEQ5ajV5M0JxaHZiaGdSOFp1V0R0LUpocWxyUHdrWDVMSTRrcHF0Wk5relNLVUxZRU80WHRxbmNNTG5Ec3otUElxcVliN2tiVEg3TjltQTBLNVVJdGIyOHE0QTdROEtnQks1b0JFWEhfckRTNTJHLXVTNzA2blJFeU1PbkJGLVNZWnVjRV96aC1S?oc=5",
+      "source": "Exchange4Media",
+      "published": "2026-10-17T03:18:27Z",
+      "summary": ""
+    },
+    {
+      "id": "a2f6c343bef4",
+      "topic": "strategy",
+      "title": "Intel chief says White House will not meddle in its semiconductor business",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOTRLN00xUm9ReEdDNDlXOWxiRUg5U0V5eXhCSTNBQlhBaHZiQWFtbjl6VHh6aTd3ZEhvaWFXYWdoTWtZbGdsUm1TTUN1UWFpYS1qdGhBSzhaMnhvb3Q5bFVrdmdzd01EVWVDMzlVOFBsU0lHVjJZSV9Sd21qOUVTRGxyVzFnS2Y0dkNKQ3k2c2l6ZDJmbEctVEx0eTdOWVhYeS1fUVNLNkZfdkZBMGdkTE96RVJSUG9pcUdpVEhuN3Jrb0t5eXc?oc=5",
+      "source": "Nikkei Asia",
+      "published": "2026-10-16T23:35:00Z",
+      "summary": ""
+    },
+    {
+      "id": "44a89ee254c8",
+      "topic": "strategy",
+      "title": "TP Receives Frost & Sullivan's 2026 Latin America Competitive Strategy Leadership Recognition in the Customer Experience Management Industry",
+      "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOQWpTcVdCbjlmLUkza1dDMUtRbXhXZkhsUXpRYXlGX25pTW10aG1hRkZGZVJ0T3VTemE3bTdkandXRFVLUlV4LWhWcXRZdUw5ZGhzMktwZmtEVTdLc0dJXzNHOGtYLTVweVZmalpUeU94QjJDWmRFbURIWkFBNjdKOTJmczNzUVVJNmhrZ2dSdnNiUlVsNUlrTGhIRHh1Q3BMOG1yM1FSMGFUTTlfeG9tcGl5b1NlQ19jN1FIU3czdkRVLXdUUmhZdWZSMWtVWUk5R19xREh4MGtRenpHSVU4Zkt0Y3hSMzA5bGI0OE1UdTRFYVpWQlJvR0ZEeFNBam1CRkd6MXF6VE15bzA2TXRReEN5UEM5a01JT3NXZ2xvM2d4WnY4OFhsd1VUQ3pNemEwMGR3YTlOR1B4VnJPSVdXcWZYZGk?oc=5",
+      "source": "The Globe and Mail",
+      "published": "2026-10-16T18:42:09Z",
+      "summary": ""
+    },
+    {
+      "id": "990a465d2769",
+      "topic": "executive",
+      "title": "2026 CU Times Luminaries Finalists: Executive Leadership – C-Suite ($4 Billion & Above)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMUNXMW9OV1RWa0E0bUd1bkp5c3dCbmlqZnZHN0EzVC0yaHZIT2F3emZ1WjJ3cEI0Zk9oS1RwLXJqMVJrYXM1TWJ5cGZOd0kySWRfU3NycEF1WE1WU2NpUkRkcy1vSFlnVnhQR3paUVdkbWUtcjN4QVREbmtwWFRqOHlVUU5xN1FOaks4QkxxZVRvOE9yRFRRUG1rTXk4UVdicEtCZUMwMC1kMVlob1RPNF9SZ0RiMVk?oc=5",
+      "source": "CUTimes",
+      "published": "2026-10-16T18:05:34Z",
+      "summary": ""
+    },
+    {
+      "id": "f31171e3281c",
+      "topic": "executive",
+      "title": "Here's who Netflix just brought in to run content — and what it means for the streamer",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPclZicW9tVG5jcTlhUnlMcHlKT0hBZGp6dm16RGRDY2lRQnJZR2Z2QzR5VE1ONVpEQ29GTVJVSXFsZ2Y4Y2s2ZS1pQ2M0LTZ1aFVObkpweEY2OGVnRDUtN2FSOE5GUEJNaHBDTmxBRVh0Z1BnNzFoTndqUFRBbmpWMlZQUdIBiAFBVV95cUxOUFBOTnYtWlRsY1poWUFWei1aT3JRTnBwRTJ5ck1UVVQ2NVFfUUxoeEFtdDBtOUt2UHpRN3J2RUNjUVRKWXZmY1hJN1BtRjdpY2VTWHBOX2hNZDJGUzltX2VPNkRTMERUdGRCNWlpUlBRdnpFWEk1d19JVXhHdGFkNnhHUlZlR3FU?oc=5",
+      "source": "CNBC",
+      "published": "2026-10-16T17:02:50Z",
+      "summary": ""
+    },
+    {
+      "id": "4e9afdcf2c23",
+      "topic": "branding",
+      "title": "Haleon names Deep Malde as Head of Expert Marketing & Transformation",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPakpLNkt2RU1fZFFXV2NCRTd6X3lNVnFhTUlFVFEzbDVMS01ZbjNUOEhpUldEamNFSm8ya1VtOTY3ZnBfcHBCRFNzVUJYX0poUndyM0g3RmZscUV6THlod25pYUJQWE1JMHlneVU2U2o0N3FXdUhELUVpdXdEbTVwR2owNnlPOW11dE5WUmY2RTZOcmVZTGVEUVh0TExOM0Fkcm8zeEFwZzlmN0tCN20wdFc4bVVGVmc?oc=5",
+      "source": "PitchOnnet",
+      "published": "2026-10-16T17:01:16Z",
+      "summary": ""
+    },
+    {
+      "id": "34758161bdb4",
+      "topic": "enterprise",
+      "title": "What Good Looks Like in B2B Sales Data in 2026",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZFVKTUVvbDJsTjZ6TUo4b0czWXZFUWZ0NzFfZHRWcjZBSm56bXdXamMxWVZHSjhsU09uODI0bGFkOWRwVlRpU0p5cnppYUlLOGxKVnR0eGh1aUxTbEpDZFphLVJjZ1Y4YVFZbDFoeUhXaWUzUlpJUjVld0NlYXFXdlM5UFVkZW9ieWE3Sl9nU0lXWHg4Yy10ZFdxcXBkQWoxbGRZ?oc=5",
+      "source": "Demand Gen Report",
+      "published": "2026-10-16T16:59:04Z",
+      "summary": ""
+    },
+    {
+      "id": "b00dc24aeacc",
+      "topic": "performance",
+      "title": "Apple shares rise after iPhone Duo pre-orders sell out within minutes",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZXMxQlI1dEVmVXRHQmZIX0pmRThJZ0E4bUJweEFWbE5VX3dzbklMTEVZS3BqbURUN1FoakdYTlQzc0dxeURDWDM4UFBLcmJWWE9tWXVWaDVfUU9lVnFjNzhseUdDdXo5NS13bUwzcW10dU1tVmNmRjh4OVFfR1V1STJ4LWFKQjdPUHBvdVc5RFN1YnNESTJ6YXc0cWZ4RENXcUMtNTBkbXRUS29uNU90Q3JTejJtQW5PTlRTbll2akVNbkpO?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-16T15:13:46Z",
+      "summary": ""
+    },
+    {
+      "id": "60a411344806",
+      "topic": "branding",
+      "title": "Guest speaker to discuss her journey in male-dominated field",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFRiWFluMEpiV3BGSm1ZWmlQalBfS2RmQ0FGRDVqb0Jtbm1SNHBxcHVtYlQzNXNlM0RPSWJacVp6bnJwNGJ5RWJBcEczN1A5d2pkQ01PQm9iaUtCRWpPTkVxT1p0b0ZMdG5Yamt2cUJGczhIcUxGeTZGUmlYYldXb0hJWnZqOGlfZEJWcmhTRkZ5TTZYdlY2S0c0NV9BbWFoTkl5SlpZZ2hzOHpfa2FBSQ?oc=5",
+      "source": "OrilliaMatters.com",
+      "published": "2026-10-16T14:05:57Z",
+      "summary": ""
+    },
+    {
+      "id": "88eecb754137",
+      "topic": "branding",
+      "title": "Bharti AXA Life appoints Jaimit Doshi as Chief Brand Officer and Head of Digital and AI",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPd3VkZm1mVC1VZEpDX2N1dVFlTHlVTnEyWWJUa1ZVamJDMmJMWHRuc29oeldlZnBhVFpDdEtqQmQ0Q1pVMFRsc01FUWxzS2hJZzF0ZElRblJEaDlFdWRJaHRST2JGQkZoVlNORE1lWGRxdjF0Rjc3dGx1TFdrY2xIbGJ6Z1Fya0N2cGZudnJpQVNXS3NvT3hLTjRiVDhiSW9YR0ZpcndQR29TLUJOUjhxVkltS3pJVDdmdm5ncVR0WlZQdmU2aFhMdFZ0cVltZzBMRHBDemN0U2M0Y1piZWNaMDVqTngzSC1fN1cxaVh5bjJlYXdyVjEwcTFWYnczZ9IBgwJBVV95cUxPM1dycVAyaEpIRTlTc2UyVlRUT2RhTmpzMDFQY1pINEVsdTRvUF9aQlRlalAxT3BqZm1vZXExdU1BMUJ0M2k2SkZzLWk4TC14aHZycHd0cWpRNWVCOWFQOURqa2NFNHVfZzBqS2lpelJwVF9TMGZoMlhrUk8zRWxzN0xDaVlPWl9RYUtyOUF0Uk1DWEZoNE5zblFqQktWOXJNUEZWcXBLVlJpYzhKWWdKNGNhblVsSy0zczRzd0swRTVFR1RRakNRSUpheTgzeXgwSmp1X0s5Um1yTlB6ZDdkSHA0LWFIbzk2YjNSc0pFQl9Wb01obzF2Mk1Sc0ZIdktHSmtr?oc=5",
+      "source": "ET BrandEquity",
+      "published": "2026-10-16T12:52:19Z",
+      "summary": ""
+    },
+    {
+      "id": "2f64789f9bbd",
+      "topic": "accounts",
+      "title": "Merge Careers 2026: 13 Job Opportunities in Engineering, AI, Product, Marketing and Sales",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BM2tCUXZycDV5YXJ5NkZGX09semNLQTFZXzM1R1l1eFpOSEZJNzlsMDNKOGVCQ0hHampfd0xUTHVrUkpfMWxERi03RGR1WlJuNEVBcjZVSVFqeVVwang5eXg5MVh6bTRqU3c?oc=5",
+      "source": "Global South Opportunities",
+      "published": "2026-10-16T12:49:45Z",
+      "summary": ""
+    },
+    {
+      "id": "79cba4ccc96f",
+      "topic": "strategy",
+      "title": "A&W launches new mission and corporate strategy",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRTZVbkVvbEpRRkpJenVlZGtkTzVzWmhlQjZocDhNWHZpNzlaUlh3Zjh4Q2xDanA0MWNNQlVocm0xbVBuVFdrNFBaMlFOVEktRHNkSEpoU0xQMS1Cd21HVzBMYmM2akQ3b0dKZ2hVWFQwY2lqeGtNUnJVRmZKY09CWHQ2SHMtUHJqMENMTE4zRk0zRm9qR2tFQTNFYWsydw?oc=5",
+      "source": "Retail Insider",
+      "published": "2026-10-16T12:32:01Z",
+      "summary": ""
+    },
+    {
+      "id": "fd346d9c247a",
+      "topic": "strategy",
+      "title": "Oct 16,2026 | Chugai Receives Porter Prize 2026 | News | CHUGAI PHARMACEUTICAL CO., LTD.",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbWZndlZUdU4tMjBxV0ZETXZsSW0tT2ZleGplb2lhUk1GN01fby1Cb0JIald6aFhRRXk4RDdNS0cxWmlDQTlsbVdIb3dTUGVTWUQ0aTZSM09TYU1US3lpcS1oV2hnM3Y2MlF1QnA0ZTRkLVo3TW4yMVQxN3RqT3ZwbA?oc=5",
+      "source": "中外製薬株式会社",
+      "published": "2026-10-16T12:03:36Z",
+      "summary": ""
+    },
+    {
+      "id": "65d5838c1b2a",
+      "topic": "enterprise",
+      "title": "The hardest part of the sale happens in a room your seller isn’t in",
+      "link": "https://blog.hubspot.com/sales/hardest-part-of-sales-buyer-decision-process",
+      "source": "HubSpot Sales Blog",
+      "published": "2026-10-16T12:00:04Z",
+      "summary": "Somewhere inside every stalled deal, there’s a buyer who couldn’t make the argument for acting — not to the seller, but to their own colleagues. Maybe that’s a chief financial officer asking why now, or a senior leader whose priorities were set last quarter."
+    },
+    {
+      "id": "9348ddd92cda",
+      "topic": "enterprise",
+      "title": "STL Networks appoints Kiran Patel and Gaurav Barjatiya to strengthen Data Center Business",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY3VRdGRndE1xRUlEMGF1TTVnQTlncDBHcmFlbVJ6elB3c05YSExGV0h2aElYTkZBOExHWGtnS2Y1SG5RZEpoc0loTGl4cFhjekRnTlpJOFV3UVZVOTNQd2FXYTNjdl8xMUwtYkZjalZzZ1FvVGo1M1RPSDlVU1N4YTR1TGZSOExmNUZZcmNYbElXMkJqeFI5LVFfNElIazN4Nk5ndFQxMklJcmMtRG9hdG9uUS1VWjBHdGc?oc=5",
+      "source": "MediaNews4U",
+      "published": "2026-10-16T11:53:44Z",
+      "summary": ""
+    },
+    {
+      "id": "a866788846a6",
+      "topic": "performance",
+      "title": "The Glenwalk Sells Nearly 1 Million Bottles in September 2026, Expands to 23 Indian States",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORVZNMXNnMUVfYUhKZDgxMTZfdXdZWWlzMXpxam5teUtsNExJTTItQUxiNWpXTzJENldMNFBsbWxidlExSTZnbGNaWnNVUFlXRFZLZzFJQkRYV0JiRWRfeEthX3RTNXhLU2NtTDdDaGt6ZzhRM1BJMm9DSE15bFFTbTRGbFhWVTM0clh6QktHdk93WTlVaFpHWnNqd1ZrZVlEZlF6VE92d2NQZlIxSFE?oc=5",
+      "source": "Aabkari Times",
+      "published": "2026-10-16T11:39:20Z",
+      "summary": ""
+    },
+    {
+      "id": "998fad35e57e",
+      "topic": "accounts",
+      "title": "Cantor Fitzgerald maintains Overweight rating on Bentley Systems, $42 price target",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY1hfdzdWZDE4aGpZSHc2S3hmX05nYnFsT19EdEUxTHBSNUlUemNaMHNoRmNjSHMwbVlMaXR4OHpLMzd5cW5TUkY0d2kxNUE5dXhaSkE0V3lqaEhPejdhQjlCVzBGNGFnRUR1N1F5ZWl4ekRLMFRUYS12c21wR2NGVHMxeExwcjNVV2RuRFZCUkRvNDNHNmp4NEk4YjQ0eTVDWXNyY21NOW1CVzdZeHA1VXMwZENlWmhUMjdWZlpXSVg0amhydVZjMHVOd2Y3WjFCXzZFQmFDTFFIZw?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-16T11:22:48Z",
+      "summary": ""
+    },
+    {
+      "id": "a975b135fd39",
+      "topic": "accounts",
+      "title": "AI scales content. People build trust",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0dGhjdFoyX0phQlA0NWMzdlc3NS1KY1locFk3TUtJTUExVVZrWk00eGl4NWRYYWVsQV9wdVpzRGtPZG1aOTFyZWdzbnh0UzVyMGRGMl9BQmVoUENR?oc=5",
+      "source": "Marketing Week",
+      "published": "2026-10-16T11:12:42Z",
+      "summary": ""
+    },
+    {
+      "id": "180f000dd8af",
+      "topic": "enterprise",
+      "title": "Chhavi Bhalla Joins The Insight Collective As VP – Strategic Partnerships, US",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT28zOFdPZzdhNkdOWWNXam83MVRaY3NqMl9HSTJwM2Rfelh4TnljR29ERklsNmt0Y1J6cE9PN1RCYlItRS0tSFpEZmYzV3J1TlJXbnVFRkdHQTBNUy1pNVFvVWVpcXdsNkx1dFIwQ1lvQk9BbHBJeDBmeVRkSWhHQnFDVFZzYVZYZHpDS1NiMjZDVHktaGtJek00Mmd1RVlyUHBvOXZ6WklpTE00N0JBeW5lOHJWdDRRSjQzLU5MWQ?oc=5",
+      "source": "BW Marketing World",
+      "published": "2026-10-16T11:12:14Z",
+      "summary": ""
+    },
+    {
+      "id": "3f3c1d1423ef",
+      "topic": "enterprise",
+      "title": "2026 Rising Star: Shaun Harkley",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIeUJlWENOZHpDZC1uSXcyQmxUX3dCNTZyQzdTeXVxSXlsbVpwZHBOQm9FMUtjcWlWVVRXNEdGUWszZDZsOVByRDJDOUQtM2pPUlZERnpxWDNGUGNWTjBZd3RvaVQyMmpzakQ5RG5CRnRMTkZtNE1qYkIwNkVaUlk?oc=5",
+      "source": "HousingWire",
+      "published": "2026-10-16T10:23:18Z",
+      "summary": ""
+    },
+    {
+      "id": "2796a402238b",
+      "topic": "strategy",
+      "title": "Opinion: Healthcare isn’t just a business expense. It’s a business strategy.",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGgzQmRxNjQ0OHc2andsZV9vcVotcEgtWVBRS0RYQUVnZFZFVVJJdXlab0h4SENEZGo4Y0l5Ulo2aHBnWUZQY2FHRkE5Tno1WkVWbGhLaFdvMWRwY2o0QllYNjE0aG8wZHpYQmxkNmZfNzJUX1JQTm45cUl5S3BuTnd1eGF4aXB1VlhCWl9MUS1kMmNldEJ6LVF2NmNGQQ?oc=5",
+      "source": "Crain's Detroit",
+      "published": "2026-10-16T09:45:00Z",
+      "summary": ""
+    },
+    {
+      "id": "93782e31709c",
+      "topic": "accounts",
+      "title": "AI Customer Churn Prediction Software Growth Market Driven",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR0FldWhZLXRIWk1RYjBlVlU3NDlORUNSS3ZpN1RiWDJJQWFHSm93MkxlR0JkZVgxNHdTZC1JLTRKUUJrUmZfeTlBVDR6ZmpacmUwMElyMXFsYmhUeWYzMnZGR0cxN1dTa2Q0MWIzb2NNRGpQYnlSdHBuOXdZRkRVMDM5LUZRc0F3RkZlNjJzUFRvNHpBdHpEVm1n?oc=5",
+      "source": "openPR.com",
+      "published": "2026-10-16T09:37:58Z",
+      "summary": ""
+    },
+    {
+      "id": "5ca05b280ea5",
+      "topic": "performance",
+      "title": "Hyundai Creta crosses 15 lakh sales mark. Why the craze for this SUV doesn’t die?",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMWMzZlJ4TGhURU5OcG5JWHVsZERMUXp2QXdveWNjVWp0Vjh1cWM3cjQyMjBHQUpwd3lMMEJSWHNNUEdVLWl5MC13eUd0b29zUmJLQ3dXNzR1dzNGZExtRVVCZG92dlhHQkhPQjhqczl3eUxUM1VpZUVhUm0zRlhoU21ST183VEdjdEVmNU12TG5aNkJvbFRHZ2dBb3JlYktyQU9yakppY1Q4UkNXNHkzeGZ1QW0yZllp0gG-AUFVX3lxTFA1Q0hmZXp5WEdwN2gwalVmVFVnc05fQWF1dWZIblZTZ2JJX1AwV3RBbDZObVFrRHBHQU0tX2FLWGlfZVZVdllCeHpjcXphYzk3Y3hROGY5clg2YWJtNFNSaV9pQU1YYXZMSkh5RkZEUXFVTTNnY1JOS1Ewdk42N05xdTdwU1VqaTlIV3dYdEh0MUxBbUN1MWNrNml5akl3OFhFR2xpbW9qYUJOTy1lVDVwUVlyT3RSdi10azJoVmc?oc=5",
+      "source": "News9live",
+      "published": "2026-10-16T09:10:55Z",
+      "summary": ""
+    },
+    {
+      "id": "edf77cd27b2f",
+      "topic": "branding",
+      "title": "A good worker",
+      "link": "https://seths.blog/2026/10/a-good-worker/",
+      "source": "Seth's Blog",
+      "published": "2026-10-16T09:03:00Z",
+      "summary": "The truth is, I’m not a good worker. I’ve had very few traditional jobs, and my performance on typical tasks was poor. Work the exact hours, do precisely what’s asked, don’t ask questions and focus on what the boss wants. We modeled ‘good worker’ behavior in school. “Will this…"
+    },
+    {
+      "id": "0b6c718622de",
+      "topic": "branding",
+      "title": "Anker Experience Week At Sunway Pyramid Brings Its Unified Brand Strategy To Malaysia",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYeVpubGMwalhsWk5jc0VPM0hUc1dieUkzOHpjc2FTeWdyYklPOUxkNjE3ZzlsVFdkSkxTbmJCYWNkVnNDckl6aG1Nb3pFMmRyOEZYTzhQejFCQjVkNUJWRExhQV8yc01Damx6YW8wclhJSXNuUG5rT2JpZw?oc=5",
+      "source": "Pokde.Net",
+      "published": "2026-10-16T08:55:19Z",
+      "summary": ""
+    },
+    {
+      "id": "8d5a2a1904a4",
+      "topic": "branding",
+      "title": "AirBorneo appoints The XMakers to develop brand, customer experience",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQemE4ZDktMEJhZ283eEhwa25IUnZ0WS03ZXk4b2gyZ2ZZUWhIRHBZdkh0ckQwQTRRUC14VE03S0RUMEFDdTc0T1RGVko0b0NMQXJkX29vdGVicU5McFY4Wk5ySVlTeF94dF9Vck1uY0JOMmpac1Q4ZTlaWldMbGc2ZGVkTFZvNnZ3XzVXcmZ3MHFXVXBXbjZEMWdTUQ?oc=5",
+      "source": "marketech apac",
+      "published": "2026-10-16T08:34:27Z",
+      "summary": ""
+    },
+    {
+      "id": "78b97602c0c6",
+      "topic": "strategy",
+      "title": "Wipro (NSE:WIPRO) Q2 FY27 Results and AI Business Strategy",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSEZDQWhvcU9OTkc3cEh1Q3NDRG02N0g5ejFheGVsQ2tKN0xIQWRXQnJiWHA3RzJvMXNlejVYeHhsRHFZWmk1M0pzd2ZpLWJJS0w5Q1pzUTJmTHNOczhuNEdBNjhVS2toaC1Ddm5MaXhBTG1tbzJHc2dSVWt3RndnZGJnbHBEbUp1b0NlbXpPdndfanpOS1VucURIUmpwRkFEblg1bkswNVA1Z2E3Z1loV0hzOElMaHJHMjVCMXZDTnpLMXMzb2xMeUhEaDE?oc=5",
+      "source": "Kalkine India",
+      "published": "2026-10-16T08:22:00Z",
+      "summary": ""
+    },
+    {
+      "id": "0413aaa2471a",
+      "topic": "enterprise",
+      "title": "Huawei Commits to Advancing an Intelligent, Green Europe with Customers and Partners",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRkhWUTRNN0ZhdnNRUXA1MDdLeTJFOWRDWVhQS2F5THZnZ3prOHpKNG1zcmw1SHg3SmFQcXBjUndsVEhpRUc0eFFWV3B3TmJZQmpWV0dBcndMMjY3NUVGamp6ZDRLZWJqS3RfX1N5Q1JMVFBGbU1xakdwVGFzVHhGczBBZzh0UVlLT0h0ZVpSTG1GQ1RzOEJ0bml4YmhwbmZ0NmRmZFgzTGdFZE9vWk1UQlRQNms1TFNBOHI4dG52V3o3ckkwNXFCVEw2LTliXzFDa1IwMTYxSQ?oc=5",
+      "source": "Florida Today",
+      "published": "2026-10-16T07:42:51Z",
+      "summary": ""
+    },
+    {
+      "id": "3ff333579844",
+      "topic": "performance",
+      "title": "India's Tractor Export Sales Grow 32.14% in Sept 2026",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORFBpQ1gzemYxR3FNZG9lN00tYUtxTV9BbzIwWW4zLTlxdkZOdndEb2xzWko2WXhjWVEtTG8zUFB2NjVRS1oxR1pJSXdZWFhDZERzNkN4UlhRdE0tRS1Ddk5iMkdFRzAwWEVVRV9HWkJCMXR5MDlfY3l3ZUZMRkZMb0pXVmhncWwtTk9FZGs0TXVyekRXRjBIUjlsQXpMODVzbmpyMGhETk5TMXBVODZQU9IBsAFBVV95cUxORFBpQ1gzemYxR3FNZG9lN00tYUtxTV9BbzIwWW4zLTlxdkZOdndEb2xzWko2WXhjWVEtTG8zUFB2NjVRS1oxR1pJSXdZWFhDZERzNkN4UlhRdE0tRS1Ddk5iMkdFRzAwWEVVRV9HWkJCMXR5MDlfY3l3ZUZMRkZMb0pXVmhncWwtTk9FZGs0TXVyekRXRjBIUjlsQXpMODVzbmpyMGhETk5TMXBVODZQUw?oc=5",
+      "source": "Tractor Junction",
+      "published": "2026-10-16T07:22:43Z",
+      "summary": ""
+    },
+    {
+      "id": "ca4d9024236b",
+      "topic": "strategy",
+      "title": "Lynxspring Receives the 2026 Global Smart Building Solutions Competitive Strategy Leadership Recognition",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMXJqRXR5aDBzampQa3h5b0ZoYVRmVTZCM1BQNXJXYTRKRy1DTWdTcklSZ196Z3hWdldZUVlxMkJMTDRMZjgtR1V0UVd6NVRteTNNV2l0UTExQUZsX1FDcVgyX1NvaXZyaFdPWll2VVZvdFh3UnlrOFI5NU43bkNJYXFVTkEtZVhsYlN0cktvZGZJa0ZRRm5mNUlVQ2NRZ2JobnV4UTlVY3dIZ0k4S2xUcllMODQ4amNnTU9UcUZWVl9PRFM4YklXbC1MZWNzaG5BOG1fUEQ3amtjOHY2RC12LQ?oc=5",
+      "source": "NewswireToday",
+      "published": "2026-10-16T07:17:38Z",
+      "summary": ""
+    },
+    {
+      "id": "3099a940baca",
+      "topic": "enterprise",
+      "title": "eCapital Adds Five Senior Leaders",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycjNiZkk0M3U2WDk2b3p4ZGh4c25sckVjVzFWSVdhMm9Dd1A1OEVud0VuVy1ZOGNLbHlDclpacXFKVE9aTGdXcDNxOVJDWmhVMGF3VVUzT2FqQUFCMnlnemdQTnBpNGNVdEdQbWNB?oc=5",
+      "source": "ABF Journal",
+      "published": "2026-10-16T07:08:50Z",
+      "summary": ""
+    },
+    {
+      "id": "a73d18f5716b",
+      "topic": "strategy",
+      "title": "Prime Video Executives On Ads, Theatrical Releases and Revenue Models",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdmxRSGFPbllDZ1JtemsxUy1oWnNabDRvOU5oSmwzcjd5Y2N0aFFZU0FjbTM2OUNwSC1faGVfbWRuX1U4ckpFalBacGlHeHZhRUlRSDM1VnJUblZJZF9rOE9xU05sUHJMQm13blY0Q2pnMTh3WkNPcDZFcEtUS01YcEdjTTBCTjZRTVY4X3FzQThVRmItZmNCX2tYcURVUlVMNWVlQmZhaXFWQXY5X2dhbkF3VzZLcGExVTY1ZFVFeWhUVFgtTXBwVkhMMDAxbUx3U3NpSlpsRGhKUdIB2gFBVV95cUxPdmxRSGFPbllDZ1JtemsxUy1oWnNabDRvOU5oSmwzcjd5Y2N0aFFZU0FjbTM2OUNwSC1faGVfbWRuX1U4ckpFalBacGlHeHZhRUlRSDM1VnJUblZJZF9rOE9xU05sUHJMQm13blY0Q2pnMTh3WkNPcDZFcEtUS01YcEdjTTBCTjZRTVY4X3FzQThVRmItZmNCX2tYcURVUlVMNWVlQmZhaXFWQXY5X2dhbkF3VzZLcGExVTY1ZFVFeWhUVFgtTXBwVkhMMDAxbUx3U3NpSlpsRGhKUQ?oc=5",
+      "source": "The Economic Times",
+      "published": "2026-10-16T06:25:00Z",
+      "summary": ""
+    },
+    {
+      "id": "6e35ef112735",
+      "topic": "branding",
+      "title": "Why Video Content Is the Missing Link in Full-Funnel Brand Strategy",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVllnVk80RHhtaVpuWU94TFhDYkRBZW5DUkZKdDNLZUR2cUxpVkl5NlhIek9xLVZqSzZlSjFiaWthWUdhbHpGNzQ0YXJFSDdqamRFNmYwUUdBUng4OTFTd1VYalU1Z1R0c3pORkVfanQ2b0RsUlNiZHNKMmszQjJYdlRYbU4wYWRsNWt4Ym1LUm40NmlCZ0JGaHlEUUsxT3pnZmtxS2F1SlZnT00?oc=5",
+      "source": "The European Business Review",
+      "published": "2026-10-16T06:02:16Z",
+      "summary": ""
+    },
+    {
+      "id": "112c7cba4833",
+      "topic": "enterprise",
+      "title": "Shaping the Next Generation of Enterprise Spaces: How Samsung is Powering the Growth with Digital Appliances",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbzExS0Y3Nzl2dHVKeDZ1VFdSSzVnTXdhYWVrZWxRMkNRUVlybFZtdDBtWlI0U1BmVjM5OUlNeU92RWlHWjFHSkNObmtyUlN6YktFckF3Smx0OVk5WHhablo3ZTR4QUcyQmdxN2F6NHFRdTNDRU1jeUpwVHBnczF3cGpXMlFzYWxKLWFjdDlWbGZCaXY2NExPVzR6UEZmcGRwWEJTb2tJS3hSdzZ3enlKZmpneVRxU0hMTDd3MVlnRXNIQXZUUGJtckpXeDAtSGxK?oc=5",
+      "source": "samsung.com",
+      "published": "2026-10-16T05:51:06Z",
+      "summary": ""
+    },
+    {
+      "id": "b50e5c102b34",
+      "topic": "branding",
+      "title": "Deep Malde joins Haleon as Head of Expert Marketing & Transformation",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMGgwR2lERFNoOV8xcjJyTWxTWjgwZ19UWmpULXZWVE1sVTBTOGtkRWRHV0JjU3NpUWxYb3huVDQtTE85LW1RLWlrWEI3ZEdNY2E0OW1YaE9ZUk85eWx4a09UbUNtaFVjNzRfT3dvUVVWZVlQcGRuV01DMjdpcEVwU1doYTRsMmFNcDRXQ2FBS3BiWVZ4WkctOVF0NTFnWFN3SEItR0VYbUJjOW5FSUJKaGlWWnpWOFczWjJycnhldUItc1RXY0ljczB3?oc=5",
+      "source": "Exchange4Media",
+      "published": "2026-10-16T05:03:54Z",
+      "summary": ""
+    },
+    {
+      "id": "a625b1ce498e",
+      "topic": "performance",
+      "title": "3 Profitable Stocks We’re Skeptical Of",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEpvRU9lMTI3ZTduUk9XRkhJVlBmZGdFVHhpbjQ3aTNmSFRkTGdxNWkxUmpIcmFPR2hZNzJaTTc1bFlWM1dFLVlZRk11dElYS1hFdlJoS2dYQU9KQ24yc2s4eFlUa1lSVUsxTzRKUV9HTW1FcmtNZjJuYzJlR0syOHhxRFdkWGEydm9Ya2JGZWlBMUp0M09WbXQ4T3gxWG8yY2c?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-16T04:43:00Z",
+      "summary": ""
+    },
+    {
+      "id": "040822632dfe",
+      "topic": "performance",
+      "title": "Jio Financial Services Reports Q2 FY27 Consolidated Net Profit of ₹340.44 Crore, Revenue Operations Stand at ₹1,699.28 Crore",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5aeHROTkptWlFTeDZ2WVZTendQWS1MZzJSUnE4cmpBMFVld09KOUoyNnRULWxXcEM1S09KdXZ3eU1zMzZlTldBNzdnaTJnNmFHWkxCb3BjelY5cVBiZXNz?oc=5",
+      "source": "EquityBulls",
+      "published": "2026-10-16T04:41:44Z",
+      "summary": ""
+    },
+    {
+      "id": "f4fdbc22a38f",
+      "topic": "performance",
+      "title": "3 Profitable Stocks We Think Twice About",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWmJrUFgwWVdkMGstdGViTGRRbnR6M0NWMUFkbENvSDVLRlRFczZGLV9KazdGZGpnVDgtMHZsVE41X1dUUzFwbmZGTWp1UUpaQkRycW1DNElIVWNUdEtxQzFVaFFxLUlkbUYxNFBrU0VsdjMwTUpYcDVMTGRKOTVSVHRVUkVxeXF4RUpMckJtVUhBQndScnRqYkd4OVczeUtWM0pCbkx3?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-16T04:35:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9b346283a014",
+      "topic": "enterprise",
+      "title": "Indus Aluminium Recyclers Enters Marketing Tie-Up MoU with Sufin Limited to Boost B2B Sales",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOQ0NTMVhZQU1hdXZ4WTh3dVNBWm1DVUw4Y0IwVEhtX2hJX245NEhsaW0xLWpBQWJoTnQ5d0JTLU5zVFUtVmk5NUdBa25xaDA0SnRTaG5XTU8wa2NxUU9J?oc=5",
+      "source": "EquityBulls",
+      "published": "2026-10-16T04:31:42Z",
+      "summary": ""
+    },
+    {
+      "id": "8d2df4395089",
+      "topic": "enterprise",
+      "title": "Budget Smartphone Mkt Set For New Wave of Homegrown Brands",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWU5qOFpISi16X2VGaWlMT29uTW5ZR2NPNFppM2t0clVWajdTVWpNWkx2QTR2Wm05NGI3Rnl1TExlX0lwY1FRSTZMS2xITzl0R0pjakNHTnB6WjB2N3BNNjJlSmlDcEJiRW1FV1N3WmY1aXZ2RnZOR1lfZExsTUFOY0t5T0l4TlRjZzlKYWFDejBJSzl4OHpkcHZ4TmZzck9QRW82V2RJXzQ2UWItRXlZRDZibVFWZw?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-16T04:17:00Z",
+      "summary": ""
+    },
+    {
+      "id": "bfb605056144",
+      "topic": "enterprise",
+      "title": "Homegrown Cos Enter Budget Smartphone Mkt as Global Biggies Retreat",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV0lNN0xBd01kcnRvOUcxT0xzY3pIUThpX3FQMUd1UnlCOHFCd2NJazNvVnZUd3FmbURfOE11RThFY1BCU3FZWDhhQ3FVVHB5LVBKLUhsUkIzbWQ4ODV6NThOTGdPR2MxajNDdjFaR0NSal9xelpCc3VGaDFLWHlRbURhWUFpazNPamdtY2traUh0amUzQ3NUYnFkUXFXN0Y3bl9ILXQwSm1GZ0NCQjNtbmFBbEY0TWlVaVpxWGxOWTN4dw?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-16T04:16:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9be541638cfc",
+      "topic": "performance",
+      "title": "3 Reasons WWD Has Explosive Upside Potential",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZUxYdmJ1YVFnSXBFcVh1U2FUZnk2cWFuX1Y4MlJuQzN0OG9zMG01blg2ZUM3Ql8weDRsV1JpMUNUU1Izd1JFZDZrQ1JWTFU2RXBYbDJSbndwQzR4cWNMWTBod1ZhT01Uclc5SUtWZTZyV3JYMVpGWXVacGM3QjRJSk93QlNvRGtYSmtSNEdQeEFILXJjYmtHUHhjaGwtRXNNVU1ycnZNR0w?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-16T04:04:32Z",
+      "summary": ""
+    },
+    {
+      "id": "f38aa1c08f29",
+      "topic": "accounts",
+      "title": "Formula 1® makes the rules accessible to every fan with Agentforce",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaVA3SDNVMm5mVTFWV3l6UHR5YXhJNHJsZHJZZW4wc3VTWXBQUUZGdE9Xdkh3X1ZMYXNkUFhaWk0xT0FMVmxwYlpPVFZTV2lYTGZIMHhxWFQ1SHNsN0h2dE5kV3NndldiRmFUb2pWOERIOVlmS1pTbXJxdXVjcGFKTU43dEQ0bWphdWc?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-16T03:18:32Z",
+      "summary": ""
+    },
+    {
+      "id": "cd1559f70b60",
+      "topic": "accounts",
+      "title": "Formula 1® resolves fans’ race-day issues 80% faster with Service Cloud",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeW9mcFloRFgzODVaZ0JBX18yQmJGS2haN2N2YjVnYW02bGlMSUlMdUtQOVJwY1k4QVFIUFFSeGhxVzRabEV3RXpMRExLbmRsbTIyTUlOVUQtZk4zZE13VlZNNjNtMjdaRjVRNVU1aDNvNEhIZEkxWXdQNmZHTjZ1d0ZMak9kUQ?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-16T03:18:32Z",
+      "summary": ""
+    },
+    {
+      "id": "8f80a1c4823f",
+      "topic": "enterprise",
+      "title": "Salesforce, INSPIRE Partner on AI Transformation of MICE Business",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10WndLQl9HVEZTNi1qVFBzZ2pPQjNWb1d6RzlvSWhOYUozVGFRSXlvR2NIZXhVWGF1SVJpV0Fjd2tOTmlINUVRbFRZbFEweE9wYXJCcmRwWWNsakx1ZS1XOTRJd0p1aU0?oc=5",
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "published": "2026-10-16T00:50:04Z",
+      "summary": ""
+    },
+    {
+      "id": "6d98ad3662a8",
+      "topic": "enterprise",
+      "title": "NetSuite elevates Ranga Bodla to GVP, Marketing and Strategic Partnerships",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcDEycE9waUJ5b0Q5LUZuYnRCZ3NmSlFRWGJRc2JEdWk5R19BLUpaMEhTWUROb0pXVkJ1dUdSeWRqY1lldUxSZUJ4aUlhb1RqeG1lSTFZWGRobU1iSUVLaEs3MWhRRFV4N2R4SFRxdnRWRFNzRHRBNlRzTFA0WS1qV2pfU2RfQU9za01vOGZhSGVfUGhUM0Q1WG5DdXZpUHdnTEIzcHEwNTFhSlJkQjhuU1Z5amFzWW5YS0Jr?oc=5",
+      "source": "KARV Tech Insider",
+      "published": "2026-10-16T00:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "72236240a7a5",
+      "topic": "territory",
+      "title": "Moscow's iconic Rizhsky Market to be replaced by sail-shaped high-rise towers",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWWdDYm92b25EVjRfZzRaOTVFMTVwS3htNDgyWUt4UmR3Qzc1cHZHb1ZnWlVCSng2NG5uYU9WWnU1Y3V6UDhKZzNiTUN3dHpxYTNnVUVOeEFlTEl3TWFGT21WSDV0ZTRFVEMzb2VzV1VaUHV3aG1xZk1SbHJvb0VLNGs4NVd4MmJr?oc=5",
+      "source": "PravdaReport",
+      "published": "2026-10-15T23:33:42Z",
+      "summary": ""
+    },
+    {
+      "id": "5bd93fd4c296",
+      "topic": "branding",
+      "title": "Indiana lawmakers push financial literacy training for high school athletes under new NIL rules",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd0lvbnRieHNfRDRqVjRyUjhZc00yTFVmbEN4R1U1MmdVTFcwQXNqMlptX3VpOVpKdWU1ZjZpQXBrMWFMakVNTnZuN3NPWWptbEJqaFg0cy1BS2J5TzVMNm95LXRPeURGOTVGTHQ4YW5mQXlaY2Rnc0lJWlBZV1lQajktRmtPOEFoNUd5X2NiTGZDX1hLN2RsVlMwSHdXeEh0SlUydGpFTXhoRzNXN1NEakpVQWpQcnoxNk14OUZkekxycFJCeE1z0gHbAUFVX3lxTE1KX0ktb0RjSjVodERjdXUtOFZrM0x5TGpXQ3BrSU1aNFVqd0JJTWdRR3YxelN2VVB0U09KeEFTbHU4TWZnQW9UbE9BcmY2UzAycjI4dDVkU2YycmtNam13RXNsZEVsVkZQaWpwNnl6YWF6d2Z2S1FDX01sdmJIbUxEN21pZ25lajY2d1hTQUYxdXlGTWxyS3Fra0ViYk1zSFhxQjU0SDVMTHluZWVLUy1oVXBNcHVkSXpHbm12d1VWamlhTG5XR1dYSFdIdXlDRWo0bjBnajl3TG80Yw?oc=5",
+      "source": "WDRB",
+      "published": "2026-10-15T22:38:00Z",
+      "summary": ""
+    },
+    {
+      "id": "a1024918330a",
+      "topic": "branding",
+      "title": "Zendaya Is in Everything. Why That Would Sink Most Brands",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPblY0Zi1JeWJDZnVjQVJDWXlqUzNWMmkwRDEydDlyUmNtQUUwamFsMDIxaGJzNnlIQXFkSlhoWFlqdXd0UkUzX2JfLWR1NFFVMk9xbTlzQ1Rla3pPbWhsM1VrcEZkTllycTdVVzlnRlVaa1JSMjVyZFJLWk05M1Y0YURLR2lDMEZYaDM3UjJaVmZWWjQ?oc=5",
+      "source": "Inc.com",
+      "published": "2026-10-15T21:29:32Z",
+      "summary": ""
+    },
+    {
+      "id": "21969038d881",
+      "topic": "accounts",
+      "title": "onPhase Appoints Jeff Zamczyk Chief Revenue Officer to Drive Growth",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS281V2wwOWotMmgtcXhDSkdFTGpqTUNncmFmb0NrYUd4dHpKMlhubUtTeEtUM3J2NklBOTlLUzNlQlVidklwZFpyOGYwWlltVFJIQ3JMeXNXbjZTanoxeWtMbTBwelJrZVpBUzFfN0x5bXppeXRLVlpjeTZPWjlDR2pOTWVsaWtIS1V2aldjTE5NNE14M1VrbnQyNUxUM0VoaWxtSjNpMTJrNkZPeVFSalBjbGc2bGRKZUhRcGVhOXp3NlVQ?oc=5",
+      "source": "citybiz",
+      "published": "2026-10-15T20:50:58Z",
+      "summary": ""
+    },
+    {
+      "id": "fc976b50115f",
+      "topic": "performance",
+      "title": "Cohen & Steers’s (NYSE:CNS) Q3 2026: Beats On Revenue",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaVRfT3ZRRlJPVmV2bjM0NHhLUWVYMkhuUXR2aGg1VkIyQjhtN19lMnZlZzg1a0xmTWxwOS1KZjVpTlctaGJoY1AxU3JKekl6VUd6UnYwQ1pQVVduV0dGak53VWdoMk0tTUczUjk0dTM1MjZPZ0lwQkVySEFKbi1Ca3oyeFVpM1NTOUl0Qk9ZS2M4NmZLeUF5TGxwV3paRjhtLXZUNXpEN1VvWnRoemc?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-15T20:30:30Z",
+      "summary": ""
+    },
+    {
+      "id": "50c87e25aea7",
+      "topic": "strategy",
+      "title": "Hyundai Motor establishes new robotics business strategy team",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE52T1RITl93TzJtVU5LT1pXWVhDWV82eW1EaERrMHlFR1JHOG5EaE8tUkZIV2EwVm5pZE1jZVNCVGdnQ1J4U2k2V253M2t1XzJMUGNSQTZzOFFjZWZCWk1ia3p0Zk12bVh5eGZ4d0JseEQ?oc=5",
+      "source": "머니투데이",
+      "published": "2026-10-15T18:20:00Z",
+      "summary": ""
+    },
+    {
+      "id": "1edf9971cb0b",
+      "topic": "executive",
+      "title": "2026 CU Times Luminaries Finalists: Executive Leadership – C-Suite ($1 Billion to $4 Billion)",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUFqb0YyVVo5Z0JyZTBPTC1sVm1Dc0FqVE1sd2RUVUJHeDlCcG5aaWk5OU91VkI4a1RPZ01hOTd0cmMwUll3SHMxLTkyQnhxRXdJZnd3OUtKUmNYaGV4ek1OU3puNlcwek55NzFBV0FpcnZuOHY3T2xKd2I5ajJtOGVPeGVWaW15TlR5bEpIV1YweWlVeU15bWlDU2NBSXpSM0pmQ3BBVUNITnZtWUlLbmpOR2czN3ZkM3U5dWVRNA?oc=5",
+      "source": "CUTimes",
+      "published": "2026-10-15T18:01:00Z",
+      "summary": ""
+    },
+    {
+      "id": "bb9fc801b8fa",
+      "topic": "performance",
+      "title": "BSRM’s profit grows for third straight year, up 14.5pc in FY26",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOHJMVXNqbGRVcGJwUWQ5b0Ric29aWEVGeGU4Z1ZhX1pXUnhPN2ZsX2tNNFpreW5BQVZhakktZkk0Y2RUNk1jcGdTQ1k1cERPRWItU1BzMWlhYVR1U1FuV2ZKaGNtY1JtdGdXMEZaS0NtUngwLXhCdldmTERFRTBLMjNYYVMzUm1qM05waXlRVTlZRlpuakhncUFkZDBrV3BRZnZSWTFWMmhkUUp6OEJFcHRIQ1ZJc1lleVZpT0VKMXJHZXJNY0RSMlRvMjZFSS14LVHSAdIBQVVfeXFMTzhyTFVzamxkVXBicFFkOW9EYnNvWlhFRnhlOGdWYV9aV1J4TzdmbF9rTTRaa3luQUFWYWpJLWZJNGNkVDZNY3BnU0NZNXBET0ViLVNQczFpYWFUdVNRbldmSmhjbWNSbXRnVzBGWktDbVJ4MC14QnZXZkxERUUwSzIzWGFTM1JtajNOcGl5UVU5WUZabmpIZ3FBZGQwa1dwUWZ2UlkxVjJoZFFKejhCRXB0SENWSXNZZXlWaU9FSjFyR2VyTWNEUjJUbzI2RUkteC1R?oc=5",
+      "source": "The Financial Express",
+      "published": "2026-10-15T18:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "4db45f0b1345",
+      "topic": "enterprise",
+      "title": "What is outbound prospecting? A practical guide for sales reps",
+      "link": "https://blog.hubspot.com/sales/what-is-outbound-prospecting",
+      "source": "HubSpot Sales Blog",
+      "published": "2026-10-15T17:15:05Z",
+      "summary": "Outbound prospecting separates the teams that wait for buyers to appear from the teams that go find them. According to Belkins’ 2025 B2B Cold Outreach Benchmarks , average cold email reply rates sit in the one to five percent range, while top-performing teams hit 15–25% by…"
+    },
+    {
+      "id": "8df71858ea90",
+      "topic": "enterprise",
+      "title": "ATS names Mike Omann vice president of enterprise sales",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcFEwZFZzRmtxQmRGelRWNWFHVndRcHc4STlIakxBTTA1S01EOV9qVnlNRVlhdzltRGFSbWZNaVhmbzVPU1otajBwVjBHeDBmSVpVOGh6YlFRa1lPVWF3Y2E4RVZUODN4UHhsTGlNWEEwalh6Qzg5aTMzajQ5Q0syaDYxR0ZkZnYtLTRwTmhKQW4wN2RHc2ZndzVQR0lTUGNlUjJObUl0YmM?oc=5",
+      "source": "TheTrucker.com",
+      "published": "2026-10-15T17:10:19Z",
+      "summary": ""
+    },
+    {
+      "id": "f985dd3eb483",
+      "topic": "enterprise",
+      "title": "CRM buyer’s guide: How to choose the right platform",
+      "link": "https://blog.hubspot.com/sales/crm-buying-guide",
+      "source": "HubSpot Sales Blog",
+      "published": "2026-10-15T17:00:07Z",
+      "summary": "Choosing a CRM is one of the more critical software decisions a company makes because the right platform can significantly boost revenue, conversion rates, and efficiency. 83% of marketers report increased conversion rates in HubSpot’s 2025 Report on ROI . CRMs hold customer…"
+    },
+    {
+      "id": "4599de460968",
+      "topic": "strategy",
+      "title": "Shane Gillis’s SNL Joke Sparked Massive Backlash. Why Outrage Is a Dangerous Business Strategy",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPXy1nOGozdXZDdDhRcWtuRXd1dmpaRGhqalo3dGwtb0Zoc0s2RXJyZ1pCemd2Zm9LWVZXeWVRSlRuZEZLUmtlR0pUa014OGtNTWpNUkQ1WkZBUWplZkdYOW5yTks2Y25xY1l6Y041VVlhWTQ5anFucU1ZQ3Z5bGtlNDRiNmIwZThFTUpFdnp2a3phaW9iRlhBclhDOU8?oc=5",
+      "source": "Inc.com",
+      "published": "2026-10-15T16:51:45Z",
+      "summary": ""
+    },
+    {
+      "id": "c157d12de5d0",
+      "topic": "accounts",
+      "title": "Did New Industry Templates Just Shift BlackLine's (BL) Investment Narrative?",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcjVXeGkxX2xNNnNfdWlXeDhKNnRFcDVNVlRIY2tLSWtOU0VLdWxGRTltSjZyYmowWnZ6TEgwMXJUUjNaN3RycjY2QW9jV18xNjg2Mi1VMEhNNXZiMEdjNmtkYmpVcVVBN1JES2dCTnA2cUN0TU9seUVMTll3V3c5bUhtN1JsVFhsQXBPRlBqUF9xbjlnWHEzRFg0RlR6U29kV2hHenlRZDl6cV93QVR2RXlfOVY0ZWVwclh0ZDlfLXFEdmFx0gHKAUFVX3lxTE83NU02by1tQUt0bVRaR3JrMS1QZ0lkWDlELVIxa3ItbWYwakFPME1SVzdKSWFWYlpXdlJkZjdBU3kxX0paM000TmE0eGFXdmw0WWoxc2lMUlRNRFc4Smx5RWcwWGQ0RHR2N3pGY2pEay1Ed1RmSXFKMS1ZXzJHeVZuRVpBWGtlLVRGMlpncHpJOFdPbDg2Q3ppbHA3N3E3YVpaeTdMWDhISHUwemhNWW1UcFZxbXZvWUF1RVhjOWFqWnU4dWNETVZ4Z2c?oc=5",
+      "source": "Simply Wall Street",
+      "published": "2026-10-15T15:41:14Z",
+      "summary": ""
+    },
+    {
+      "id": "b78c874deddf",
+      "topic": "branding",
+      "title": "What John Deere’s 200-Year Evolution Reveals About Building a Brand That Lasts",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnZKbFc0bFlYYWZxYm01Q3cyMjlZcnB1ME1YUG5OWUJkdlVURmFzd29SSTczT19QejJOeUJJNHdRT1JmVXVXM2lzS3VqdnY4S0tCRmlldzVmdGc3TjE4SjFseUVyUEp2aGVWZlQzcHJrR2o3eExPaXUzako2V3J6cjJZM1RrUDdfdnp2MkZiYS0?oc=5",
+      "source": "Inc.com",
+      "published": "2026-10-15T15:40:12Z",
+      "summary": ""
+    },
+    {
+      "id": "9c22284e0995",
+      "topic": "branding",
+      "title": "Why Dove Men+Care tapped into fandom at New York Comic Con",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdlN5U3VDOFVmQWJqcVlRVENvZkFqZzV5YjRPQXpOaFZmM0V0bTU4b3RzUGdGT1Q2YzFxLUdnRndJX3F3LTc0Zl9oZnRPTUV5eV96X3ROWHBDOEF5S190SFlNMVBXUHg5eGJkNXRHZE9fY2tvRkg4ZU4wRVRsS0FHdmJrVWZ0NF9DbFB4dURmWDJPRFE?oc=5",
+      "source": "Marketing Brew",
+      "published": "2026-10-15T15:14:34Z",
+      "summary": ""
+    },
+    {
+      "id": "6fb8fdcd5c83",
+      "topic": "branding",
+      "title": "Purple Space problem solving",
+      "link": "https://seths.blog/2026/10/purple-space-problem-solving/",
+      "source": "Seth's Blog",
+      "published": "2026-10-15T15:03:00Z",
+      "summary": "On the 19th of October, I’m doing an open Zoom call for members of purple.space and those that might be curious about how cohorts and mutual support open the door to possibility. You can reserve a spot here. It’s free, but there are limited spots."
+    },
+    {
+      "id": "1d2719f57b63",
+      "topic": "performance",
+      "title": "Integrity Solutions Explains What to Know About Custom Sales Training",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMi1Wb1NQS3lvM1A2d2xIME1maWVfb1lkdFR2ZDM5bm1CbFVDQmU4d3NUcFNzX2FfRTd3RExYWWRzaURQUHdhMnF6X09XVjZKN040SWlBR1R6WlYzVUUwVnUyM0NkUS1zYm05bTlTNnNGN0ZnOGk0aWJkbnF6cUZrS1dXbWhSazdDY2t5UFhBUmlZLVRlRkU1VjhCY2V2WGVwRC12M2JDWE1wM0tQRUFiMXZ5TzdXcmNpTE5kbHdfOVlQLTlFYThGemt1M290dHkxTGc?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-15T15:03:00Z",
+      "summary": ""
+    },
+    {
+      "id": "a7287d266f42",
+      "topic": "performance",
+      "title": "Albertsons retail media arm taps former Walmart exec",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN2Z4ME9EWFBYN0QxbUJoZnZtU0lrWWtoVWRTTGZfQ08td3pVN1Z4MHg4cnQ2anp4OXI3WTMzNlFtbHBWWXRKY2NHbTZwLTNlWVJaTHcwd2FEUmJWdGJoZEp6LWRSbjFWN2JWVWlKTFJ6RUIxWU8xN3BzX2RkWDc0SnBwVTRSaGl2QUFySm1OaXg5cTlzZ3c?oc=5",
+      "source": "Grocery Dive",
+      "published": "2026-10-15T15:00:12Z",
+      "summary": ""
+    },
+    {
+      "id": "7ba10a7f786e",
+      "topic": "performance",
+      "title": "Intel Publishes ZUUZ Partner Brief on Agentic AI for Revenue Operations",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVldlUlVhai1FLVllcnBMX1V5eFEzM29QZmJZcFEwRzdUeVdFbmNzRFM0RFRDNFBFbFhXdGVNOG43RkFqSUtKLVB3dEtoalgyRUt6ekxFVzVydEpEMWRNTTlBOTg4S254ZUpxMzM3S0t3NmJxNU14WWVQLUJKcVhoVV82TVlOQmp5Z3VyX2lnNjYzdHhfcFA3OXljV2xsNy1FQmlhVnJvZnFwemtNNDk3YjVuVi1sTWpjcHc?oc=5",
+      "source": "EIN Presswire",
+      "published": "2026-10-15T15:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "138815935f4e",
+      "topic": "executive",
+      "title": "Akshay Gandotra Joins Meta As Global Marketing Lead, Business Messaging",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHUyenR3NHh5Mm5xS3Vvc3FUdWZOSkhOeThkRWh2Z3VMV2VqYUhUNlRNT3RydlZiYlZsbkFPSDNZSDNPMDF1SllGS3R0NllndkluNWFWSnVoYzYyTXNfeHZ6Q29SOGVrQlVxMFJ1eV8xbE9oZm1JUkVEU0ExU1FUTk03c1RWa3V4NDdVQnZXYkhuRVJDaUNuZ2pqWnFLR1ZwNE4wSDFOeU11NU9VOWlTNl9YRHNOVXlLNUE?oc=5",
+      "source": "BW Marketing World",
+      "published": "2026-10-15T14:57:43Z",
+      "summary": ""
+    },
+    {
+      "id": "d282a462af2e",
+      "topic": "strategy",
+      "title": "Singapore businesses can now leverage the EDGE Grant to support IP activities",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUWp5c2U1Ry1KWDNHWmdqanA3dmV4aVlOOGVIMlRDeTAtQU1VNDJKSFdfMzRJUk9JYlMzMHpqS19hOXY0R1hENmdjVmtpRHZkaWs4eGtsWl90Z3RXanZwM1E1M244WWhtT0lpdTBaRWRpVEJlQUEyYjBaWlRTLWN1djdmUkE4eDdqNkRn?oc=5",
+      "source": "Lexology",
+      "published": "2026-10-15T14:25:03Z",
+      "summary": ""
+    },
+    {
+      "id": "c94bc35e9f41",
+      "topic": "branding",
+      "title": "Rishi Tanna Joins NAB Innovation Centre India To Lead Communications And Branding",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT3ZKWmRxX00xVG9TNWZ5TVVyOFRwQVZZQV9tTXBrdHh4MG1CdU9YYl8xZmxYQzAtVzFEMV9rekllWEhwUDlZVFpMOVNZOHBfaHVGY3Z0V0s4LUpSeGNvYnFaVDZITHh3OGZiNkdhZklmTVZINE5wMkVqTkJmOGJUSmhpb1dNelV3VEtfN0ZuUnRrdG5POGhicmlYMFNVX2tFR0lPc2dXdUVLX2w1dFdERnVTMzBvOTlfZ1NadXMwakN1ODBGaE1qVnFMYm94aDdDeGdmMg?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-15T14:01:19Z",
+      "summary": ""
+    },
+    {
+      "id": "394970260622",
+      "topic": "strategy",
+      "title": "Booking.com predicts travelers will go off-script in 2027",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHpEYUhWeEpPYnBwU1AxazNFNjQ0R1lWS1Y1SkZLakd1eG9Jb0hIMUpMNjJhZDVOcHhZWHlvalB6YWIxalFRaHQ2ZHVualVqUl9MNkNQbFFqX0djZDdNRzNnTkpKdlhveHp6c29Fd080QlNwR3RYa2R6RHRYMEYtLVBVUnQ5QmhyYWhfRVc0b3B2dzdIa1A3cXVxRlQxSi1C?oc=5",
+      "source": "Hotel Management",
+      "published": "2026-10-15T14:00:28Z",
+      "summary": ""
+    },
+    {
+      "id": "2f243f41285f",
+      "topic": "branding",
+      "title": "Authentic Brands Group Appoints Lark-Marie Antón as Chief Communications Officer",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRdXBhWHVCMEhHVzZVemVjcl9oRU1HVkJWbmVJaEI0azk0RjVZVVJEQlFoNVBwVW5KWjdYWks5aDRtMXlQNjJWblhHcS01X2ZZSVhFNWJ2eFRMWENfMURHOGw0Z050RFJX?oc=5",
+      "source": "WebWire",
+      "published": "2026-10-15T13:59:29Z",
+      "summary": ""
+    },
+    {
+      "id": "308eb3ea6b86",
+      "topic": "accounts",
+      "title": "FluentStream Partner Program Earns 2026 INTERNET TELEPHONY Channel Program Excellence Award",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBDZThkaUU2NUJoVmJZb25ybFFIN3VMTWRlRjRWMWpSTkxzT1llUWVCbzZ0RzZHQjBEUm16bVZQS1J0T25JRmd2SGYzWTlYNVBUR1ExOW0wS3d6Nm9LVFZXV0E4YWExZlpp?oc=5",
+      "source": "WebWire",
+      "published": "2026-10-15T13:49:34Z",
+      "summary": ""
+    },
+    {
+      "id": "7d0c8799ab94",
+      "topic": "performance",
+      "title": "Volkswagen global sales plunge 14% in Q3",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR0tMQVlFTVNBZm50MzBDZnk5bm5vbC0yVnVtSTF6MzVsMXg3SWVOcWZHNEkwUnRFSHFNalNfZ1BzY0RtZ1p1QmVaOHFCMWMtYjkyV2trMkJQTDB3cUE0c3VSUldfRjBzTU9rTkZMOXRXWFhsbkIxVUZmcUtVbHdpbGNMaXJPYWc?oc=5",
+      "source": "IDNFinancials",
+      "published": "2026-10-15T13:40:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9957ea64bf05",
+      "topic": "accounts",
+      "title": "Dynacons Systems & Solutions awarded 'Spirit of Partnership' at Motadata Amplify 2026",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcy1pcS1mOU5KbHQ2UnFueEhxYl92UDVNakxJbzM3MmxUcjk4MnhJcjhtT3BXSTNBaUlua1MyWkUtcTd2T0RtNGxlUUt5dHhzZ1RDWjVPdUpFV1czUW55YnJNdDNjcFRJTUJfS0pzTGZjenByQnQwRkZuc0dEUk80c1dpMkI4MWZJQkN1bl9ZTlhONHZ6ZDJfRFExc3FMdFp6QUlaaWNzejNfTzM0RXdjbzBRUjBJVXRuTFhHOW1VUQ?oc=5",
+      "source": "Business Upturn",
+      "published": "2026-10-15T12:59:27Z",
+      "summary": ""
+    },
+    {
+      "id": "7a1fa7c5646e",
+      "topic": "accounts",
+      "title": "Vertex Delivers Enhanced Value to Customers with Vertex O Series Tax Engine for Oracle Deployed on Oracle Cloud",
+      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQek9wTkVydnBpQ1Njem9lSUhKX00yZ3lpTEg3TTZ2SE52RXIzZk5KMGV1aF81c2JLQjgydmFJSDloamdUVl9rYTFxaUhUNGRYYVY4TmdnYWxsTnNlZTR4MmZIMTY5TGsxYk1aMzJmZVA3YXpFRkFZMnhpZ0JlZTJpVzg2SG1tOEEtR3BDWUNjT1g1MVZTcG1XZW0tc3djbFk2clVyU1JOb0RNUUQxOUc5My1QSlY3MzB3REdnQXAxcHJwcm5HNmR5MnllRlE2RG95UERtMTVSZGo1RjloVmNGZUVfWXdJN2F5azFrSk1ZMll2X1MyOFBnU3JZVHduUTl0c00yNUg4Tzhmd3B0ekhOMEpPZ9IBmAJBVV95cUxPY3hxMXI3MjJiYWpHbGc0Z1Z6Yk9PWXhCZ0EyQUNzOXJNU1ltbUtEaTU0OUlkTnlRQjdpVVo0R1FicUxhdEhIeFEzOURyUWhKWE5nWm9EUEVqekc4bG9yajM5RzA1OThiT0h4VjVmTTdpMjlRd0tFSHNudUhrMEdYQkQwZEJmWmJpRlI5MW4xTXlKMmc2Z1FxWFM2OWRnNTU5U1F5SUtrQUtDeDd3dTJHSnQxb3BQYlJxZHpuSTJ3WWhhVWZNZGVyOHZLYUxPa3dPYjZHT3RiNFBRU0xUd1dyZGlqTVU4b0c0b1h3dmdBLXBaR0NVYUJpdE1TUVRFT1VQNkhqQzZ4TWlkUzFUMmJYaXZWSVFPWm1t?oc=5",
+      "source": "The Manila Times",
+      "published": "2026-10-15T12:19:22Z",
+      "summary": ""
+    },
+    {
+      "id": "edb6127a6e9e",
+      "topic": "branding",
+      "title": "Student Spotlight: An FSU student’s path from Sneex to startup",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTFWVng4bTZNdWpCTUd4bHhEZUJGLWRwQU5rNWJYV0ZLS0VFdlpuUTA0NWJEYk5iS0o4dUp6Q1VYS19OamhrTVA5Z21aMHJmMU1tSTFfSDRHVzh0cDA4ZVlYQTFJZ3NEaWIzcUtiSnJITGdMeWlveFVQTUdVSFBYejFmaVh1aGIzeHFjR0ZUTWZnenE4Qkl1cVo5aWlyMTVzSjdCWENNaDh5VHJhZFBpcVlyUGZhZlVJOGc?oc=5",
+      "source": "Florida State University News",
+      "published": "2026-10-15T12:00:51Z",
+      "summary": ""
+    },
+    {
+      "id": "3c9eeb06805f",
+      "topic": "strategy",
+      "title": "Why Talent Acquisition Is Becoming A Business Strategy, Not Just An HR Function",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZERZQUpTRHZUeTZoM0p5WXBPRDZqWEk5VEw1WGplQm1qQ0JZa2p5QVpzZkFzTDVscW5fVklaSzV1dFE2QmtaWUEtZk9NX2syRFVLTkxxcHlhYmdJR1lycUpod2pnXzRTbXNUX2FXUlR4ZTNnNV8wVHg0WmlkN1d4Y01DQW9KZmZOU2tReU85aUFxT0RpMEpyTHROUFB3aXdzUXFEUHd4QnI4eHVMWEFJUU0teks1S2dnTzVaTkNvU2l5dENLZTNaYzVB?oc=5",
+      "source": "www.outlookbusiness.com",
+      "published": "2026-10-15T11:54:44Z",
+      "summary": ""
+    },
+    {
+      "id": "4421440c9ee8",
+      "topic": "performance",
+      "title": "Marsh (NYSE:MRSH) Surprises With Q3 2026 Sales",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ3NKNjN5Ui1SYmFPMTM2alh2dU9kOFRQMnF6V3JFQU9vek9EZlQxSVYxOG9HZHdjQXl3VUhKQS1DN3g5M3VhYjNUV0xHSWFzMVpkWmRDWkozaG9aZmdKMXFWVXA4emJuQ21RR1l2ZlJfWm9SQUhPSjVQUVRzRTNIWE1rSXg1RUFoRGgtUlhPcXk1NWo5WW1RV0JxdlIzQUhEUHVJY1VJZEZ6dw?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-15T11:34:00Z",
+      "summary": ""
+    },
+    {
+      "id": "600496bf42de",
+      "topic": "strategy",
+      "title": "Optimizing, not abandoning: How streamers can earn a core spot in consumers’ entertainment portfolios",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcVBCVUVxWjdyNkp6VkxIbVFnS0hqS05rUWc3dDRJN2I5LXdwWDl5VVJsdFU4VG1vRlNId0l3XzN5VmxrMGF2Nlg4OUZ1YlBSRk9RaXM3S01TX19uQlFIMWM4bC1iX2psY1c0S1VWR2lGeDNjNmVJOEhZZ0NHWHFEa3NrMjB1bFBGNnlwME1sZVZZZldKSjFNSw?oc=5",
+      "source": "Deloitte",
+      "published": "2026-10-15T11:15:03Z",
+      "summary": ""
+    },
+    {
+      "id": "81415f7e6f4b",
+      "topic": "performance",
+      "title": "Sales weakness seeps into new financial year for Pernod Ricard – results data",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNHZJYzludjg0M3V5a29zQlM4LWhTMjdkQ1dMZUY3UWIxdl9xcmR5cmRic3p1c2dvdGFjTjZFRlItNUJNYWV6MDJaX0VWU19FNERaa19rakhvUVN3cGRLRzJGYWUtd0dvU0I0RWEzZUhwTjVwUkJ5amctb0duTjBGOWM1TFFlMkxIZXhESTFYUnU1cTNXVWQ2QzltVW9nOHdHdm9ldnE2N1B1MmEyODQ5dkE4aDUxcWs?oc=5",
+      "source": "Global Drinks Intel",
+      "published": "2026-10-15T11:00:42Z",
+      "summary": ""
+    },
+    {
+      "id": "d786c4b40c83",
+      "topic": "accounts",
+      "title": "Basware scales professional services with Kantata's AI-driven PSA platform",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNGlMejZ6VFVna05RempHdEt5ajN4ZkxXa0xibmZUNnNES0Q3NktHbFJ3Zmt3U1h1QkxUOWI2d1c0QVdHWTBiYkJ1aVZiUzRLWHdyUnQ4aEZhZjd3VUtIVzRadTVTbHBuOXVZOTlYNDYzeS1SakNLM3FFa0JUSGdrdmt5eVJYMW85dFp6anBIYk5pWTBWTkVmWDRFdzJGRExHamRvYk5yOXhidmp1dEhyWEFOYw?oc=5",
+      "source": "Data Centre Solutions",
+      "published": "2026-10-15T10:53:07Z",
+      "summary": ""
+    },
+    {
+      "id": "918ee512a5a9",
+      "topic": "enterprise",
+      "title": "2026 Rising Star: Dan Federico",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5TakxkWFZWSDlPZWxoSC1mU0U3ZVdyTWV4ZWYyVkJSNjl4MDJtQ29PbUt2SjZtOEduMDFSeFVEQ1hwSGRmZkJGM3prbXdnT0RPNExEVnVwcElrWXV2ajZRUDNNUGwxQWkyRU42UDFpNDIzSjlZclN5ZWhOeUd5UQ?oc=5",
+      "source": "HousingWire",
+      "published": "2026-10-15T10:42:47Z",
+      "summary": ""
+    },
+    {
+      "id": "4f92f527dbf4",
+      "topic": "executive",
+      "title": "QualiZeal Appoints Sunil Upadrasta as Vice President and India Head, GCC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTGFfUURUeEhUVGxiTk1PTE13WjRrTkM4Vm1LZnBjUDMxTHJrLUlHM2F2WkwzM2lhQ2JSOHh2d05jU01PVUlCRHZKVTZXNVJOS056WUNzX2xtRXYyOWd1alQ3WUVpbzhJYVV0dElERmRkR3p2MUkta1FUTlBjQkVhU0U0a1hXMG1ubEpkZTBPeHJPS0thSTBWVmRDN0NSaTg1MmtMN2FjVQ?oc=5",
+      "source": "CXO Digitalpulse",
+      "published": "2026-10-15T10:36:23Z",
+      "summary": ""
+    },
+    {
+      "id": "84b5a0246e7e",
+      "topic": "branding",
+      "title": "Business News | Strat360PL Report Charts India's Path to a Deeper Electronics & Semiconductor Industry",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMXZ4V1N6d3dweDJwMUozTFpyaGd3UVliOFQ0WjdRbzhIeUtvMFdqcHJWN2hYWVJCTXRKeVZQWGhDdGVFVnF1WE5OSzZkN1FYUkZ2cXpVS281bHZyOTdlYnVoSTdycW5hNkd0RjlpWHQwYTdrblhLV3RqM2VEUWlZemlkX1h2YVBTU01Gb21NWXN0dVp0WGNMQ1UxN3AtaHhNTVRzdXJjd3ZfdmRWcW1na3ZYY09HYzdQWC1zQXYxTmpzYS1FUjVMZTJselNfelU1alhrZTJPSTRWUUxTR3BwWNIB5gFBVV95cUxOU1hkdTVYRU91akxRaHk5N2szb0ZiUHRlQ1dHdUJNX3JUWm5DcjBudlYzbDUwUkllTmtDWDhVODdTUjBjNXE3dmJMRXFRTVRVOG5XSEluTEJIemtoaVRkNDh0SHZaajBtekxZUHNERXllM2dDWW9uTFJQdDRJdUlDRzhkalBaVnZ1QldQTlViTFVoS1RTSF9vLTR4bmVPM0hVZnBncUxxcVg3UWUzTlJrOThiNzdYNVBfMXUtcjFZWW9zdU9xQjdwUG5JMFBZUkRoNFFaUWR0d0pkTWI1UlJ3OUl6R2pTdw?oc=5",
+      "source": "LatestLY",
+      "published": "2026-10-15T10:08:26Z",
+      "summary": ""
+    },
+    {
+      "id": "9a11e8c6b774",
+      "topic": "branding",
+      "title": "Addressing fear",
+      "link": "https://seths.blog/2026/10/addressing-fear/",
+      "source": "Seth's Blog",
+      "published": "2026-10-15T09:03:00Z",
+      "summary": "Don’t bring a spreadsheet to a fear fight. Change causes fear. And change is all around us. The fear of the unknown. The fear of failure. The fear of uncertainty. Mostly, we’d like safety. And when the world changes, safety feels like it’s in short supply. One reason we have…"
+    },
+    {
+      "id": "67a3e023079f",
+      "topic": "accounts",
+      "title": "Salesforce Pledges Free Slack Enterprise Access to Millions of Higher and Further Education Students in the UK",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdWxVMmVHTFppOXYwWno3SXZpbW9CWlIyeFFwS3lEUlVPNVRTTW5BWUpQTEhMUDhQc2NJaEppMjh0OHR1M0hvbTUtMnF4ak00amx4anVlVXFfaW8zZDIxRVY5eVR3Vm1FU3k5QVBqbVJkcjdOT0YydkM5VXkxb29DeS15bkQtQTVuMzUydVJGMFpTQWFR?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-15T08:35:11Z",
+      "summary": ""
+    },
+    {
+      "id": "eb7846fe9de4",
+      "topic": "accounts",
+      "title": "BMC Helix to address Enterprise AI and Automation with customers at Dubai roadshow",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNX2ljOGNValQxTHJVd3ZsMm5OakRKVkhjanY0X2VINkpjMHBISnJwQ3Ywb2QyelZDWGt4dTNDLUxiUHRVbWNlSTJ4em5JU2JVelN6OXJTVkdMQVhmNUpXVmNlQjN0TnpZNnc5TzlaOWhiVTlWTzVmWDBocnhFUVo0bl9pU0paS1RwMGdQS3RFVzI5MDRtSEwxd2dNd053VGNUTll5cFdhZGdxQlQ5R1ZmWVpKLWxlNjljbU84NDVGUWhmanhHSG5IT0lLUzk2OWcxUURreklicDhYUUtM?oc=5",
+      "source": "Zawya",
+      "published": "2026-10-15T08:20:00Z",
+      "summary": ""
+    },
+    {
+      "id": "3accdecb218b",
+      "topic": "performance",
+      "title": "More than 60% of Rehda members hold off on 2H2026 residential launches",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdzkzRHVmTF9wQnNuSUkxcmVLb3B0MzhLLVp0RWsyY3lMOE1wWnRObWpfNF8tcVdWZWMzQ3BnSHFodWNKcUJ5cHB2QlZYMVg3WGtXUklXMjJHejJ1QmRtQUhvMDFBZEFZcl8tZmZlbmVndjVfVDI3dDkzUFJlSFB4WXVuUHlXTGprR0hMSDl2Sjl4b19ZMEtiY2dmNlUzZjRXSjZpdjREVlBNS3VxN0xPUWd3U1Y5UU9WRWRZ?oc=5",
+      "source": "KLSE Screener",
+      "published": "2026-10-15T08:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9e3bd90697a7",
+      "topic": "branding",
+      "title": "IDX hires Adam Holloway as Chief Creative Officer to drive multi-market content and brand strategy",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTlRwZGkxUUNTcTVhOV9yejRfeUM5R1libnhoeFE4ang3cWV1dUdFMVR5ODA3ZEN2R25DVm1RT3MwemZpTE5LUHhTM0t6VklmNXRUcjR2YUMzeG5MRlE2bnNCZW9PMUExb3V0cEF1b2ZyZ0dFR1FnWF9wb1BVeGszNHQ4UVRscmZyVVRyRmVxX1E2NzRkVjFfYWFURVdvdlgtdFh0bjNzYkN2ZzhCakpuaTczVE1OOE1SZ3NlT3oxZjhsdWNQTlhaZ2F4b0pHZGRoUHdwdWpzN1d1V1NpZVBCTS04MjYxM1FNOWc?oc=5",
+      "source": "PR Newswire",
+      "published": "2026-10-15T08:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "bbf00703be54",
+      "topic": "branding",
+      "title": "NAB Innovation Centre India appoints Rishi Tanna as ED - Communications and Branding",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdnJMOFM4dG9xU0dGMThXNmFJQzk5YjJWakp1VFloZlNCOEFsemF1T05kV2ZGdG9xN2JkLXYzeVp5RGVaUnVENFRjUlQ0eEFaVDQtNzk4N1ItZkdRR1B2a21UQWdfUjltNnMwbGFMWnZLNTl6RC1oZzdVUnJ3TmktSC1UQl8yMU9ZV3BKOVl4ZjNMSnJjMDhpclJoOHRqVzVsOXdkNkZPYjhXeVpWbXpUQVY3RnZ3em1Qc0RuNEpaNnZXQURNejJkOVVfTDhOREkwQmVGNWZqT01uVHJUd1kxRXdZQ0prMHVDX0M5dmtkUmRqbnc?oc=5",
+      "source": "Exchange4Media",
+      "published": "2026-10-15T07:49:48Z",
+      "summary": ""
+    },
+    {
+      "id": "831631a7e75e",
+      "topic": "strategy",
+      "title": "[OFFICIAL MEMBERSHIP Exclusive] Announcement of a Talk Event Featuring FC Tokyo Global Business Strategy Advisor Hideto TAKAHASHI | News | FC Tokyo Official Website",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CVnJaYndZTFpicWJoVWdwdlVSLXJZd2FIR0lRbXdQM3liNWFqS3J3RDNHWkdPYWxsNngya2p4ekZaS19NVHpESzdMTzB0ZXRGMXhIdkhWSl8xdTlBX1E?oc=5",
+      "source": "FC東京オフィシャルホームページ",
+      "published": "2026-10-15T07:43:47Z",
+      "summary": ""
+    },
+    {
+      "id": "bde6d227d8ed",
+      "topic": "strategy",
+      "title": "VesselAI shifts to neocloud, targets 200,000 GPUs by 2030 in South Korea - CHOSUNBIZ",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdEptNnZrSTZKc0ZiWDlmNWlCVVUtV3FKSnRiTGxpMnd5WTZMM0VlUUhmOXhkeTFpeTY3VFVVZXdMZDZkc25xdXZQZFlETnpVTmJtUDZrcTNHdkxwWVRtY2FhZUhTTGlIYjN3UEYtZC1uYnktQ1MyU2V4Q3c2d1VJb1p2eV9aQ04wNnl0eW9n0gGOAUFVX3lxTE10Sm02dmtJNkpzRmJYOWY1aUJVVS1XcUpKdGJMbGkyd3lZNkwzRWVRSGY5eGR5MWl5NjdUVVVld0xkNmRzbnF1dlBkWUROelVOYm1QNmtxM0d2THBZVG1jYWFlSFNMaUhiM3dQRi1kLW5ieS1DUzJTZXhDdzZ3VUlvWnZ5X1pDTjA2eXR5b2c?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-10-15T07:40:00Z",
+      "summary": ""
+    },
+    {
+      "id": "78996ae90778",
+      "topic": "accounts",
+      "title": "UAE Business: Cvent Accelerate Dubai 2026 highlights AI’s role in event-led growth",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTG95WHZFQ3NaZ3I5clJZS2toRGZXTk5CUG9xYWZxLS1fWmNSdFdYYUVFTjRXYXU1N3JMcnhLZThKNG5PT21rWnV5Qjd3T1J2TDdRYzRxWHp2MzU2YTFVcEN0RXBtVFAxcjdYSkFsNGRBUmFPb194ZHdyYVVNTUFVQnAwdWFqMGFnZGdENm9FdHpld1ZVWVBocENLMXh6elZBelMyeGxubEJQSW16Vnl2cVBEby1pMWJkNUE?oc=5",
+      "source": "Gulf Daily News (Bahrain)",
+      "published": "2026-10-15T07:24:38Z",
+      "summary": ""
+    },
+    {
+      "id": "784f708b8620",
+      "topic": "strategy",
+      "title": "KN Holdings is committed to sustainable development, from ESG to a diversified business strategy.",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOXdPZDlVNkRvRDN0U09aelZLNkZhSndyUml3dFBMcW1jdmFnVjI3MUg5Rlc0anBHX2hwQWVnMmdKMGdwcEpsNllMOUh6bnZXRWF5cjVYX2k4RzVKUzdRNl9WSC1tODg1N29IT1l2M0FMNHV1YUQ0d2NHdE9yNFJaUEwwMG1NVWdPWXctY2l6ZDUzRWxsT2xBdUh1QUlDdjRVa3ZwN3NyR3Rid1U4Z2c?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-15T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "68f3cfbde449",
+      "topic": "accounts",
+      "title": "Working in Boston at the World’s Largest Threat Intelligence Company",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9icG02TjAxVi1UWDBmMTRWaXYzTUxld085Mk5INnc0bUlsdER4OEpaOGRZYVJZT1RmeVJkc3hWbjRsWHpyblh0enlrejdJZnp1NnRRSVR1NzQ0enhSd3lTUXNabw?oc=5",
+      "source": "Recorded Future",
+      "published": "2026-10-15T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "3828a33970c3",
+      "topic": "performance",
+      "title": "Apple iPhone 18 production may begin in November, hinting at expected 2027 launch",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcWpwR1J5cjgydkhRVmNGMTdFRy01a1VlNVJPWjhPUFVvZkNfN2s3eFJJTnJEbXRqVDZ4dERRQUJRc3RFZWN1LUNsaGJKVVJjVTV4T0JGeVVUdkFjNmxvTlFCQjJ3VG9PN0FtdVJsVGh5NHNNSUFjYUtGVXc5VXlxdjliNllaMklaUlphbzdDTk5pblI2TmZuUV9UejFZSGEzdXBZcG5kUmJSRTZKaExSNlU5VlItQTdkV0dDTmNBNFAxTmRwVi1RZTNtRDA0VjdnNjBnaDE0ZlRFZzJFa3lSUUhvMTBFR1BNZjJiX01DZW9FZ9IB8gFBVV95cUxOcWpwR1J5cjgydkhRVmNGMTdFRy01a1VlNVJPWjhPUFVvZkNfN2s3eFJJTnJEbXRqVDZ4dERRQUJRc3RFZWN1LUNsaGJKVVJjVTV4T0JGeVVUdkFjNmxvTlFCQjJ3VG9PN0FtdVJsVGh5NHNNSUFjYUtGVXc5VXlxdjliNllaMklaUlphbzdDTk5pblI2TmZuUV9UejFZSGEzdXBZcG5kUmJSRTZKaExSNlU5VlItQTdkV0dDTmNBNFAxTmRwVi1RZTNtRDA0VjdnNjBnaDE0ZlRFZzJFa3lSUUhvMTBFR1BNZjJiX01DZW9FZw?oc=5",
+      "source": "Business Today",
+      "published": "2026-10-15T06:54:58Z",
+      "summary": ""
+    },
+    {
+      "id": "b02a63e074f9",
+      "topic": "strategy",
+      "title": "[Exclusive] Hyundai Motor Group Accelerates Robotics Business: New 'RX Business Strategy Team' Boosts Synergies",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UOUxreGtvWWJMblpkTVhLN0FPY0lVcDhyY0Y5MG5JSXJFSmw2cVVkWUlPa0c5Y0NQUkJpYnc3eng2UDA4M2owN1lJUHQ4bUdKVjhrRVpSdF9neWRQWHI4b2REWjIyMEg3V2o2a1hTbk4?oc=5",
+      "source": "머니투데이",
+      "published": "2026-10-15T06:40:00Z",
+      "summary": ""
+    },
+    {
+      "id": "3be2421a0a19",
+      "topic": "accounts",
+      "title": "Asian Footwear Accelerates Customer Engagement with Salesforce for its Next Phase of Growth",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQalIwRFBCVEVxRlc1SzdCRmhFLTRYcnZ5WktJanpfTnN1cDk5WllLclowRy1RakcyUTg5ejluV2trZkFndm1pYXlnWmVYSklnZ0xXeEwzMTF2a2RBdnJFZEZTQ2phUWlSRXJWU2dRQ1hWYktPQWRJQzNoNHhhWFJaNVZ0TE5JX1NRNWN1RGMwSk9XNmNwblVoaEltT2JIX09jM0o3ZktaZ1BVNU0wLVdaeUhJRXVFRmpkWE5YOEpiMmRhV3Jic09wRTM5ejlpaXR4OC1zd080TVIzWXR0TUxNVVNoaGVUbHha?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-15T06:29:19Z",
+      "summary": ""
+    },
+    {
+      "id": "4aef62ce232d",
+      "topic": "strategy",
+      "title": "Rethinking corporate strategy in the age of polycrisis: Are Nigerian firms strategically vulnerable or resilient?",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOajZGNGtiNktUMFFsUzlHOGFhV0hyaEdtbUI1M01OOE9mN2JHQUFyeWxlMlVIMUJiellUV0QxRnNpTUZYWHBwZFVhb0g2UzF3eVU2V0RDWTdiUW56Y3lvWTNZbzdCYWQwMHN3czNzSUpxckpkMEtldnFVaU5HNjVOZXJsTTJQZDVLTzlGdER6bEEyVkZPNk9MRUdPRGlGUjZ6UnBLdU9FOEJoU050bmZXVXRjenI4ZjNaaVd0Y21HRm5OSDBYRTc2ZUtQczJvY1M0V1dJV3IyV2FQelVlNEJYcDFn0gHnAUFVX3lxTFBYWkpvSHVkVVBTUzQxcTdqWlltZnBKTjlTVHBJV0xRVjJNTUNseEp5SDBIdUVseHhrUU5samkwNXNiTVgtTEhIT1RvYk9qQjluWFJ1NTNYaGFvT1pCY3NGMzhMNm1EbGwyM3g4WkVRd0pSOHJ2blhMR1hNMEFDZGFWVTEyamwwTHdhM3M4WFlGamgyTUFPUkJnSlNiM2RiSmdIN0N6ZWhES3I5MVdnQUFZR3M4UFFjT19rOVBtN2JuVy0xbXBEb0FYLTI0U2NwQzQyR0FMbWxlSWI0VkdUUGl0VnJfZXhZYw?oc=5",
+      "source": "Vanguard News",
+      "published": "2026-10-15T06:08:26Z",
+      "summary": ""
+    },
+    {
+      "id": "0420e4ae90b7",
+      "topic": "performance",
+      "title": "AI governance, contract intelligence emerge as focus areas as firms integrate autonomous agents into ente",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQS1dDWndnZ2Q5V3hCckR0b0RBNnpBbE9BQ1lZQTl0RGJwMkxKazIycS1wV0NPWTJvQnk3RnRwUkN5VjJ3UlRycUZsaGtoSWdFMkhUcF84cnFuczhTNXZKbnhTN0hmTWtyZllYQ2FhRVNLQU54TllMRkZkZEFfMUx6ei1YaUZ3aFBkUkJpbHZoSWEyQjdCSzNvZjRWMVVwRGpvSHIyUU05WHF2bERVcUpWNFZUTlBJT0MxZWcxRkhFYUR6QVhsSl9oNUlZQjRhdEpMNzB2eTFFN2VqNnROQmRLMG5MTkJNbUVzTEFBbnBSUzVQZHNmemVicHRSWi1KaXRFUWNyemIxeGJ1VHBfTlpjaXgzUHZ4SGZEYlFWbEsza3ktWVBqUGFEdUpURnJmcTBv0gG2AkFVX3lxTE5qQWhhYVdodWpNWTVIWi02SHVtLWlaejJaMGkxTEViVElhX0VULUJwQ3I2aHNSblpMRkZHUG9lOTg1em1TOU9XTE5IYkQwTmplc0dfSlNOQjNmT2UzYnBybERWdXNGTFFCeHV1MHpVTkFaNUxSRFhkWEVOdEVBRWVNOU5JOHQ3b1JxT3g1R0xkQ255MEhvYTFjUTBYNWpXeDFKcGh6Y21RTXNMTWMydGlIeVgteWNpRmU2ckRhWWVoSnZnemg0UzRGMGI3ZkhpVjFrTkt6M3ZnOF9QS203dmpLTDZXaEZ2akhyQVd5T1lBNWE0OV9PNzB3aVY0YU9xaVllcUtsNzBoS21Tbl9BMmp1RXFib0FJMVZ0OGtabXRGOEhIQlhPUi1Gc1RQazlBa1hPQlZWUUE?oc=5",
+      "source": "The Times of India",
+      "published": "2026-10-15T05:23:00Z",
+      "summary": ""
+    },
+    {
+      "id": "2329b489c7ae",
+      "topic": "enterprise",
+      "title": "3 Cash-Producing Stocks with Questionable Fundamentals",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb2hnaXlxZDBhYUpkRC1XYkxJRGN2VVdUblZzUlF2SzhTWmF5Q0VDRGFtZGlrbjJFN2hjMkdCVEoxSGdzTExwMjVCeVNjM2hqY1RSQWozbGVEa2Z3UThNamJ3dG5BQ3F6MW5IVUZ4VVpyWXhHWFlwcVJRSjdCdGpfR1d4RktwUC0wX0JmMXVpTW1RUzUydXFLY0lJNmVxQXZiNlJlX3I3WjRkdzRNLTViTVlmblR2NnpjVEkwbEtrQkFOSFlnRTlF?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-15T04:39:00Z",
+      "summary": ""
+    },
+    {
+      "id": "dec7801cb887",
+      "topic": "enterprise",
+      "title": "3 Out-of-Favor Stocks That Fall Short",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWTN1aVBHZ25jcTJxMHYwdFZmYndCZFVMbGdYT2Z2dWN6UEFqTUM4YXhOTTVISDVhaEttbnNmNDFKYWNBTXFaanVJZmk1aTJDNGtqMDZ4ZHNnM1IxRDJNR2JnSk9RUnhYOTdILUdkMXNGUFM2YjEzUUIwbFFhdUljZ05YbVhBOF95ZXRNaGk3S0U5YW11UmhhZzNYamhCOUU2d2c?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-15T04:38:00Z",
+      "summary": ""
+    },
+    {
+      "id": "894827da141e",
+      "topic": "accounts",
+      "title": "1 Cash-Heavy Stock to Keep an Eye On and 2 We Question",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaW1ES2ZiU2oxbGdHZGFrV0ZvWEZEcUw2ZXRLR2dISTh1V1lzQ1BxSldrUzFTZkh2MEloa2ZmN3dwb2ZiLXBLNzNqOFdpNUVRcUlqVDN0LVgxNUYzaFFUOFAwdUdtckV1RjlpcW9VNHdoa05EYjFOazUweFRKWmpiOUZSV0dIdmM0YU8tS1JVb1RJY0d0ODg4M0U5RURPZkw5S1VaaEdnZGlzWXF4XzFpdXR0eWFRZ0pZ?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-15T04:38:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9a425ac6658e",
+      "topic": "performance",
+      "title": "PulteGroup (PHM): Buy, Sell, or Hold Post Q2 Earnings?",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOEVHT2dRa0pVNnFUOWpPaVpndm5rNlZONFZhX1NJTHZhandzS0IwaFBpTGR2TFlrNTI0QWdFY2laOURQQnNXdkpPYnBnWGxib01paS1wREROS0ctT0dUOUpzS292UUxGNWtBcXhzZm5XTXhfdWZRQzEzRE5VaXBiMGpyQkpaZnNWUDl0V3J2RE5HUE5IR2VvMGFkc2dqMHZQaHU4TldyY2hGa1VlUFE?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-15T04:03:48Z",
+      "summary": ""
+    },
+    {
+      "id": "25f47d64b1f3",
+      "topic": "performance",
+      "title": "2 Reasons to Like JBTM (and 1 Not So Much)",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRzUyWkJYUnU0V0c4YmEtMktoMG0zejNqTGJIWGRVNGNWSFRIWXdkYUdoZmhkV2FqVmJpaHh1T1Z5MkhvTWJ0Z2k1b29aYjB5a205M1BxN0tTNFQxRzcxR2dMZG9ub2ZwQTFGbEdzOXNLa0JoLVd4TUxoUVNwU1NKUHFpc1QyVU84N0JiWEZwVmtlWXdoYzljVzRtMUdSNkd4UTE4?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-15T04:03:00Z",
+      "summary": ""
+    },
+    {
+      "id": "2b38252201a9",
+      "topic": "branding",
+      "title": "IKEA sets boundaries for AI marketing scale",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE93bHhRUEdtNEhTMWZ2SUR0TmVTTlVMYVMxUjE0ckNvTmxYeG82NTA4a05TVUNLSlY3ZXdLS01sLW1YNDFoaVY1MnBIOVJoVGhtYlhqZXlwWVQtZ1lRX2pR?oc=5",
+      "source": "ContentGrip",
+      "published": "2026-10-15T02:33:10Z",
+      "summary": ""
+    },
+    {
+      "id": "f42e1d1c17e4",
+      "topic": "strategy",
+      "title": "Inter Miami's Global Expansion Plan Revealed: Messi, Beckham and a $250 Million Business Strategy Beyond ML...",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRF94aG9PN3k5Zk9JMW1oQXN4djVDMzVMOUswbW01OWJlampIeG9XTDdwVC1xWjJNcDNnRTJ6VzRISGtwVG51eVV0VmdhTC1wLTNtb0VhNkZDWERXVFBZalRoVDNvbVJjdVVNYmQtMlJNaW14dzJpdHpsZmkyS1pOMlFSR0tvcUJqdnVwS0hEdThTRU9EcWQ3TldRampWTG1HMGwxdUZtUDMyZ3RoN0N2T3J5NUlGdC1Fdk1yVjhDWXM1QUg4ZVJjOGRnN0o5SzJoN3FRR1RwUUl0S2NWR1NrNXdZcWhnOVNrMUdmSHdMbmtzUm_SAfMBQVVfeXFMTURfeGhvTzd5OWZPSTFtaEFzeHY1QzM1TDlLMG1tNTliZWpqSHhvV0w3cFQtcVoyTXAzZ0Uyelc0SEhrcFRudXlVdFZnYUwtcC0zbW9FYTZGQ1hEV1RQWWpUaFQzb21SY3VVTWJkLTJSTWlteHcyaXR6bGZpMktaTjJRUkdLb3FCanZ1cEtIRHU4U0VPRHFkN05XUWpqVkxtRzBsMXVGbVAzMmd0aDdDdk9yeTVJRnQtRXZNclY4Q1lzNUFIOGVSYzhkZzdKOUsyaDdxUUdUcFFJdEtjVkdTazV3WXFoZzlTazFHZkh3TG5rc1Jv?oc=5",
+      "source": "Pasión Fútbol",
+      "published": "2026-10-14T23:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "dff1468fe166",
+      "topic": "branding",
+      "title": "Lawmakers ask IHSAA to require financial literacy training for student athletes",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcGU4NFJheUg0OS1HRVNKeXhoS3pkRzRDNjZQaXBHczVhTWxzbDY2SjlyaVNycGtHQTR2VWViQW5kZVkwTnhmY2FZeWdSSEtEMDZLamZOQ2ZnM25rUnRHWUwwR1BuZE10ZVRLN1phLXJyQmNvVTFzck5kVmhSdG53aGtQM01wdjQzcm9NSUU1MTliV2FQOG8wZFJLdjlJZm1UZVVtbW1ZX2hwYXZsVDZOdlJn0gG3AUFVX3lxTFBnMEZBNC1zS0pMbzZYcThPZDRndmRVVk1TUTlndEFDMmNzSzMya0lFMXRLaUl3OXZXaW5FbXdkeFdqbGwzTFctTFZiRElnNHRWdF9NdmwxWEhsaWdVbDAzRDZvSkthWmctWWRYVms1YmFNbkN1eUI3bVZfZ2dqaHlodTdEOU9vZ2s3ajl2TXpWd0pvRVZ1QU1mWkJiaE92eTVhbkU1bmlXRDVYT0dOTHpyOHl4N2dWWQ?oc=5",
+      "source": "Fox 59",
+      "published": "2026-10-14T22:31:02Z",
+      "summary": ""
+    },
+    {
+      "id": "3d6d7c0ce533",
+      "topic": "branding",
+      "title": "Brand strategy: marketing’s urgent AI problem - Think with Google UK",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXhXRkdSYnFLVjdrTWtlcGJfTjFmNzF1Tlo1UGhNOGFCT1VCNlBZQ0d5MlVkM3lKWUFCc2FUa3hXNndmaTl1OWJRNERnaTMtMmZ2QjFIcVJrczdqblliMV9yVmN1YTdkMTR0Mm1zU1FOV3ZZRnE0RlBvUE1xOFAtSGlub1MwaFU4ZDRRb1F0T3lmZjVSOEVGREhCS28?oc=5",
+      "source": "Google Business Profile",
+      "published": "2026-10-14T21:37:22Z",
+      "summary": ""
+    },
+    {
+      "id": "f5a1da9aaa26",
+      "topic": "accounts",
+      "title": "Horizon3 Promotes Ellen Sundra To Chief Customer Officer As Customer Base Surpasses 7,000 Companies",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0NQVHNTcnVQZW95bzBoQnl4SzNUYjlwVEl3bzR1WlRJUWtHMzV2X0ZUSzVXOHdIZ1VsME9DV1FmLWhsQmlTeTc5LWVwUHJJV2ZNWVdrb19aV2FSYVFSMnFjVE1meXdvaFhFbC1YTlYzS2Y4d21YaUsxWVlURXFyLWF3dnFMSWxKeDlMUmhRZmdLY01rVGhwMWVQemh2UG1Nd0hSdUJzb2tuelNRTUUySGxlWGZYZ3RyY3c?oc=5",
+      "source": "Pulse 2.0",
+      "published": "2026-10-14T20:06:23Z",
+      "summary": ""
+    },
+    {
+      "id": "a94909b53c9a",
+      "topic": "enterprise",
+      "title": "Vuzix promotes Mike Harlas to lead OEM and enterprise sales",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSENjQnYwb1diQVRvS0FHUEZJNk1PZjlqcTdKRFdhRGl3Zko4Y2p3cUVheEdxODFKOTcxZEpHTEItbTc1dXV1aThQZ19sUXprV0FKTTBBWXh2djlMTDE5WlpET0xaTVpCTjlQSjNtWkV6NUdYdDdZcU9PXzBnMTJZd3Bn?oc=5",
+      "source": "Traders Union",
+      "published": "2026-10-14T20:00:30Z",
+      "summary": ""
+    },
+    {
+      "id": "e8b35c28cb5f",
+      "topic": "accounts",
+      "title": "Linde MH’s SVP international key account management, Holger Boehme, on getting ahead in a global marketplace",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTUVUaElZc3pkanhRNng4RmNDakxtZUdfTVZ2SllEY3lScW5hYzRQcDhlRHpidGlEM3hPRU1XekxpSU5aMklXUHgtVmtBSmlDbXp6dll6a015Tm1ZM2NtcWNZTHRYeTZmYmRRS0J2RU90bktiSzhhNXYzUnBTaDlqZ1kyLXlTRU1Xc2JOWFNkTE45UjdyREc0dUdkaGI5QmwwcmpmUWdaS01ZaXRQeTlRVHQ1LTBBQU5KSk5feGJlR0JaY2RwMTJ4dVNqTTBaOVpwTXpmQWxFOWNzN3IxR3hUTGZkOXhMV2R1MkE?oc=5",
+      "source": "Forkliftaction",
+      "published": "2026-10-14T19:51:20Z",
+      "summary": ""
+    },
+    {
+      "id": "e041add83032",
+      "topic": "branding",
+      "title": "Indiana lawmakers punt on high school NIL regulations",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObUVHRHRMa2RkUmFjYkJza1dVYi1EOUNEb0p4X3dBZmE3bUNrY3hnaFdCdF9ybVZIQU1VWDVKak5qWG5US19KLUNEblNCeFZEVjhSVWhVTVJpRUlTZ2xlVjZNX3M3enZ3LUtSUFk4SzFRQkdkOXMtcW1ERkdhaktreE40Y2w4TlBVRDFrNGNRVXE3Vk5HanU5MA?oc=5",
+      "source": "Indiana Capital Chronicle",
+      "published": "2026-10-14T19:13:42Z",
+      "summary": ""
+    },
+    {
+      "id": "fda397e8ca46",
+      "topic": "executive",
+      "title": "QualiZeal Reinforces Its GCC Focus with Appointment of Sunil Upadrasta as Vice President and India Head, GCC",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQems5Z081VTNlZXBoaDNFSUp3dmszV2IyYnRHR2Flc3hiRjV2Z3Uza201bFU1OGlfZ2xBQW51OVBUd2NpTk0taUhGZC0xamt2QjVDaWtyZjFWb1pUSjV4cE1FdlRFODROTHNmT3ZuRURKZTBkUENPYjE5elJvRDBsdVVtVEVQMWo1VG41c2JJWkZYWGtXb0k1bDUxa3NHaGdnalFabVlfOHVERUVKT1JkWDc4bHdJRTNkQ3o4NW5wRlBlcHp2WlE?oc=5",
+      "source": "https://hrtoday.in/",
+      "published": "2026-10-14T19:08:45Z",
+      "summary": ""
+    },
+    {
+      "id": "0432abd92bc6",
+      "topic": "accounts",
+      "title": "New Time Zones for Alberta, British Columbia, Manitoba, and Morocco",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVjV3dElTOUtCbUpTTUh4c3c1VHROUFlVMzBJZTNOSGlpMGIzLTVVQ0ZDcGhRTVNLanRMU0llTHVsbVlwekxydHNFNmlnWTRlTnhKVDY4UWxBaHNHRG5CZXl3b3p4RGhCM2VocTlMZ2Jmdkk3ZFBfeE82aTZTMXE5alJqbWNZT3hWQmQ3U1IteG40YVhU?oc=5",
+      "source": "Oracle Blogs",
+      "published": "2026-10-14T19:04:58Z",
+      "summary": ""
+    },
+    {
+      "id": "d60116641958",
+      "topic": "branding",
+      "title": "Brands can use scandal to their advantage—but it can easily go awry",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEltc2hQVFZqb1hZbDNEZnM4QVhOSWU3Yk15MDJEX01JRkhhcEZYRGVKUkVTSU9uLVRmRUIxa0FpTVVxeWZ2V1B4N2I2NU1UbWZCOFd3Q2JVTHBxRTBkcGtuWmM2MFhiWUYwclBJWkNHdUkwTk5ob203ZHpTRkRVRlAwQV9XdjJFNGc?oc=5",
+      "source": "Marketing Brew",
+      "published": "2026-10-14T19:01:23Z",
+      "summary": ""
+    },
+    {
+      "id": "cc0d60baddbb",
+      "topic": "enterprise",
+      "title": "Elise Jacquemin Guillaume Announces the Standardization of Conversion Engineering at Pyto Through New AI Framework",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNMm9FTlhrV0ZKUmVWd0cxVy0yaTFEdUVWMkVuRHoySmtTYmFlR1NZNnZubjBtQ3MtRHFIV3Vzcjkwd0diOFNBemNPYnVSYl9uZ1UwY05rdGhaRHNjYjJWTDZXU1Y1bVRkMW1Bd1l1Q090SHlicEItV2hMMF9OTlFMbHdEVHByV2p6ZWNhNkR1UVAyM1F6b1VRU0pYazNiZHdCMkJ6VFN4alZsc0JHNDBVdV9BX2xZZVJlYUZFZVd5Nk90Q2U5RzZScUt6VHJ3Ukd6cHlhRHhVZm9VQXNSYWNyb04zVFp3RUphOFg2SExuaVZEWkNabkpPZ0dKejh3b3hhbW1r?oc=5",
+      "source": "markets.businessinsider.com",
+      "published": "2026-10-14T18:50:01Z",
+      "summary": ""
+    },
+    {
+      "id": "75d9fbb836c3",
+      "topic": "executive",
+      "title": "Shop Affordable Engagement Rings At Rare Carat, Blue Nile And More This Week",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUnhPMjYzOHFsZk5PcWtvNGJvOFZtYzdYSkgyRjg5WHhoSk5lbXRfb1JZV2dZa1c4OG1pb29JSW1sSGUzUkVYcUdMemllMXRzc3VwZUhVNzV3RXphODVYeGRqc3Z1OGFqT0pCcmNWcnlIZWZnQnNmc296WG1qVmoyc0d2WUppa2ZrVVF0ci1GRWFRWmhFc1JjamZBWDQ?oc=5",
+      "source": "Forbes",
+      "published": "2026-10-14T18:40:31Z",
+      "summary": ""
+    },
+    {
+      "id": "762fc2029519",
+      "topic": "enterprise",
+      "title": "Symbe raises $5.7M for AI sales platform, led by Kfund",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaVk2YkJvc3RyOFhKdlRRVmFnMXNPRHFaQ01FVlNOY2xDdXBhLXEtM2w0Q0cyemZJNVZpZ1pPMks2RGZxTnJjb2ZacWt3ODVneDdJc2E5Q0FzYzk0em9YN1ZaTVhCcTNPOEFMQ0tCelh2aHJUalBYR1dCQjR4U0JSVl8yZFctZHMwRHkzZGIxYw?oc=5",
+      "source": "Dealroom",
+      "published": "2026-10-14T18:14:23Z",
+      "summary": ""
+    },
+    {
+      "id": "a2191645c08c",
+      "topic": "branding",
+      "title": "Why Gen Z Is Choosing Sports Betting Over Retirement Savings",
+      "link": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/why-gen-z-is-choosing-sports-betting-over-retirement-savings/",
+      "source": "Knowledge at Wharton",
+      "published": "2026-10-14T17:08:05Z",
+      "summary": "Michael Platt, professor of marketing, psychology, and neuroscience at the Wharton School, explains why sports betting is capturing young people’s attention and what it means for their financial futures. … Read More"
+    },
+    {
+      "id": "24b0a5e5d4e3",
+      "topic": "executive",
+      "title": "The Analytics Behind Baseball’s Small-Market Success",
+      "link": "https://knowledge.wharton.upenn.edu/podcast/moneyball/the-analytics-behind-baseballs-small-market-success/",
+      "source": "Knowledge at Wharton",
+      "published": "2026-10-14T17:04:46Z",
+      "summary": "Mike Petriello, Major League Baseball's director of stats and research, explains the swing data, player development, and matchup decisions changing how teams compete. … Read More"
+    },
+    {
+      "id": "dacf4a6bb180",
+      "topic": "enterprise",
+      "title": "Best AI transcription software for your workflow [2026]",
+      "link": "https://blog.hubspot.com/sales/ai-transcription-software",
+      "source": "HubSpot Sales Blog",
+      "published": "2026-10-14T16:26:42Z",
+      "summary": "I’ve been a writer long enough to remember when I had to transcribe interviews by hand — thanks to AI transcription, those days are gone (thank goodness). But the best AI transcription software does more than just get the words right. Sales reps, customer service agents, and…"
+    },
+    {
+      "id": "0befc01cd78a",
+      "topic": "accounts",
+      "title": "theCaseWork™ Appoints Veteran Sales Leader Wes Young to Advisory Board",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVXhOMDgtbW1mZDVMWEVxSDljOHc2TnhEWXp6cnZBV0dFdzB5S3dRS09GZVRfSDVEMWpicmpxOEZrZnBpbVlqY2FTMmdzd21fVmR4N01UUUc1OTFFVHVsVS1MOVFIQVEtOHB4bHZsdjIwOFhxcUhjbk9VQV85WElDdmFQc0VoY3VIZ2FiRy1iS3lxTnFWX0lkS18zd0FSWEEyYUQwTkZnbFdsMnV4aGtvcFpJZGNIbndOTTk3ZUdEZkFnZw?oc=5",
+      "source": "Cincinnati Enquirer",
+      "published": "2026-10-14T16:18:24Z",
+      "summary": ""
+    },
+    {
+      "id": "4a14c0002be8",
+      "topic": "enterprise",
+      "title": "Mindflair plc (MFAI) Gains Indirect Stake in AI Sales Platform Symbe Through $5.7M Funding Round",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZmhEVkhYemx0VGhqSnlCQ3QtUmtIWXNDeVlIWXk4d2JBVS0xTHJVejk1X2ZYNDRzMnk2UW9zbWJYLXUwc2dTTUdfdEs0cXhFQ3BJeTVkVEFqWlhBLUpCSVdQdWdQUkZDUFlaaXdfQ2xEODVSMTc1ek04VUI4anU3YU5mRnN4NXBmMTRDTnNZV3FKQmJnRUM2Y1puZ045djdraTVVVDlnd3U2RVVKNzQ1ck5LTHMycXlIbGx2S2N3eC1PeVpyeThhcHVmcFptcDJqdmh6d213?oc=5",
+      "source": "Kalkine Media",
+      "published": "2026-10-14T16:07:07Z",
+      "summary": ""
+    },
+    {
+      "id": "809e97e5c71e",
+      "topic": "enterprise",
+      "title": "RCS - Mindflair PLC - Investment in AI-powered enterprise sales platform",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVmJ3eUhnVm9JZlFzb3lyS1JrVjFaazM2amZvaUpsUFMtV3hGTGI4ek01WFdTT2ZONjNGY05yb2xkMEZpU1FjZ3ZBbk9wVkFWSFc4RW5zcndFa3B4MHgyNk13endmUlpSc05HcU5FWkFFWF9uMW5ZejhHWlBMRE5jN1VhenRBbWJCdDl4TTZqalVkU04tYUdlQ3RxYkxxY3FueWhWZEhFTVFRTGFPSE95STZwMU5ycGlNUVJ3ak51Smg4OC1kLVAxOFVIT24ydmgtZE5ycWJlcUZzTW9P?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-14T16:06:34Z",
+      "summary": ""
+    },
+    {
+      "id": "346c3c0aa9fa",
+      "topic": "accounts",
+      "title": "The Top eCommerce Platforms According to the FeaturedCustomers Su",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMUJBLWl1SklsRUp3YkREeEQ3eWpWdzlWTlBsZ1d3Nmp4TjlnajRFMkYtUEpOYVpnUHpHeEJJUTFPTU1hNDRMak1JNEVicEJVSHRrYzZjeGhBV3I1NXF3ZVJ3dGhkMWlPc2RkLUo4Q3dIaXlFeWI1dXFkY0hhMjlMOTFUN19VdjFHc3RldFVnX1RPOGNVR1BFWXJNMEV1SUJjT3FsdllWNkR0NHF3dmExTloyNGR4VEE?oc=5",
+      "source": "The National Law Review",
+      "published": "2026-10-14T15:50:36Z",
+      "summary": ""
+    },
+    {
+      "id": "9f23532eeef0",
+      "topic": "strategy",
+      "title": "Corporate culture is at the core of business strategy.",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNzhtcnJhdElqVjZCT1F2TDM1ZkliZ1dPZEFXdnoxNUh6RkdCODdZcjMwUld4Qk95M092U25RLXdXT0JFaUo5cVpsRUlFYnpnazlqekoxbE4tbVZ0NWlQXzVDSnQyTzNUbVVoeGNLR3d6dmdUemVETy1jTjAyajBFVEdFVWVBT3NMejdpekR3?oc=5",
+      "source": "Vietnam.vn",
+      "published": "2026-10-14T15:40:44Z",
+      "summary": ""
+    },
+    {
+      "id": "53f2212744af",
+      "topic": "enterprise",
+      "title": "Floqer launches AI tool for B2B sales at TechCrunch Disrupt",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUEt5UElzY0VBRlU3VHRmVEpvOUNKdmtmUWs2dHA3bldlUnA0b2szSjB2bEQ3d0FMOGhTUUdGTEx4UkotUDZHOVpwcGZLNzVSTzREZ2JaUHNKalZqcnNQMUVzYllvTFVOb2RVaVRhdkkyYUtGRk9FX2lPWTVrUkdJdFlWcFJCZWMzRWl0OS1YcFNyQ3lsY1AwdW85WER1YjVzRDV2Q2txVWhDZw?oc=5",
+      "source": "NewsBytes",
+      "published": "2026-10-14T15:24:30Z",
+      "summary": ""
+    },
+    {
+      "id": "b46d5f86d33b",
+      "topic": "branding",
+      "title": "Relevant DS Names Elizabeth De Paiva Director of Corporate Marketing, Leading Brand Strategy and Thought Leadership",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZ0dtVndPYjd0eHlZUW1JYUltcXc4ekZRY1YtTW1JMTNyUW1oUWtwWGd6LTVOUzI5TnJ1MloxdVQwZFQ1TDlIYWNnQWRRcmdHNW40aUNnYXRjb0tHd3J6TXhwVW1CckVEVmEyR2F1WmtDYVV3NUlBejhIRjJEZ3BLMTY3eEFoMjUtbHhjMWVFTm1CSExQV0RLMEhubU1KNlV5QnBMTW1yeVVnOTJXOG9DVmx1TEk5aUs5ckgxc0RINFhLVDNzcm8ycUVJYTdvVkhjRlpqVTFqUUJ1eFhfR1VWUHNySHVMdDRnMW4yUE5FVXVtRzNFcmh2Y0VzbzNvU3JaU053bGUycw?oc=5",
+      "source": "The Des Moines Register",
+      "published": "2026-10-14T15:06:19Z",
+      "summary": ""
+    },
+    {
+      "id": "5d81bd40adfa",
+      "topic": "strategy",
+      "title": "Proteintech Appoints Patrick Yount CFO, Promotes Jeb Gaybrick to VP of Corporate Strategy and Investor Relations",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeS11azh1MnltUEdWQ3VJaURab2ctaXdYeGlyYjJZNkFRdVp6aXpid2M1WE91eVhBNEdheXF5VEk2SDRmaWhaQUlYUVNOdUpDdVU4ZFVldnk5dnBSMEtIby1iLTlyT3cxd1BLMUl5U0xKUkZaSmUwSzZvX0xLNVBzX05tVTVsdEtKdVZmLUZhbDRUdFdKOG56dUVwdlRkSXQtUGhET2l0bWI0cU1Del84TjN2Q2lYZWUtd0NiYl9EdFFSNHZOWVprRkZPTk5MMmpiWnRmbGhtMk5BaTlQSXM1VlFWd3I?oc=5",
+      "source": "citybiz",
+      "published": "2026-10-14T14:48:00Z",
+      "summary": ""
+    },
+    {
+      "id": "56b615eba324",
+      "topic": "performance",
+      "title": "V2 Retail Ltd (NSE:V2RETAIL): Q1 FY27 Results and Store Expansion",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSHFoenU3NnNHMU1XSDFaeDZrbFRIOHllTlI0V2ZrTUpzQ0ZqNC1qM3k1Y1ZOTWJnOGlUWURxUGhXRG8tWEdheEVqNTZNR3owbzlJWk9RVEViME5Rd0k2bi1pWFhYTUFaZzgzMVJ0aWU5Z2gxSmVtZllxWGhnVVZ1NFJNNDU2bWlIcC1aTHIyS1dCS2YxNnpmblpHNzJZRmIzZ3FQR1hSOF8zRm5FWlMxd2huanRDbWRzUDVqRF85Y2dxc3IyQllmUVVB?oc=5",
+      "source": "Kalkine India",
+      "published": "2026-10-14T14:05:00Z",
+      "summary": ""
+    },
+    {
+      "id": "85a685c64703",
+      "topic": "strategy",
+      "title": "SS Retail Ltd (NSE:SSRETAIL): Mobile Retail Network and Business Strategy",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLTdVSjNiUmtuMXlKbWZUWWdHbGpsZEs1ZjdvZW9EUWxsd3FhSUd6U0QzYnA4WW5kOC1manZYRVlMNnB5aWtRTWxJQWhWUllMWklHVHJzbExrQ3BHWUFDeGJkNlhWYU9KYkY1QzdYdldPQVVObTJjLWlWZGVJOWFSZ18yUXRsS0JZdjhfU1oxNmVUN3lTTTZrbVdTbVExRnpIaWpnQTBzRDdKMTBBYTNPTTdZbzVnY2c1QUZvaUxJbEVuSU5FeUJhVnpRRVBhelhx?oc=5",
+      "source": "Kalkine India",
+      "published": "2026-10-14T13:47:00Z",
+      "summary": ""
+    },
+    {
+      "id": "f632c2e6bacc",
+      "topic": "performance",
+      "title": "Will Keytruda Continue to Aid Merck's Top Line in Q3 Earnings?",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc3U3QXZHb3d4bV80bHpsT01kWGY3VUwxNHRZa2FNQjN5Tzk0eFBLdnZiSWxETWZma09XYVhIM2JHcGlSSzBVUS1Lb1JhcXFuT21GUzZMNDhvQ3JHQUFycU1sZG0wQTlSTWZaaUtLVHdmMnlPUFQzemVUTkFaSmdldkZ2aTZwazl6dF9KTXlHMzNoNy1yQ3dmQ1cxX2pOYldoVk5ORGlCTlpiTlBoOTk0bThlMzJDUFJv?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-14T13:46:00Z",
+      "summary": ""
+    },
+    {
+      "id": "ced7ede260cf",
+      "topic": "enterprise",
+      "title": "SAS appoints Casey McGee as VP and Chief Sales Officer",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNangybTEyS2ZSdEhwY3ZSMXBFaldIaXhRUzkwbkNGcl9nUlU2aDFIbXNqNXpnODkwcUJ4dlZiR2VuTzN3bW5sQlVFa1l0cVpnRzhIMjJMN01vV1pqMlpIaExrWU9PQnRuU2MtRk1COXhUekduREVmX3EwNWJkNjJ1WTQwNndkTHgyQnc?oc=5",
+      "source": "IT Brief UK",
+      "published": "2026-10-14T13:41:00Z",
+      "summary": ""
+    },
+    {
+      "id": "b8f82e9468a6",
+      "topic": "executive",
+      "title": "Netflix Lays Off 1,000 As Growth Subscriber Engagement Wavers",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMVZiWlMtb01kWDRRc1V1andRR0ZpLXhnRGZVbUFvYmY2ZXZtU0puQ01hM3FseDlZVHRmU19JMnVRbkotMEpnUWdrYmxMWHVHcFp1WVBoSUxLWjFybTVkZ0xDQU8zR0hrRi1pMlJJUHlnYzFnVFFqeXNfM1FmR2VYY0Z2MGJoenN0ZUdDekFJQk02c3VEQ0EwY0pXd084Si12di1taXpR?oc=5",
+      "source": "Forbes",
+      "published": "2026-10-14T13:31:21Z",
+      "summary": ""
+    },
+    {
+      "id": "d3b0dea8164f",
+      "topic": "strategy",
+      "title": "Andor Health Earns 2026 Frost & Sullivan Competitive Strategy Leadership Recognition for Agentic AI-Based Care Orchestration",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQdFRRMjhKYWswNTBwVXZvckN0QUl6czhTSmtsQS13aDVrMGFsdHBrS2o4Z3YxUVlHSW5sZVYwQ1A0dmhjUGRrODJzUEdaOE1RY1JCdXk3WkdzcDRhS29NS1lKcHp6TXBoWkhZY1dCZmYxaHREM2NmYWt2RENDS0ZjR1REQ3g0MEN4QjJsRTM3THJtS04zbjF6dkxub3lVY3o1Z1Z1bWZnUUQ0V2NRd1NKRXZFT3phTjZNU1k5Y0JJRDV6UEtBYmU0WmZBZWJXY2xYQ0o3bnNwWEF2RUx5Mm51MlR3TGtrYldyajlLTkc4aDRXWUhZcXlxVnFLQkpQRGtWLXVEYjVncmtQeFU?oc=5",
+      "source": "PR Newswire",
+      "published": "2026-10-14T13:30:00Z",
+      "summary": ""
+    },
+    {
+      "id": "f51a48318606",
+      "topic": "strategy",
+      "title": "AIB Data Centers to Host Virtual Investor Webinar on Business Strategy, Recent Developments and Growth Opportunities",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOckp6ZGZ4OHZ2T002eGpWQnRuTTlxaVdCUjJ3MzQtNURfdkotTVFic1dYVHh3OFNweUwwMnR2VzEtQmM2UFNyVWM0SmJOZ2o5dmdjWjZocnpCd3J0allOdnB2Y2t5REZjcmpRZjVYXzlZZXhreE4tUVNPemJYMUNNU2VobEtXN1Q4OEdfMmIzWVUwc1pHZVlHQWF0VndEazljcG5JTEI4MGxYdC1DSmVOZGVlaTgyM25RcnBTdXdRUER3OVczaVlJVDlCMkV2cDlNV0wzUklkd0FhS0h0U0g0dkF5R2h4dw?oc=5",
+      "source": "Quiver Quantitative",
+      "published": "2026-10-14T13:30:00Z",
+      "summary": ""
+    },
+    {
+      "id": "401259f68381",
+      "topic": "performance",
+      "title": "Turning AI benefits into a payback calculation: Metric of the Month",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXBpbEFQUFFCWDFBcld4Zlh6YUNjRFdycnJzWHUxdzZZZjdFV3Q4ZUlYaGJUZG93VVlPd19mTnI0cGUzXzdBb0NrNm04U0w5RVVSVG11UmFkUEp6Z1BVbXBKbG9wMXRIZGxrWG5lTEtMSkxWZmxfZWZfN2ZkNEl6c1k3NXM5dWdxTW9WRWd6TURGX0pLb05STEhuTnN3Q3N5WndqRmxn?oc=5",
+      "source": "CFO.com",
+      "published": "2026-10-14T13:15:36Z",
+      "summary": ""
+    },
+    {
+      "id": "112510966922",
+      "topic": "accounts",
+      "title": "Hole in one: Rotary collects thousands for THRIVE Child Development Centre",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM3RrWmRZZThQRVM0VWxvajhGbTVlcGljUE5za0hVTjEwVHJwY1k4WjJfazlCUG5CNTBUQkVQaHQ4al9MV3ZFUmJXYkZmRUlyUW9UQktHRW1YUG1tbTVjRmlCdzJTQWU5YmhiTXBWdEhYcTMxY3RZRl85NFE0U0k4dHlZbWk3Uy1aQm0xNXc1TVJlRHhkSHRMcW1KOVJ6VDJwSjN3NDc2MXcwWHd2RW15RXFYQ0lOeEd4Z3c?oc=5",
+      "source": "SooToday.com",
+      "published": "2026-10-14T13:15:00Z",
+      "summary": ""
+    },
+    {
+      "id": "fb91a7eb2c7f",
+      "topic": "strategy",
+      "title": "Integra Therapeutics strengthens executive leadership with the appointment of Simon Dew as Chief Business Officer",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVE85Rm5OeDhYVC1BdFplaFhBTU1seWVkYTkyN29sQUpEZkROaTVmdWtrME5zREpDRUFtTzJyNzlxMWlZZmllU0RVbjljRW1XdlNwdWNBRmRCMXREWGhmSVJhOEtGU005UVJDTW5YRDVDWjZyTmxxZ1NCby1qM3NNSjV1N1NUcXZvSkh4TkFBcXVsSy1UZDJGa3VaLW5pT3pxSXhJWm94XzBoUFktUDVXVVJHSm9oaGc2eUNNVE1LTlhqQ285b1JJN045amR1OGxTTkotWmJmQ1NFdEFGMmdkVjZZb3hIYlpN?oc=5",
+      "source": "BioSpace",
+      "published": "2026-10-14T13:11:58Z",
+      "summary": ""
+    },
+    {
+      "id": "fe4543b72615",
+      "topic": "strategy",
+      "title": "Proteintech Announces Appointment of New Leadership Positions",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQzZFc0hOTVlfVjhFdnp4VVduTlZUM0JpbGxzVklzeEZRZTJvNnF5QjM1aGNWdjUzeGNOSHN3Nm5IYmxWYXMtVHlKZi1rY3RPRWlFN1RraXA1VUliV1hqQV8weVpRbEEtNkVLT2k3azRUQXNYbjhyUUtaYThPWDZXSWs0Tkdmc1g3VGdVUWVINXlJdElyc2s1NWctaF90Y3NTZmFoVU9faXpPTmdPM2RNX19LWUQteTZaUlE?oc=5",
+      "source": "Business Wire",
+      "published": "2026-10-14T13:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "e7880648d2de",
+      "topic": "accounts",
+      "title": "Horizon3 Promotes Ellen Sundra to Chief Customer Officer to Advance Customer Success and Security Outcomes",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVGROQlFTektDazFKUEV2d1BZNU9PTi1xeXlwOEJEeXhVa3VrcmV2RTlvam5IX3hkQ3hyVnVjTjBqYkFhY1Zfd203d2lBWmRUT19KeUpfVnJPOXVaUm9KZnY3RWVTTTY2T2JHNDZYa2tUeU0zZEF0akpSNFF3RmdOS0hEb3FHZ2RRVWRSMG56QnctSmZTUWNpWU1wek92LWY0UklRRk4tZ0Q3SU53QjdQa09NdTFScm45RVI4VEl1MDdGdXoyekViTGJ4OTJXN1htN0ZybktoVzJPMzJvOHFldlNlRW1PN0x6SW8wUzlWZ3VQRzBqd2c?oc=5",
+      "source": "Business Wire",
+      "published": "2026-10-14T12:55:00Z",
+      "summary": ""
+    },
+    {
+      "id": "2956471b6a69",
+      "topic": "performance",
+      "title": "Analyse Every Sales Call and Find Exactly Where Your Reps Are Losing Deals With Claude",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNT3pwalhQZFFZU285NV9CVWhfdTlBZ000OG9aNjFhb1lJVElpOHJEckhOTDFYMktlRDRLVmV1c3BrYVUtbHVJRXRHUTJiVFdnbklpR3h2Y05xY1N5MnlGYTlfZ2kxQXFiTjh3dnp2SFhZRVljNmxIV213ZXI1M0drR1JpUE41ekl1bm1aNlVtbmRSNEJHTldZOFdlOVR2M0trekxoVWZhYWduVkpnbzMtczNxUG1UcGJIaEhKNTM0MVFPOEVZTzk3SGl2YWhjVTA1dkVFOXlMbXBXX0NvVHpkTXlPdG9ZS0JEMHfSAeoBQVVfeXFMTU96cGpYUGRRWVNvOTVfQlVoX3U5QWdNNDhvWjYxYW9ZSVRJaThyRHJITkwxWDJLZUQ0S1ZldXNwa2FVLWx1SUV0R1EyYlRXZ25JaUd4dmNOcWNTeTJ5RmE5X2dpMUFxYk44d3Z6dkhYWUVZYzZsSFdtd2VyNTNHa0dSaVBONXpJdW5tWjZVbW5kUjRCR05XWThXZTlUdjNLa3pMaFVmYWFnblZKZ28zLXMzcVBtVHBiSGhISjUzNDFRTzhFWU85N0hpdmFoY1UwNXZFRTl5TG1wV19Db1R6ZE15T3RvWUtCRDB3?oc=5",
+      "source": "The Economic Times",
+      "published": "2026-10-14T12:44:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9fbb3d511e82",
+      "topic": "branding",
+      "title": "Indigo Road names new chief marketing officer",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUlZaZExTcmI0UjRiRDQwenN0a0Vsd1pncVM0S3BQWktkcVlqcEdTc2lUczFLZm5ZZTB1cTNCYTNaTWpLbTJkekZHUkt2b1hFaVBSUXNkeklkWnZnZENERzVncUIzODdVRHJhalp5eEFOajZlcFFOeGhkNW85d0hiU2l4Ml9MbmhkMjRITS1ROEl2V2F4Mndpag?oc=5",
+      "source": "Hotel Management",
+      "published": "2026-10-14T12:00:42Z",
+      "summary": ""
+    },
+    {
+      "id": "01b94f671bae",
+      "topic": "strategy",
+      "title": "Infographic: 3 Finance Lessons From A SDOH Collaboration",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNDcxN213R1VWU3ZBb1VMRVdPYUtFZUtaZURnRnhubVpiaTZBbkZvaXdWa3Vlc2tfNnFSXzNjMkJ6eGs3OVJxZEdkMVRoYnNoOFVtVnpYalFRSXVReVh3azZnSmxxbkJ1OWpxcmFoeTlZVGc4dEZmVUNLQ25zYlAtZlN6S2pyaGtuT2RiQlB6V2Q?oc=5",
+      "source": "HealthLeaders Media",
+      "published": "2026-10-14T10:07:48Z",
+      "summary": ""
+    },
+    {
+      "id": "78e75610e585",
+      "topic": "branding",
+      "title": "Things people don’t say",
+      "link": "https://seths.blog/2026/10/things-people-dont-say/",
+      "source": "Seth's Blog",
+      "published": "2026-10-14T09:03:00Z",
+      "summary": "Marketers and politicians too. We don’t say them because it’s assumed. And because we’re afraid. “I might be wrong.” “I’m just guessing” “This might be selfishly motivated.” “It could be that I’m hallucinating.” “I heard this somewhere but I don’t know firsthand that it’s true.”…"
+    },
+    {
+      "id": "037a31c9d7f9",
+      "topic": "accounts",
+      "title": "Why Ireland’s AI Future Depends on Investing in People, Not Just Technology",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QaXNlWUJkc2JObE1PM081eHdmSlhMM0p4bVlJby1GemQ2cklFb203SEJzYlVjOGFSbjdaeUJ3OF9scTdpYUV2djNvT0hzeENUdVdpYnh0Rk55eXhEOEFXQTBMVjN3ZTVfUGFQeEVOXzZDbXhvSXc?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-14T08:29:11Z",
+      "summary": ""
+    },
+    {
+      "id": "a81bd57e3344",
+      "topic": "performance",
+      "title": "Mahindra XUV 3XO Crosses 5 Lakh Sales, Prices Start at ₹7.79 Lakh",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONkF5dU02S2oxR3pTZ2hfUDNpNUR4cXVhNGFNcEJfQlJySGlxOTFHUkJpYXQxck8xak5za0lXUXhXZDlJMkJhWm5ZeUk5VHZrSnNZVl9QQWVkMkMxNEY3eHNPUkpmaW9NQ1lucjgxSTczcmlVMG4wM3JrMFdCM05hN1pkTWNwazJ4MFB2cUExZ2ZwMEZfUmctUlB1VDhjdm8?oc=5",
+      "source": "Udaipur Kiran",
+      "published": "2026-10-14T08:07:39Z",
+      "summary": ""
+    },
+    {
+      "id": "43da7cbe336f",
+      "topic": "strategy",
+      "title": "Richard Lee on Paula Rosa Kitchens’ new showroom and evolving business strategy",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ2g4Tkl5Si14R014SmlreTR5bWhEajNWSUhzT2ZlOHRLRGVUZFNkSVBGWkxOV09WeGxLeGVHcWFMeXhzRWRYcVRIVk5xWmxlb3cwZmhPazBfeHRlWEVHVHJUVzBIdG9rMkRWS2hCTjBtQWNjRWNselN3ZnZTSU1PREpFWjg2cnVEaDdYS3ppWjNQZWRTUzJ0OE9xWnJmbUJJOWxMSU5lTVE2dHAyb1E?oc=5",
+      "source": "KBBFocus",
+      "published": "2026-10-14T07:57:45Z",
+      "summary": ""
+    },
+    {
+      "id": "d78afd58aa67",
+      "topic": "strategy",
+      "title": "WingArc1st Inc. IR Day (Q2 FY2026 Earnings Presentation and Business Strategy Briefing)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BUlB4emdraWdOUFFiUXpoMTFPTVpXUjBld1F5OGRDQUhaVVY4OTA0TFdMcWo4TE1WZ0lPSVpyanJ5WmZXSW0wYnVCUFNTekJ1Zy0xMXI1blp6VnBBZ2RhRUhFMEFyam5majNqQV9kb1lKTFVVVVpnTHpXaVhEUQ?oc=5",
+      "source": "finance.biggo.com",
+      "published": "2026-10-14T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "9cf21dcfe857",
+      "topic": "performance",
+      "title": "Key facts: Givaudan Q3 +11.3% sales; Jefferies Hold; FY results Jan 2027",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUDR0aml5SXJkTXJkZWdMcTBjTVZfZEFPRk5mc1VWUnFScE5CRm40a0J0VzZtcWFCMkRSTW1XYkN2ZWs4VTFHNDRrYzJJZlBZYlc2X0RWb1ByMERzVlBsbm5udUNvd1dQQ0NlNE5UanpFbnBxQTBDM3FiVHVJMktEOUt3UXI5WTRTTldzVHNUMDlFclItZmlQNGtIeU5Nd0d5NXZYaU43Vkp2eFhQLWI2VEN4MmcxaVlHVmtpRldtR1M3YmZlX25xRA?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-14T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "91d9edf9d9e2",
+      "topic": "enterprise",
+      "title": "How Los Angeles’ AI Innovation Push Is Changing the Future of B2B Sales",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQzRpZTl5dk9zY3dMNG4wMTcwaWQ2bTJ2dGRzNVZtVXZoQU01c3V1NFEtMTZSeWMxOVV0NGdoTXhtZHBXdGt6SjVxSFVCZ01wVXBwM0xsSmVwcDZRMXpjcmNaVEkySll2TktsNTVHZXZsWmRWdzkyaDRIT3dOTldaUUw1REQwVFh3VUpmcmVfcndrZ1I2Y2JDX0hDMC0?oc=5",
+      "source": "LA Weekly",
+      "published": "2026-10-14T05:49:36Z",
+      "summary": ""
+    },
+    {
+      "id": "cf31966b7910",
+      "topic": "accounts",
+      "title": "Zetwerk IPO: one-of-a-kind manufacturing platform with a profitability problem",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRW42X2x0VUJZN0tDY2ZDOFN6Uk1qZUVrUWprVmU3bEhia0Y2MmRVc1pwclhfaXhzR2luUVJrUWd6VGU5Qy00bzdpNjQ0S2JBTUNvLUstQWMxeGltdjJweFRfdUdBTG1zbHRPMVJFbkFDbEFjeE14VWl4SHItUHVEZ050bDBfZUhBU0d0aVhZMk5lNUUyU19mN09ybjdxZWs0dEZPNzFFcmnSAa4BQVVfeXFMTkxKX0hQX2hpbDRqMl9TRFBiVzBBSnV3RFJ6eDdYbVdid3M3TzBlTktkUzY4N2hQNDAxZ050QXdWX0hhb0Fub1pxcDh0N0NlY3lIQ1ZrUUtiSHdwQ2lSbFh4NFFuVWp0dFJnbVZHMURDQjZHdUt2eHNoMzNaMld4X0Z6emZXN0pLclRwUll4VnJ2cVluWnVWZW9ET19fR1JPQm5BRklwRzNlQTJKTE1n?oc=5",
+      "source": "Livemint",
+      "published": "2026-10-14T05:44:48Z",
+      "summary": ""
+    },
+    {
+      "id": "957d59f102ca",
+      "topic": "performance",
+      "title": "1 Consumer Stock for Long-Term Investors and 2 Facing Challenges",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPUFItdDZacFZVVHdiSlBHVDlLOUJTUG90bmJucnJVZU03dlVub0xkZEZfRjItTnJoZEtnMGlHX3l3WW5vNktDNDE1amZ1Y1Y3M0J0QmxqREJ1MXJKQmdNUk1qMmdmaFNYWUJ2OGFIcXU0c01SU1VLXzFBQ3Y2SWp2Tm1HS2RBSDAyeTZ4dnZYcXVJMkQ2c0sybjZFaWlKc2g1SGVfcUdxdVVtUkJVT3ZVQzgwZjZmNzRDSHJmd3VXRTUwUEVHNURiMVN6ZGwzRUhrOHBfcHJRS0hFXzIzY1luTGRR?oc=5",
+      "source": "The Globe and Mail",
+      "published": "2026-10-14T04:36:00Z",
+      "summary": ""
+    },
+    {
+      "id": "4577f45b8fe0",
+      "topic": "performance",
+      "title": "1 Industrials Stock with Promising Prospects and 2 We Find Risky",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZndwMUpzdndfSkJUX0d3eGV6NDJvRFJlS3JEdTQ2eUFjV1BYY3RKeXctUWhYMzh0T0hfMEhPSU8tRVk4d3JHNTlNWlhhOVpGOXZUNG9jZUtJZzBqYXF0VXNqSHZzS0k2ZzQ4b2xRX3g0eWJBdGNDVVpUc1hOWE9FQlF4aW9MNEl5MzR5aG9jTV9VdmVxVXl6UmliZ0d5X21QQk80Z1RjeFctdU92a1JsZlEwdDB5LUVyeGdKMlJCZzJQTi1YR2c?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-14T04:36:00Z",
+      "summary": ""
+    },
+    {
+      "id": "7b48659f8554",
+      "topic": "performance",
+      "title": "Enpro (NPO): Buy, Sell, or Hold Post Q2 Earnings?",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUV9YTGxnUFI1dVc1cG84VGYtaTF1cEZYQzRCb2NGYzdnR1VqZldrUThsVHZMWVRES0N4Ul9FQ0Z2UFFMN0VaTFZqcFdabkpqcmRSaTgzWmRrenczZ2ZQRU92UElYQ2VBWnNiMllSZHdSckpMUVJGVFpSN0prUlptOWRfNjBaVW1saFdBWUpIUkxHRzJKcVF4cnBzeXJ0VGtDd3BhSFlxSQ?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-14T04:06:21Z",
+      "summary": ""
+    },
+    {
+      "id": "c4dab7d2677d",
+      "topic": "branding",
+      "title": "AI and brand storytelling power K-dessert push from Korea to world - CHOSUNBIZ",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVnRaRFFKVC1SY1ZPX0hiUU5BQlQ5R0hrSUtnSHdPdk1TQlZLQWxZcTRsU0pPV0Y5d0VHbWtaSW5RUVBwczZMbG10eXQ5NEJ5c1k4ckJTSkFiSmRmcUhnZkFfNnhzbF8zTDRWSmctWGV0ZWJOMHU4dkdrX2pZNFgwZjNISFo5QkZuakZ1YVl1S01uMGvSAZMBQVVfeXFMUFZ0WkRRSlQtUmNWT19IYlFOQUJUOUdIa0lLZ0h3T3ZNU0JWS0FsWXE0bFNKT1dGOXdFR21rWkluUVFQcHM2TGxtdHl0OTRCeXNZOHJCU0pBYkpkZnFIZ2ZBXzZ4c2xfM0w0VkpnLVhldGViTjB1OHZHa19qWTRYMGYzSEhaOUJGbmpGdWFZdUtNbjBr?oc=5",
+      "source": "Chosunbiz",
+      "published": "2026-10-14T03:26:00Z",
+      "summary": ""
+    },
+    {
+      "id": "6f18646ca543",
+      "topic": "territory",
+      "title": "Ashley Mauro Promoted to National Sales Director of Clarion Fire & Rescue",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1lFbVY2dmpxSUVLUkhYc1lkNVdCM25NaGNXRzRhbHJPOGgwZkp3SDc3Tk05NF9sVXl4ck53QjBlRF9VZkJIRGt5WWpnZVBGNlh3SDZDaXZfcWxsM2V4WExzMVh5a2JsLUFXblItLXFpTTA1UnVQc2NiZzB2UC1fRWk1LUtLTmFGS0dpSHJqalFOak5hUHFFQVAwUlREYUppRFpuLVhtd01MRC1nMjBEakF5TzJYYV9fSlJHOQ?oc=5",
+      "source": "Firefighter Nation",
+      "published": "2026-10-14T02:03:45Z",
+      "summary": ""
+    },
+    {
+      "id": "18e693e0fd3d",
+      "topic": "branding",
+      "title": "Is MINISO’s SUPER MINISO Push in Canada Reframing Its Global Brand Strategy For MNSO Investors?",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLTFobkZaTTJNazBQS3NpbzRCVTRaa2ZLSnl5SmNWV3VhYXMtT2dJQVRFRFQ1QmRiYTdjUnM5ekRiU0Z2anctR0NGaHRhbE9VMUNBM2lWWlRORVFoUGpCVVo5WUhZaUs3M1JVNTlaTFNldDhJZzZ3ZU5MNExKcVVoYmUxSnlQQk1WbEhrMmhqNmxtWXFXMnpheTd1LUE?oc=5",
+      "source": "Yahoo Finance",
+      "published": "2026-10-14T01:12:00Z",
+      "summary": ""
+    },
+    {
+      "id": "08933ccc9ab5",
+      "topic": "branding",
+      "title": "Authentic Brands Group hires Lark-Marie Antón as communications head",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjY2eUtVWXctenhUclVYR3U2MkZKRlBfT0lEeW9BdHZBWlBpQVAwOVRLOHNpRlEyd0RreGN2d1d5TjN5VktfbjNXeUh5ZGRiNkI3SFlrdUNZUXN3WTVEdFBWcExoTnEtdUVCZG52ZGhtY00zbElvVGlzU1l2Z2VnWWZCYXBwR0NSREpmY3hydEV2YnZQSC1Kamx6QTJsbkNZeE9idkh3Zw?oc=5",
+      "source": "PRWeek",
+      "published": "2026-10-13T23:09:46Z",
+      "summary": ""
+    },
+    {
+      "id": "5b63512c3fd2",
+      "topic": "branding",
+      "title": "Do Black Women Make the Best CEOs? Leadership, Bias and the Pressure to Overperform — Ronke Lawal",
+      "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE12N0hCSWdWUTkxNzhMSFV3SFdtemluWGFnSWFwQkNIN3FNbS1rSVdONk1oUW9BNXhiVkVN?oc=5",
+      "source": "Howl.link",
+      "published": "2026-10-13T22:40:04Z",
+      "summary": ""
+    },
+    {
+      "id": "3c5480d52615",
+      "topic": "enterprise",
+      "title": "Glean names Francesca Moore as ANZ sales vice president",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZklrSGZTakpuekw4NnRsamxTT1p0MngtUUNYa2Zweno2NlVIckpwaUd2Y2hfeWh6M0VGZ1BncTlrTWxub0lvN2ZzZkNub1Z5Z3JyYVQ2YXMwYW9NUlFWOVEwMThWdUx0UXJoaFRPQkk2ZEk2QmgwMFVDMFBJQlhVd3BfYzJ2cUJaLWJ0Tw?oc=5",
+      "source": "IT Brief Australia",
+      "published": "2026-10-13T21:56:00Z",
+      "summary": ""
+    },
+    {
+      "id": "e5990f58bd3a",
+      "topic": "branding",
+      "title": "Shannon Washington Named President of Vice Media’s Award-Winning Ad Agency to Drive Brand Strategy & Creative Advertising Business",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOUZyRGRYXzRyclg1cmFIWjMtTk9LQ0J0eXEtZWRCak0yVmI4d1ZwMVVHTXZrM1I2X0pLVlQyUjF4c3JvemRxMGhBSEhqWHV2UW81aDA2WWgwTmxXaEpzSXZoMExWSDRCUnpaQ09qRXVHc2Nzc1dta0ZqY0p3eGtnX1d6TWRKekp1a0hkN09BYnhTY29TVHNiUUtKNzBISy1vNG43ZDE1ejk1QWRVZEd0SU5XMXZjN0ZGNjN4UElZaVNOMHFwNlhudlgwMHBiVk42RWNXOERnVzQ0dEZReVI2cEZGLVU?oc=5",
+      "source": "Roastbrief US",
+      "published": "2026-10-13T18:40:04Z",
+      "summary": ""
+    },
+    {
+      "id": "7845384add46",
+      "topic": "strategy",
+      "title": "2027 Workforce, Benefits, and Business Strategy Trends",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0N6Sm1XWTluNnl6dlNjUDRXTU5nUEFSNFF4R002NlFnSUlQUFFGbElodk1URVowTTNGd21HMWFadDRrX2dQVjVBWnZPeHJtM1kycWQ4R3dkOUNmc2lVaExrM3lRRmFNVzNMdEE3RndoY2pwYjAxUUQ4NUw2R2JROTZIQy1NcTNOTmhXWlEtM0NHLWFG?oc=5",
+      "source": "CBIZ",
+      "published": "2026-10-13T18:22:44Z",
+      "summary": ""
+    },
+    {
+      "id": "e8688b20c431",
+      "topic": "enterprise",
+      "title": "To Sell ChatGPT to Businesses, OpenAI Is Going Back to Field Marketing",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWGZWVHdQZFpaZXBBMDlfTGt5MGZRMFBpWEdhekREZUhFcElhWElreDhGUHBrRFdwMU94X0kyV1hiLWRTbFJCWmxHWFJZZ0otSFVjMENTXzVZY2lWN01xNG5ZTjlTOU9yZk1uNjRPYVRYcjlPdmxxRC1YRjJIcWFGUUxTM0ZqUTFmREZLTGI5TEktX1dfanRzOURqSW5VaERE?oc=5",
+      "source": "ADWEEK",
+      "published": "2026-10-13T18:04:24Z",
+      "summary": ""
+    },
+    {
+      "id": "4371a29f5106",
+      "topic": "performance",
+      "title": "Vereigen Media Brings ‘Austin Marketers Connect’ to The Domain, Connecting B2B Marketing, Demand Generation & Growth Leaders",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNbTJDcjNnb29WdkNpMHUxZWdmRWNDZ05qZ19UNjhuUlJiVjFMVUNUeTlJZnZ6YmpQX0E3YWswYS1qLUxjSlF1OHJlS1FwWmZfWmVvdU1CVmxZZHE1MnQ5bDREQ0V4eGxqbzhydEFJakEzSEo1NTVrSFRobGVRUmZuM004ZEtwM3MzXy1EYk4tbmp0NUZlUGQwV1BiVmhsVWJ2OFlsQlhISHhIS1p4XzViVFZRSjB4V0h1U0hKQUFMb1dzUmt2SXVpZ1VPcnhpZDlXbkVtc001RXluOU9zUF9Da0hYMEhRSGRkckprcTBYWnRuVEpQcXZlc29kQVhTVnJJc2o5RUpqb20?oc=5",
+      "source": "markets.businessinsider.com",
+      "published": "2026-10-13T17:56:05Z",
+      "summary": ""
+    },
+    {
+      "id": "d555b6dd3de2",
+      "topic": "accounts",
+      "title": "What Employee Benefits and Insurance Providers Can Learn About Strategy Execution from Benefit Systems",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdGotNmt6TzN6eEhOREJmZ2V3RnNLZkVGZFh5X3RMSlRFUGpFNkx3ZzVOWFV2M3FPRmg5elJuNmFvTmJpcnlldndPcXVmTTR1M1owLWpaLUI5THdSZlZLZW8xbnluOVVIR3Z0VXZjVWNmYUhRZ0Fld2hpclI1S0IyVjFNRzFoZHJXV0dfU1BfNmdQS3NPdW94N0tTTnJqNXoxaGJiTkxhTXNlalB6a3JyaGFWN20wWlpreUloZDNWaXJxN21fdl9oVE5TWmE?oc=5",
+      "source": "Distractify",
+      "published": "2026-10-13T17:34:00Z",
+      "summary": ""
+    },
+    {
+      "id": "a94e43a08907",
+      "topic": "enterprise",
+      "title": "Hindustan Zinc Digitises Employee Travel Through Uber",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQmVuVDN1Y3J6ZnFoWU0tcHNWVXBZZ3JZTHhhLWNLRkhIWVN4ZHFKSHFMNURuMlN3YTMwUk5RZVRGbzQ2ZnhTVTZickFSeUFybHUzRmt0T3M2SEE1Y1BQWWxlcm5oSkQtN3g3QUh2aHBQRmZHRl9iV1lfU0NKRXcxTm9NYWZWSjVUNmtUWHdrQ0JEUmlVNmY2NXlaalVGM3BWZ2Z5TGtXcHRuWW0tcGM0?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-13T16:32:54Z",
+      "summary": ""
+    },
+    {
+      "id": "f7894df83704",
+      "topic": "accounts",
+      "title": "Global SaaS ARPU Up 8% as CPaaS Sales Jump 9% in Q3 2026",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSVZBUW52cXBuWXhsREZ1dnRHWkphbzFQNS1jTVB2VFZDQVB6bWtEM3BhN2w5c0hsUlkxSjhrbGZScm1LeFZNNTA0VDhwM01zemZDMWwyd0VGdEpDVVVqeW5QV0p6dzFON0VuVVJRZnZZWWpuNjYxOXRYXzdZTm9ndmZHeUJEM3dla05FVU92dDU3VWNPMkxmbGZtS2F0TThfUlkxdVpJOWU2U2tPSkM2enRpc2dob0g2NWVYdmNB?oc=5",
+      "source": "SaasRise",
+      "published": "2026-10-13T16:00:30Z",
+      "summary": ""
+    },
+    {
+      "id": "9434d5ef9de4",
+      "topic": "executive",
+      "title": "When AI Makes Financial Decisions",
+      "link": "https://knowledge.wharton.upenn.edu/podcast/ripple-effect/when-ai-makes-financial-decisions/",
+      "source": "Knowledge at Wharton",
+      "published": "2026-10-13T15:46:57Z",
+      "summary": "Winston Dou, faculty director of the Wharton AI in Finance Lab, explains how AI agents could improve financial decisions while creating new risks for markets, competition, and regulation. … Read More"
+    },
+    {
+      "id": "51018040ff07",
+      "topic": "executive",
+      "title": "Hachette CEO writes every email himself. He says AI shortcuts are creating a ‘worse C-suite’",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNFR1ODNtVENrZGQ3cW9FMWRtWlBGcGtzQVdxYUpRaHNvY0ZNQm1ObVh3ak82Sl9SUkRtS0VScGRnbUcwTHVqWmJXMmhhRmFZMmVLMVFaU3l0YWVOWGNseUJ4aURWYWw5OVYzTEZ2RWItdDZGR09lR19vTlNjQzlUeWZPUWUxYnYtV2dyTFhVZ0hnMDdwdGdTTGJxN3hzTlFiT3NEU1J3VWhLOEE2SDZsU1k2VVpneUVMWU1GZTRwUQ?oc=5",
+      "source": "Fortune",
+      "published": "2026-10-13T15:45:00Z",
+      "summary": ""
+    },
+    {
+      "id": "4fa1da39128d",
+      "topic": "performance",
+      "title": "Journey Payroll & HR Recognizes Q2 2026 Award Recipients for Service Excellence and Sales Performance",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTFRvOXFLa1QzZmR3SndfY21EUzhxQlYxZGpJUy1ncW94TTAySC15bWc5TG5sWUhUUUJsOVBNX1lOUTZPdEtBWG9WeTNERlItamdsQWFwNVVjak9iYkxsT2hBRm1tZHRWcjRjZVZxZXFYcl90aUhIVlJQMzI0VGp4NXRpengxOURCRUFEeDRJdjQyZE94d3VzdGxXWXRLb1pQaDI5WGFSZjVfTHFiRVJvR0ZEcXR3WjRfa3hhSkNpWTVldkplaGs4V1p0NmVqMHhTMWpKclZHVXFZSkdCUmNrcWYxclB5bENHblQyT200STU?oc=5",
+      "source": "The Courier-Journal",
+      "published": "2026-10-13T15:36:21Z",
+      "summary": ""
+    },
+    {
+      "id": "9e071c6e2081",
+      "topic": "strategy",
+      "title": "What Sets Great Strategists Apart in the AI Era",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1zNWhrUTctd3RBRlNLUm1Kd25wQ1IwX05YQ2FrZ29Wckx6Y0c1UF9sbERublpVcTdSNE9hcmhVSkZPT1MwNngxZ0ZmejBCTW9zZWpSVy1pM1BhRTVyeUtOTHNyMGFtLTVvZk1ZLVJmV1hUZW1xc3JlZEY3UQ?oc=5",
+      "source": "Harvard Business Review",
+      "published": "2026-10-13T14:57:56Z",
+      "summary": ""
+    },
+    {
+      "id": "8168752704df",
+      "topic": "enterprise",
+      "title": "Rechat Appoints Audie Chamberlain as Chief Industry Officer",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVvZmpMSXNmTGR4elV3MTNmcld5dV8xa1FLeEM1R05DOGtEVUR4ZVk1RF8ybUV6dTk5X050aElTd3BBRTNiMkhYa3B5X1RwR2VtQXBFeU1pUzlabWFMcllDZktwX2ZKY01ZdzJ5dWRFU1V2U3hXYXkzSy1QWGhNd3YyZFpTQ0dtMzVQcGx0ekpVN3dqemVFOA?oc=5",
+      "source": "RISMedia",
+      "published": "2026-10-13T14:20:04Z",
+      "summary": ""
+    },
+    {
+      "id": "4e9de738db6a",
+      "topic": "accounts",
+      "title": "The Top eDiscovery Software Vendors According to the FeaturedCustomers Fall 2026 Customer Success Report Rankings",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMFgwaDZnQVVQWnZ5QnNZMk1hRHg3QnJqdGFCZzBDZzlZQ0JST3hQN3NWcjdzSGRHVmt0Qmt1ZnZ6a1VkQzdLQjFXb01HNzFkdl9sbGNCNnM0T1Bubzh5UDBBdVc1ZEtXc3lhbEpyYjduMEpTSkdxMkcwT0dKVWV2Um85ZjIxejdpTnZWSU9ndWxveFNmcW5iZUVpam1uWFN4LW4yd2Uta2VTMkZ1LWxMaEVoZjhYTmFCVVRLQnM1OFJKc1ZsU3dFd3cyQ3lDbDBkRTR5NTFIcjEtejJlLU9xVkdZYUk1Q3N1Z1YyT2c2RnRDZw?oc=5",
+      "source": "EIN Presswire",
+      "published": "2026-10-13T14:18:00Z",
+      "summary": ""
+    },
+    {
+      "id": "31c1b3baa6ba",
+      "topic": "accounts",
+      "title": "Why AI Can Pass Technical Checks but Still Fail Customers",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRlBMdHNDYWxZUHN5SC1MQk44RjA2UlV6UjNfcFhlYjJxc181WWh4X1FRRWxTR0FLSlJCWm5KeE5YUDcta0FqLUxZNzgyQy1MOXNMZ2c3NWxNVmxJTHdoLV9uZWVKaVNKRzIxQnYxbGpBSDlEM0h1Wkw1dy1odzdOdlNYNA?oc=5",
+      "source": "UC Today",
+      "published": "2026-10-13T14:01:00Z",
+      "summary": ""
+    },
+    {
+      "id": "cfef77d6147e",
+      "topic": "branding",
+      "title": "FRESH Communications and The Grist Bring Branding for Buyout to Food and Beverage Founders",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR2x3anZtUk5xUTN0NFJjOVF1N0dxUWo4TG1pU2FCblhyeTE0Z3JYbWY0YVdQWndnOHMza3Roam83T2N6V282bm44TEVuRExiYUEzOE9md1Nzd2thZjB2clhmaWZTcUpqUjJGRHdTcDJRRzdwc3VOdUhOazJRV2FDdUlROGpLRWZDTEc3N0hEdURHdThoZWpwRWlZUVpZY2wtNUN2WWlobjFHUFV6MHpPNU5hZ2pPNzBRZ2FFQ3NEVUt0SDljN095R2hXaFBTbVVyWmtRYUUxWFo5SGRyVk9tZnR5NA?oc=5",
+      "source": "markets.businessinsider.com",
+      "published": "2026-10-13T14:00:33Z",
+      "summary": ""
+    },
+    {
+      "id": "d7278046aa06",
+      "topic": "performance",
+      "title": "TGTX Stock Rises 60% in 6 Months: Here's What You Should Know",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOTQzQVd0NDREUTJGdGRvbTgxM1ZUZUN0OVh2UmRXQTVfVVVWaUxJa2VtMXM0UlhUSzlUTmlTWkh4Z01GSV95d1BIRnZiT3psQ0tsWWJ0eUx1ZXN2MURFdld6Mk14T0pwVF9TYVkzSWZidmI4M0Z4WGlrdWJkd295SGJJTTZNanhTckJyOWRSZG1zR0V2anRwYWlVUmVDcjJHaDBCWEgyVGlNTWRXM3JraGZVekpUZw?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-13T13:47:00Z",
+      "summary": ""
+    },
+    {
+      "id": "630f82c6ceb4",
+      "topic": "branding",
+      "title": "Coworking with Satoru Wakeshima",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0c0dVOExuR2dsMGZOUFFRbVlwZ05BMGE4UjYxa0I1eTFCdllLUzJXZXdrYnJtV0tXbHAwMXREX0dfUVZsZWUzZF9Cem9PSW9kTkREWjk2M09GMWJKb0FXOTRFeUlvZmF5QzdMeUVUWll5d0J6V1FUZA?oc=5",
+      "source": "Marketing Brew",
+      "published": "2026-10-13T13:31:11Z",
+      "summary": ""
+    },
+    {
+      "id": "a265a46a23dc",
+      "topic": "enterprise",
+      "title": "SHIRO & Co. Tests ‘AI That Knows When Not to Propose’ in Real-World B2B Sales",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQlJURE1aY0lnbW14N3ozLUtRYlZSYTd6Z3k4YWVmaTRNMTJacE5SV3FfUXN1ZHg4cmp0UnNmQVkwQ0QxU3Z4bnhnd3N4MTM1SUZQc0pKcUxkd05QWHFsSXQ1ZlJQbmtVZGtYTkZFMUNnOG5LSXZlbF9oWk5Lb3J0ejRzaGEyNksxRmo5Sk5YOEE0U0RjOGVDdnlnMkI4Y0hqallxUm0xdnFOTU5GUVh6MFdOa2dnUC1xdnVXZDNJM3QtbHYwVnRZ?oc=5",
+      "source": "Bergen Record",
+      "published": "2026-10-13T13:28:56Z",
+      "summary": ""
+    },
+    {
+      "id": "2e4496baafd0",
+      "topic": "strategy",
+      "title": "Daré Bioscience Launches “CEO Corner” Video Series to",
+      "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQN2NCUzZEcGtsTE9VS2pRU20wNERsaDlZNUlEdmFlTUJqS3NrOGl5QTgwMFpFS0hRSmM5N0tKSmJXbF9iaEVVRDl0UHpnQXZzdWlVclNQVHM4NDRsTmZJbktxNGViTUpnQkhzMTBUMTl2RHRkbDRmaEhJRXE5T1JfTUpvVVI3MTk1dkxnaEVQendVRVpDaWFtSzVRTGxfZFgtQ2kwTDdXeFVrQ2tfem1TWWpKczUwaklJeWp0OE5XNzgyVXMySHhNNTA2US1VdFdwTEQ1Y0gtSkNhOHAtVGg3V2NUZWNpeHdsTU5WYkgtbnpnOEFhNy1KUzhyYjA2eVNTbzVzcHRiQUZJOXMwajJ4ZFJjV3lwd3RwNHEydUx2OUtLRUEzU3FaY0h1Vm55Nl93bmlOSGticW9LbFAtcHY1N2dSNnNaTG54eWZ3cQ?oc=5",
+      "source": "GlobeNewswire",
+      "published": "2026-10-13T13:15:00Z",
+      "summary": ""
+    },
+    {
+      "id": "f7c7b005bddc",
+      "topic": "strategy",
+      "title": "Meet Dr Hazel and Nhyira: Mother and daughter called to the Ghana Bar",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZ0xzajE5OHRkYTBxbTJvQmJMNzBiaS1Pb1k5cjhjZGZoaTVtMWhMdlF5M0pZVms2NkxTTkpjSVBHVk9kb3gwOE45VHRYSkU1a28tR1RKbjJsQS1kYjlRakx5alJkbzVfWGFvS0RaZjctQWRCYU9kSmYtbW5uc09pTWlOZ2hwMlR1ejVaMHpXcEdCaGw0OUNrSE5tdURUUQ?oc=5",
+      "source": "MyJoyOnline",
+      "published": "2026-10-13T13:06:36Z",
+      "summary": ""
+    },
+    {
+      "id": "3ad1413d5f57",
+      "topic": "strategy",
+      "title": "Lynxspring Receives Frost & Sullivan's 2026 Global Smart Building Solutions Competitive Strategy Leadership Recognition",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMlE2UXZ1XzVQRFU3a19wWmVtTGZmSVdubm5YVzlvSUdVLUc4TjVKZUEwbnYyallQbjlCOXpPQTRNVEVaY3NZZ3NjQlUxejBFckJIQW5TbGI0MEU5Ny1UZTVleENUR21GMktwZlFuOWsteHl1VWhtTnU5NF9NVTRzZXBLakgxeWUwUEI1bS1hWlZ6UHR5Vk9odGZRa1c0TC1BaVNr?oc=5",
+      "source": "Yahoo Finance",
+      "published": "2026-10-13T13:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "606ca2ca7aac",
+      "topic": "performance",
+      "title": "Truist Securities maintains Hold rating on Goosehead Insurance, $48 price target",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSGU3dDZXVVNNZEZnNlNSejJQYkh1aW5VNTlyNkxJdjhVblA3MDRlY2hHX3NkRmtYSHJRbHJPb1l4R2lVZXlSN1pFZGZxMjhNMDVpSy1oajY1a2J3SXQydllseWRLZl8tMGhBX3N5YnVtdktsRW1Mekw3blN6VEh6enNCeXlnNm1qOGxGcG9LNVB3Rld6ZU1hRktPMTRHaUNQRVNVR0VDVV9fa0xsQmlsYnlGend0dU5DZzlUcGJkSjZ1R0NyS2haSkpIaEE0NDJkakZtYlJsSQ?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-13T12:41:26Z",
+      "summary": ""
+    },
+    {
+      "id": "75f93d3d01f7",
+      "topic": "performance",
+      "title": "Ex-Yahoo boy closes ₦50m deal in first week, gets car and ₦5m after boss sacked HR who exposed him",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQ09QNWQ2MEpnMUlBMlN1cF85Sk1Jb3daci1iY1diekYwamt5d1lNbWRsSzYyUFQyUVROYWNaWFMwTkwwQzY2WVduOS1uQWc3NmMyRWl0ZUpNTTdjTkdMRXpITjNUa3B3ZnNDVjVyVzhtaVlBSkRScXloYnI4bDlMTnJrUnlDci1kaEdycmxzXzFCZ1pPZUZmRDdkUDliYW01RE1oZHhRb25nZ3BaNXVQT2x1YUpEd2ZZZGM2VXVkY0RhLTlZelFqZDZWdXlRcktwVnF5UjBB?oc=5",
+      "source": "GistReel",
+      "published": "2026-10-13T12:13:32Z",
+      "summary": ""
+    },
+    {
+      "id": "3e261eea61d8",
+      "topic": "strategy",
+      "title": "James Grant joins Disney’s corporate strategy team",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSmx2MFUwc0ZibkxSNVpZWkZMVnlUWGNOakh3bDBZaV9FZ0p6QlVpdW9SUXpWRVZDNm9tVFdKR21PV2xyVkFEbjdpOVNhN1pFQWxnVWlwaTgyMFB3ZjNkdjNOVUg4NENfNEk3NmN3d0VsUXQ2TmFmTF9zNF9LeWtmeXN0WVpQLXotcWQ0?oc=5",
+      "source": "Indian Television Dot Com",
+      "published": "2026-10-13T11:04:30Z",
+      "summary": ""
+    },
+    {
+      "id": "bcc8c9883c3a",
+      "topic": "accounts",
+      "title": "Microsoft Renews Ireckonu’s Trusted AI and Data Solutions Partner Status",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmIwQkVpV1NuYy1TYlpGU2VscjNmbWxDSzQ0b01sWl80R3pBcEEtdGlkUWpmVzZHNF9iUVdOUGE4M0g0ZFltX3lOamZUSS1SUFgzVm44Sll6SEJhdnljbWxROE9VWFN3YUt4YXkwNFgtU25iQy1TbzV2Nnh0Tkg5bEZrY1V3cUN4bzJJdUotQXpTbjczdl93ZkZaYUJ3MjNwYldYY0s2UTFzeXBKX3FtQ0FHQkxidw?oc=5",
+      "source": "Hospitality Net",
+      "published": "2026-10-13T09:18:29Z",
+      "summary": ""
+    },
+    {
+      "id": "5fe0bd3f438f",
+      "topic": "accounts",
+      "title": "Salesforce and the Infocomm Media Development Authority launch the Slack AI Launchpad Programme to help Singapore SMEs build capabilities and harness AI for business growth",
+      "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNTWsxMU5KM3lZSzBESG1nQzVqSktIdnM0OVEzUElTb3J3bTVuTHpHYVd5d0NESGpUT2NYb2ZHblZFUzlhdXZiLXAzOW1ZOHFVc1RFWnF0TmVuSmk1MkFmLUtHcjY2cEdoTUtla2Vham5kdEVQVVUtMjA4TDlaR2NCcWRJa2xuVlBKWWdQaUNPaHE5OTFCNGlqazlPYmFKX2lOdklaQ3dVWS15MFBWWnBFczJnX2dSeG9ieHRXaFY4djNibXpsZ25YdUZMZ1ZjNkxIdFF4U0ZmZUVadkJoU2pzN1NJdExsS0hTMTd4cDdlVlVhLVRyTi1BMmFvWmFvT0ZEUnZnMTg2Ym1jRFNOY291Z3dOT0hfRVJIZ1IzLW4zUHhVRkhpTXJscThKSUVzRlNkbzAtcEtxV09QbUNjakx5NGFyZ0g4WUxGdXQ4WlZjOEtvTTFw?oc=5",
+      "source": "Salesforce",
+      "published": "2026-10-13T08:28:07Z",
+      "summary": ""
+    },
+    {
+      "id": "bb253722f511",
+      "topic": "accounts",
+      "title": "How AI Is Transforming Customer Success in 2027",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeVNveHZ6U0VsTkFjZVl4R2pCV3lLdUdXaDdRZjNseTdGek1jQXQteUVqbjhWOWVlOUZ2ZWZfclhTU09ubWpHdmw4UFE0dXlQVUdINlRKRndhNzF5Ynk3bFhTZVNBanh1MEp0MnE5YWwtQ2ljMEdzNlJIdExURzdPMg?oc=5",
+      "source": "Simplilearn.com",
+      "published": "2026-10-13T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "85ec09101fbe",
+      "topic": "accounts",
+      "title": "Clueso raises $10M Series A to build the agentic video platform for businesses",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xWUFNZk83XzZRMmJ3R3MzMlU2NjZyZ04zOUc0QTJDbjVVb29HclhCRGJFdktqclFoanVCaV9UWk10dTBwelBxSElyX3o4SUpOYzV6RUJLUQ?oc=5",
+      "source": "AI Magazine",
+      "published": "2026-10-13T07:00:00Z",
+      "summary": ""
+    },
+    {
+      "id": "b89e53520688",
+      "topic": "accounts",
+      "title": "IFI Techsolutions Renews Three Microsoft Azure Specializations for a Fifth Consecutive Year",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFMyZVdEQ2J6UzVEcDgwNWZUREhld2NXUjFjMXdITG5nUHh3SWVPTUtPX3c1aFJIQ09nUW5CMDA3U2xRVlBNS1Y1TjFacXRNZUJFOTEycmczbU5lS3VEai1uYmR6VzlYZ0QzMjEwVWFzZ2M1cFh4YWlqUnBmWFdiay1VY2tDbWtVVnN5RHE3cERBaGJEcG42aDhCYVotTzB4dThGSkpvbl83MXNXdWVEQklmQ3NqYUFCYTdYYmpXWHRFV3RZN1gzSkFzRjlicE9JNkRqdHU3bWVydw?oc=5",
+      "source": "ANI News",
+      "published": "2026-10-13T06:17:00Z",
+      "summary": ""
+    },
+    {
+      "id": "00d60b947dd9",
+      "topic": "accounts",
+      "title": "Tech Tuesday: Best AI-powered customer success platforms for 2026",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWFCT2JxNVNXV2xqaVY0OU9Zak5tajhmd0ZZbWxBYjJxenpYX1BRcW9MSnExQm1iWGxFYU9UN0dfeGNrWGx2NWNIT2MwNnhfb2M2NHBKdlFEVG5CRjhrQzRvSEJYcFZlY2VROUV1QXFTT2JUOFRIY212b21DVWFlMl9wNjFqVlRYWnZRV3c1R3dVYUNCaUZ4M0NLU05IOWRDa2pKci0wczZsbXRVSFotRENYejdzYmx5dTdJ?oc=5",
+      "source": "Dynamic Business",
+      "published": "2026-10-13T05:02:17Z",
+      "summary": ""
+    },
+    {
+      "id": "f14126bd3892",
+      "topic": "enterprise",
+      "title": "1 Profitable Stock with Exciting Potential and 2 Facing Challenges",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNa21RU2ljT1J5T0dCUy1TeDJHcnk3NzFOWmhsYmdFRmFRNDRGZTBfcU5GRUpSblJkUGc1dVg5ekJwY0E2X3FDYmw2UmdCMTBnNkhPOUZCd2lCSURBZFFENGxVMU9nM2d6clNDMlJSVFlqT3dsclZLcGoxUmt1bnVkOUh3UFczak8wRUFpcDZyblV6UzRNX3l2TTZ3aU9WV01nSzFRQ3ZFVm4yRVFNLTJIOXAxTldPQUtmRnM5SnNMYURfWTFERVJRdA?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-13T04:35:00Z",
+      "summary": ""
+    },
+    {
+      "id": "c0dd39367db5",
+      "topic": "enterprise",
+      "title": "Vection Technologies Signs Digital Supply Deal with Italian Telco for European Markets",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUWRNQXFsajIzcmpFWWVMZ3J2dDY3d1J5WG5WZmpJYmpvZnFPTV9kcDItUUkwbjFJQVFhNENndjNHUUw5MzBiWnQ0RURYR2dyMkc3dzRtQzRLd0VzVFliR1RLUnhobXNkS0xSeWh0OFBvZEZkR1VCTnlWdEtZQlFCTnRYaFd0Ti1fN2pWWmxsVV9rYTBSd3Y4RG84ZFg2WnJkQ0hUdFRvNWItLXVGekR3NUk5RVBSUjJqZ2VVNzBLNkFpOG1pZGZJRkFFUHlPWUlYM29KR09ORFo1RVYzTWlR?oc=5",
+      "source": "TradingView",
+      "published": "2026-10-13T00:55:00Z",
+      "summary": ""
+    },
+    {
+      "id": "3a50c1021260",
+      "topic": "executive",
+      "title": "Acenda announces dual leadership appointments",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tS1Nyc2g5YU5Ic0pxQlpZTktWdXMzYkhzVjNLd0FtZ0RvWWh6NWgwUkFCU01ydHUxLWNpcU5IeGo3YTZHNkYyTFU2QlU1MmltcWk0ZEhidE0xMDhPOGZLWXBTREV3SjlqajBFLW9QQ2ZzeTdvNmFONQ?oc=5",
+      "source": "ifa",
+      "published": "2026-10-12T23:23:57Z",
+      "summary": ""
+    },
+    {
+      "id": "06f1acdbb5d6",
+      "topic": "territory",
+      "title": "Donegal salesman awarded €60,000 after being told he was redundant in his sick bed",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWHh6bzJTcERDb1JvRGxDRl9xcUswVGNiaEtPX3hveWRrdXo1dWNsX29ENUthWUVYd2hzbmFwVnJXWnR6XzlaeHduMV9hTkFQTFVRM0JGb3BWOFNrQmcwU0FJU2dxX1dkdkxrTVZYeE5rSWVFWmUyVVdxVjZWMDNkWEFtbVhXUDNFMDhsMmxESndJYjNSMjlrRG5zOVAtRkJvR3VWN0FuZVdLcFFsdnhGWENadw?oc=5",
+      "source": "Donegal Live",
+      "published": "2026-10-12T18:30:00Z",
+      "summary": ""
+    },
+    {
+      "id": "ae68f4cb61f1",
+      "topic": "territory",
+      "title": "Fatima Zahra El Mansouri Is Appointed as Morocco’s First Female Prime Minister in Historic Election",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSy1IVkhRVWFXX193R0NMeGFMNnVmbklyQk5LZkI3MW5DMGo5ZHR0TEpJaWdROFhxVUdObnRUeldyVXpHOWw3M0RUSldOdnZZNFV0aWszYnJsckJQb1h1VjNxNGVkZDZ3Y3JGQmk5YktDRGczUU00LXN6UXlIN3NXUTlkMTRKZw?oc=5",
+      "source": "My Modern Met",
+      "published": "2026-10-12T18:20:24Z",
+      "summary": ""
+    },
+    {
+      "id": "81e88ab2a0c0",
+      "topic": "executive",
+      "title": "2026 CU Times Luminaries Finalists: Executive Leadership – C-Suite ($1 Billion & Below)",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONHVicUYySENNY25kYzkzU01qbHlXUWdBclFvQWpBLWlMUG1FSFJpMGxlYWl5U2Q3Q3hWVktxa0xnWUkxN3dYWml6WURkUVBSdEhvT2tkZGp3blU3Vm1icDlrUV95T3NidlhTeWhsVEFjRmVxLXh4NnBNQVdDc085aVlrMzlLb2hzazBGZHBXamFmXzVBSkczVmhFaVBuNUktZjIxcmdNYWZBVmlIa1Y5QlV0TjdleEE?oc=5",
+      "source": "CUTimes",
+      "published": "2026-10-12T18:01:38Z",
+      "summary": ""
+    },
+    {
+      "id": "08198be77b01",
+      "topic": "accounts",
+      "title": "UNKAPPED Launches to Solve Enterprise AI’s Biggest Problem: Execution",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVXRoWm9PMVJreE83a0FEczJTMmZ1N1NGVmRaTmJhcVhJRHBFcHpvNS1jSHRiQ1FfbGdNN3Y4cnpQc2dfbnRGRXJnRmZFMVFqanRJMDdkWXBHM1prRjFWSk1MbDZNSjdrUWwweVJXc0gwaVpNTUlLWG1GQzlBa05rVHYzWVo1MHd4RE9xWE5JTjZyU1dCV0VKVE11MjlQSVE3T0VJVlYzTWI4WjRqLTZmZzk5cXFkZU5JVU1GYUp2dFBUNkFvYkI4MU84bzZnX2k5OXZ2eVFpYmHSAd4BQVVfeXFMTldqNlJiTW1rdDAwNS1jTHktcUFyRWI0SXdpb0ZnWUlBUmhfQjZ1cGdycEFyMmo5Sm5hYkNBVE5rc2tkaWwwSFNySVFyYmxVLUNTS3Z0VGhUUU5HQjViSW0wSWdrQW1HYjVEUXdpanBteldTQk5PNUZnWnhUblpKQWpVUkxGUDhfZkduM3h6RFl6em11QzBLbHlldlMyWXBtYUNJSUxfZXd3OGNQdFVwcW1QZWl5TWlMaUpRLThlb1lTWWpWS3RzR3lZaVJvdzFYT3ozUVlYczh3QVJBOVpB?oc=5",
+      "source": "The Manila Times",
+      "published": "2026-10-12T15:39:20Z",
+      "summary": ""
+    },
+    {
+      "id": "9ce0fdfd39de",
+      "topic": "enterprise",
+      "title": "VividWorks Recommended for the Best 3D Configurator Experience in B2B Sales",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTGVFVWlial9KcUtyaWoxVzltdENtXzFZajUxMkQ3ZEstY1haZDdxMEFEZmNFSUUtcFJ4NERpaGNGbkNkaWVsNWdfR3dvUU1qSFdTV21TSkhwZ215bWhmc3pzZHoxQXRwWWVhbEQ3MGRVczVEaHhSOGhjdllsazlqWm50d3gtYVFLNno1RHg3U29GeFY4WnZmelp0Z1RIeTVzMjY1bGlGeUNCVlVPa244TmVfaE4yeEJXOFZMam9mSi1ZVldKeUhzckZNbEFkTDRUOGZoLQ?oc=5",
+      "source": "FinancialContent",
+      "published": "2026-10-12T14:24:00Z",
+      "summary": ""
+    },
+    {
+      "id": "0b1f8e27c027",
+      "topic": "accounts",
+      "title": "Commvault Names Matthew Stauble As Chief Customer Officer",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUWNHWFo4S2ZmSHlkT1dxMVBROGttellWNUhSWVdmVG9qd0g4WHl1ZFVSVEowWDd2QndicFBqemlmSS1sNnVJdEQyWERoTVRCcDgyaXZQZDJsNWEtRnZwdlBqM0NsUXB5eTBpUGd1X2pLdl9VUFJ0WDA1RjNqOV9DanFqSdIBiAFBVV95cUxQcHVxaVdULU5OOUVQcEFPeUJ5eEExUkZCaEt5TzM2WjFkdmMzd2dxMXJub0R5a0ZXc1N1WmRsbWkwa2FqbnB4UXk2QmtVb2ZDLXhnNmFGeFJobFYxeEJ5MHQxMWdURkh4R1pHU3hZclJ0X2dsYzVhMktiandjakpqR29rd0dLWm1L?oc=5",
+      "source": "Pulse 2.0",
+      "published": "2026-10-12T13:53:13Z",
+      "summary": ""
+    },
+    {
+      "id": "45be5f634896",
+      "topic": "accounts",
+      "title": "Irish AI unicorn Tines plans 100 new Dublin jobs",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa1FQdFd6Y3FobFBpWEVZMDZpb3l6VTZLZDRpOVRrbnJ6VXFtYy0wb2dXY0xPYXlCanRXSnpNZUJZTGZBNTVsbWhOejJIZWw1ZHk0OC00NEgzN2lXV0MyWXZNdVlpbWNlT1RPajFwS2cwcERWekp6bllIaWVEbTRZeFU5TURmVWZ3bjJoT2lTUmdvYU5n?oc=5",
+      "source": "Silicon Republic",
+      "published": "2026-10-12T08:18:53Z",
+      "summary": ""
+    },
+    {
+      "id": "4f01ae7eeae2",
+      "topic": "executive",
+      "title": "Building Your Fractional C-Suite",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wajlDSGt3THFvV21ZRE5KR3A1dG5LZUpGRlRCTThiSU8zSzJFZEJOWEJaNWpWVmhubDdqbC1Qam1iMWI1MTVqajBUNGJpMk5MTmRCZU1pQWtOOVpOUnlfa01IVmNELXZDdTlqXw?oc=5",
+      "source": "NH Business Review",
+      "published": "2026-10-12T05:02:44Z",
+      "summary": ""
+    },
+    {
+      "id": "31da5575653a",
+      "topic": "territory",
+      "title": "Quota management software: What it is and how to choose [2026]",
+      "link": "https://blog.hubspot.com/sales/quota-management-software",
+      "source": "HubSpot Sales Blog",
+      "published": "2026-10-07T18:00:03Z",
+      "summary": "Fewer than half of sales reps hit their targets. In Q3 2025, overall quota attainment sat at 43.24% . That means most sales reps missed the number they were measured against."
+    }
+  ],
+  "errors": [
+    {
+      "source": "HBR",
+      "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>"
+    },
+    {
+      "source": "MIT Sloan Management Review",
+      "error": "HTTPError: HTTP Error 525: <none>"
+    },
+    {
+      "source": "strategy+business",
+      "error": "ParseError: syntax error: line 1, column 0"
+    }
+  ]
 }
