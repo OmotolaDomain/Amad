@@ -1,0 +1,29 @@
+name: Image sourcing (tools branch only)
+
+on:
+  push:
+    branches: [tools/images]
+    paths: ["tools/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.0.0
+      - run: python tools/images.py
+      - name: Commit results
+        run: |
+          git config user.name "amad-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A tools originals 2>/dev/null || git add -A tools
+          git diff --cached --quiet && exit 0
+          git commit -m "Image tool results"
+          git push

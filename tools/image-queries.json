@@ -1,0 +1,352 @@
+[
+ {
+  "key": "world-strategy",
+  "queries": [
+   "chess board pieces",
+   "chess"
+  ]
+ },
+ {
+  "key": "world-enterprise",
+  "queries": [
+   "glass skyscrapers looking up",
+   "modern architecture office building"
+  ]
+ },
+ {
+  "key": "world-territory",
+  "queries": [
+   "aerial farmland patchwork fields",
+   "aerial view fields"
+  ]
+ },
+ {
+  "key": "world-performance",
+  "queries": [
+   "athletics running track sprint",
+   "sprinters race"
+  ]
+ },
+ {
+  "key": "world-accounts",
+  "queries": [
+   "greenhouse plants",
+   "gardener watering plants"
+  ]
+ },
+ {
+  "key": "world-executive",
+  "queries": [
+   "empty stage spotlight theatre",
+   "auditorium stage"
+  ]
+ },
+ {
+  "key": "world-branding",
+  "queries": [
+   "neon signs night city",
+   "neon sign"
+  ]
+ },
+ {
+  "key": "welcome",
+  "queries": [
+   "sunrise city skyline",
+   "sunrise over city"
+  ]
+ },
+ {
+  "key": "col-enterprise-deal",
+  "queries": [
+   "suspension bridge",
+   "bridge cables"
+  ]
+ },
+ {
+  "key": "col-first-90-days",
+  "queries": [
+   "mountaineers rope team climbing",
+   "mountain climbers"
+  ]
+ },
+ {
+  "key": "col-territory-plan",
+  "queries": [
+   "antique world map",
+   "old map"
+  ]
+ },
+ {
+  "key": "col-key-accounts",
+  "queries": [
+   "bonsai tree",
+   "bonsai"
+  ]
+ },
+ {
+  "key": "col-strategy",
+  "queries": [
+   "hedge maze aerial",
+   "labyrinth maze"
+  ]
+ },
+ {
+  "key": "col-boardroom",
+  "queries": [
+   "boardroom table meeting room",
+   "conference table"
+  ]
+ },
+ {
+  "key": "col-brand",
+  "queries": [
+   "letterpress type wooden letters",
+   "wood type letterpress"
+  ]
+ },
+ {
+  "key": "strategy-001",
+  "queries": [
+   "compass on map",
+   "compass navigation"
+  ]
+ },
+ {
+  "key": "strategy-002",
+  "queries": [
+   "fork in the road",
+   "crossroads road"
+  ]
+ },
+ {
+  "key": "strategy-003",
+  "queries": [
+   "chess knight piece",
+   "chess game move"
+  ]
+ },
+ {
+  "key": "strategy-004",
+  "queries": [
+   "storm clouds lighthouse",
+   "storm clouds"
+  ]
+ },
+ {
+  "key": "strategy-005",
+  "queries": [
+   "open ocean blue water",
+   "ocean horizon"
+  ]
+ },
+ {
+  "key": "enterprise-001",
+  "queries": [
+   "business meeting conference room",
+   "meeting table people"
+  ]
+ },
+ {
+  "key": "enterprise-002",
+  "queries": [
+   "airplane cockpit",
+   "cockpit instruments"
+  ]
+ },
+ {
+  "key": "enterprise-003",
+  "queries": [
+   "chalkboard lecture",
+   "blackboard classroom"
+  ]
+ },
+ {
+  "key": "enterprise-004",
+  "queries": [
+   "architectural blueprint",
+   "construction crane"
+  ]
+ },
+ {
+  "key": "enterprise-005",
+  "queries": [
+   "hourglass sand",
+   "hourglass"
+  ]
+ },
+ {
+  "key": "territory-001",
+  "queries": [
+   "balance scale",
+   "scales of justice"
+  ]
+ },
+ {
+  "key": "territory-002",
+  "queries": [
+   "rice terraces",
+   "terraced fields"
+  ]
+ },
+ {
+  "key": "territory-003",
+  "queries": [
+   "aerial view farmland",
+   "patchwork fields aerial"
+  ]
+ },
+ {
+  "key": "territory-004",
+  "queries": [
+   "tree rings stump",
+   "tree rings"
+  ]
+ },
+ {
+  "key": "territory-005",
+  "queries": [
+   "relay race baton",
+   "relay baton handover"
+  ]
+ },
+ {
+  "key": "performance-001",
+  "queries": [
+   "archery target",
+   "arrow target bullseye"
+  ]
+ },
+ {
+  "key": "performance-002",
+  "queries": [
+   "racing cyclists",
+   "cycling race peloton"
+  ]
+ },
+ {
+  "key": "performance-003",
+  "queries": [
+   "traffic jam highway",
+   "traffic congestion"
+  ]
+ },
+ {
+  "key": "performance-004",
+  "queries": [
+   "weather vane",
+   "car dashboard speedometer"
+  ]
+ },
+ {
+  "key": "performance-005",
+  "queries": [
+   "piano hands practice",
+   "piano keys hands"
+  ]
+ },
+ {
+  "key": "accounts-001",
+  "queries": [
+   "seedlings growing",
+   "plant growing sprout"
+  ]
+ },
+ {
+  "key": "accounts-002",
+  "queries": [
+   "spider web dew",
+   "spider web"
+  ]
+ },
+ {
+  "key": "accounts-003",
+  "queries": [
+   "mountain summit view",
+   "mountain peak hiker"
+  ]
+ },
+ {
+  "key": "accounts-004",
+  "queries": [
+   "rowing team",
+   "rowing crew boat"
+  ]
+ },
+ {
+  "key": "accounts-005",
+  "queries": [
+   "stethoscope",
+   "heart monitor"
+  ]
+ },
+ {
+  "key": "executive-001",
+  "queries": [
+   "pyramids giza",
+   "pyramid"
+  ]
+ },
+ {
+  "key": "executive-002",
+  "queries": [
+   "stock market board",
+   "financial newspaper"
+  ]
+ },
+ {
+  "key": "executive-003",
+  "queries": [
+   "lighthouse night",
+   "lighthouse"
+  ]
+ },
+ {
+  "key": "executive-004",
+  "queries": [
+   "orchestra conductor",
+   "conductor baton orchestra"
+  ]
+ },
+ {
+  "key": "executive-005",
+  "queries": [
+   "fountain pen notebook writing",
+   "fountain pen"
+  ]
+ },
+ {
+  "key": "branding-001",
+  "queries": [
+   "shop signs street",
+   "storefront signs"
+  ]
+ },
+ {
+  "key": "branding-002",
+  "queries": [
+   "billboards times square",
+   "times square"
+  ]
+ },
+ {
+  "key": "branding-003",
+  "queries": [
+   "red tulip among yellow tulips",
+   "single red flower field"
+  ]
+ },
+ {
+  "key": "branding-004",
+  "queries": [
+   "fingerprint",
+   "fingerprint macro"
+  ]
+ },
+ {
+  "key": "branding-005",
+  "queries": [
+   "colorful doors",
+   "colourful front doors"
+  ]
+ }
+]
