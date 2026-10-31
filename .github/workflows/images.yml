@@ -3,7 +3,7 @@ name: Image sourcing (tools branch only)
 on:
   push:
     branches: [tools/images]
-    paths: ["tools/**"]
+    paths: ["tools/images.py", "tools/image-queries.json", "tools/picks.json"]
 
 permissions:
   contents: write
