@@ -1,0 +1,53 @@
+// Verifies the deployed PWA at https://omotoladomain.github.io/Amad/ in real Chromium (Android phone profile).
+const { chromium, devices } = require("playwright");
+const fs = require("fs");
+const BASE = "https://omotoladomain.github.io/Amad/";
+const out = [];
+const check = (name, ok, detail = "") => { const line = `${ok ? "PASS" : "FAIL"}  ${name}${detail ? "  — " + detail : ""}`; out.push(line); console.log(line); };
+(async () => {
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({ ...devices["Pixel 7"], serviceWorkers: "allow" });
+  const page = await ctx.newPage();
+  const errors = [];
+  page.on("pageerror", (e) => errors.push(e.message));
+  const cdp = await ctx.newCDPSession(page);
+  const sw = await (await fetch(BASE + "sw.js", { cache: "no-store" })).text();
+  check("Deployed service worker is stamped with a build hash", !sw.includes("__BUILD__"), (sw.match(/const BUILD = "([^"]+)"/) || [])[1]);
+  await page.goto(BASE);
+  await page.waitForSelector("#onboarding:not([hidden]) .ob-panel", { timeout: 20000 });
+  await page.click('[data-action="ob-skip"]');
+  await page.waitForSelector(".edition .photo.ready", { timeout: 20000 });
+  const scope = await page.evaluate(() => navigator.serviceWorker.ready.then((r) => r.scope));
+  check("Service worker scope", scope === BASE, scope);
+  await page.reload(); await page.waitForSelector(".edition");
+  check("Controlled by the service worker", await page.evaluate(() => !!navigator.serviceWorker.controller));
+  const inst = await cdp.send("Page.getInstallabilityErrors");
+  check("Chrome installability errors: none", inst.installabilityErrors.length === 0, JSON.stringify(inst.installabilityErrors));
+  const man = await cdp.send("Page.getAppManifest");
+  const m = JSON.parse(man.data || "{}");
+  check("Manifest loads without errors", man.errors.length === 0 && m.display === "standalone", `${man.url} display=${m.display} errors=${JSON.stringify(man.errors)}`);
+  check("start_url and scope resolve to /Amad/", new URL(m.start_url, man.url).pathname === "/Amad/" && new URL(m.scope, man.url).pathname === "/Amad/");
+  for (const icon of m.icons || []) {
+    const r = await fetch(new URL(icon.src, man.url));
+    check(`Icon ${icon.sizes} ${icon.purpose || "any"}`, r.ok && r.headers.get("content-type").includes("image/png"), `${r.status} ${new URL(icon.src, man.url).pathname}`);
+  }
+  const fonts = await page.evaluate(async () => { await document.fonts.ready; return [...document.fonts].filter((f) => f.status === "loaded").map((f) => f.family); });
+  check("Self-hosted fonts load", fonts.some((f) => /Bricolage/.test(f)) && fonts.some((f) => /Newsreader/.test(f)), [...new Set(fonts)].join(", "));
+  const liveFeed = await (await fetch(BASE + "data/feed.json", { cache: "no-store" })).json();
+  const appFeed = await page.evaluate(() => fetch("data/feed.json", { cache: "no-cache" }).then((r) => r.json()));
+  check("App sees the latest daily feed", appFeed.updated === liveFeed.updated, liveFeed.updated);
+  await page.screenshot({ path: "tools/live-today.png" });
+  await page.click(".edition-cover"); await page.waitForSelector("#reader:not([hidden]) .r-page"); await page.waitForTimeout(800);
+  await page.screenshot({ path: "tools/live-reader.png" });
+  await page.click('[data-action="close-reader"]'); await page.waitForTimeout(500);
+  await ctx.setOffline(true);
+  await page.reload(); await page.waitForSelector(".edition", { timeout: 15000 });
+  check("Opens offline from the cache", true);
+  check("Offline indicator visible", await page.$eval("#net-pill", (e) => !e.hidden));
+  await page.goto(BASE + "#/idea/strategy-002"); await page.waitForSelector("#reader:not([hidden]) .r-title", { timeout: 10000 });
+  check("Ideas open offline", true);
+  await ctx.setOffline(false);
+  check("No JavaScript errors", errors.length === 0, errors.join(" | "));
+  fs.writeFileSync("tools/live-check-result.txt", out.join("\n") + `\n${new Date().toISOString()}\n`);
+  await browser.close();
+})().catch((e) => { out.push("ERROR " + e.message.split("\n")[0]); fs.writeFileSync("tools/live-check-result.txt", out.join("\n") + "\n"); console.error(e); process.exit(1); });
