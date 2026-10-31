@@ -1,0 +1,18 @@
+PASS  Deployed service worker is stamped with a build hash  — 9c333c18996a
+PASS  Service worker scope  — https://omotoladomain.github.io/Amad/
+PASS  Controlled by the service worker
+PASS  Chrome installability errors: none  — []
+PASS  Manifest loads without errors  — https://omotoladomain.github.io/Amad/manifest.webmanifest display=standalone errors=[]
+PASS  start_url and scope resolve to /Amad/
+PASS  Icon 96x96 any  — 200 /Amad/assets/icons/icon-96.png
+PASS  Icon 192x192 any  — 200 /Amad/assets/icons/icon-192.png
+PASS  Icon 512x512 any  — 200 /Amad/assets/icons/icon-512.png
+PASS  Icon 192x192 maskable  — 200 /Amad/assets/icons/maskable-192.png
+PASS  Icon 512x512 maskable  — 200 /Amad/assets/icons/maskable-512.png
+PASS  Self-hosted fonts load  — Bricolage Grotesque, Newsreader
+PASS  App sees the latest daily feed  — 2026-10-30T11:24:43Z
+PASS  Opens offline from the cache
+PASS  Offline indicator visible
+PASS  Ideas open offline
+PASS  No JavaScript errors
+2026-10-31T08:39:43.059Z
