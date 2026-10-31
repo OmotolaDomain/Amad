@@ -103,7 +103,41 @@ def validate_all() -> list[str]:
             for w in (480, 960):
                 if not (img_dir / f"{key}-{w}.webp").exists():
                     errs.append(f"credits.json: {key}: missing assets/img/{key}-{w}.webp")
+    errs += validate_pwa()
     load("feed.json")  # must at least parse
+    return errs
+
+
+def validate_pwa() -> list[str]:
+    """The app must work from a project path like /Amad/: every PWA URL is relative and every file exists."""
+    errs = []
+    site = DATA.parent
+    manifest = json.loads((site / "manifest.webmanifest").read_text())
+    for key in ("start_url", "scope", "id"):
+        if str(manifest.get(key, "")).startswith("/"):
+            errs.append(f"manifest: {key} must be relative (GitHub Pages serves AMAD from a sub-path)")
+    if manifest.get("display") != "standalone":
+        errs.append("manifest: display must be standalone")
+    sizes = {i.get("sizes") for i in manifest.get("icons", []) if i.get("purpose", "any") == "any"}
+    if not {"192x192", "512x512"} <= sizes:
+        errs.append("manifest: needs 192x192 and 512x512 icons")
+    if not any(i.get("purpose") == "maskable" for i in manifest.get("icons", [])):
+        errs.append("manifest: needs a maskable icon for Android")
+    srcs = [i["src"] for i in manifest.get("icons", [])] + [i["src"] for sc in manifest.get("shortcuts", []) for i in sc.get("icons", [])]
+    srcs += [sc["src"] for sc in manifest.get("screenshots", [])]
+    for src in srcs:
+        if src.startswith("/") or not (site / src).exists():
+            errs.append(f"manifest: {src} must be a relative path to an existing file")
+    sw = (site / "sw.js").read_text()
+    block = re.search(r"const PRECACHE = \[(.*?)\];", sw, re.S)
+    if not block or "__BUILD__" not in sw:
+        errs.append("sw.js: PRECACHE list or __BUILD__ placeholder missing")
+    else:
+        for path in re.findall(r'"([^"]+)"', block.group(1)):
+            if path.startswith("/"):
+                errs.append(f"sw.js: precache path {path} must be relative")
+            elif path != "./" and not (site / path).exists():
+                errs.append(f"sw.js: precache file {path} does not exist")
     return errs
 
 

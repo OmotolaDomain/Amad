@@ -101,7 +101,18 @@ Only `transform` and `opacity` are animated. `prefers-reduced-motion: reduce` tu
 - Line-art motifs are inline SVG, so they cost no extra requests.
 - Mobile surfaces avoid `backdrop-filter` to protect low-end Android phones.
 
-## 8. Accessibility
+## 8. App feel (installed PWA)
+
+- **Standalone and edge-to-edge.** The manifest opens AMAD full screen. Top bar and tabs pad for `safe-area-inset-*`, and the browser-only footer is hidden when installed.
+- **Docked bottom tabs.** On phones, five tabs sit at the bottom with a gilt-tinted active pill, which matches Android conventions. Each tab remembers its scroll position, and switching tabs cross-fades (View Transitions).
+- **Status bar.** It matches the page background, and while reading it takes on the idea's world shadow colour.
+- **Reader on small screens.** The cover gives way on interactive pages (about 12% of the height) and on the takeaway (about 22%). Continuation pages read from the top under a running title. The Next button names what follows ("Try it", "Takeaway"). Touch targets are at least 44px.
+- **Leaving AMAD.** Every GitHub link (Discuss, Share an idea, Suggest a source) opens a short sheet that names github.com and says a GitHub account is needed. Publisher links show an external-link mark and their domain.
+- **News imagery.** Headlines aren't paired with AMAD's photos, because that would imply an image the article doesn't have. They get a world-coloured tile with the publisher's initial.
+- **Haptics.** A short vibration on save and when the daily path is complete, where supported, and never when reduced motion is on.
+- **Install prompt.** AMAD shows its own quiet card, only after the first idea, dismissible for 30 days, plus a permanent entry in Progress. The browser's banner is suppressed.
+
+## 9. Accessibility
 
 - Text over photos is checked against the duotone shadow colour (WCAG AA).
 - Focus rings are visible.

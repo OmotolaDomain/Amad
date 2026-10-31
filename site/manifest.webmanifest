@@ -1,11 +1,138 @@
 {
+  "id": "./",
   "name": "AMAD: Daily Learning for Business Growth",
   "short_name": "AMAD",
   "description": "A personalised daily learning and knowledge discovery platform for business growth, strategy, leadership and professional development.",
-  "start_url": "./#/today",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./?source=pwa#/today",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f3ec",
-  "theme_color": "#141a38",
-  "icons": [{ "src": "assets/amad-mark.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#EEF0F5",
+  "theme_color": "#EEF0F5",
+  "categories": [
+    "education",
+    "business",
+    "productivity"
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "assets/icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's path",
+      "short_name": "Today",
+      "url": "./?source=shortcut#/today",
+      "icons": [
+        {
+          "src": "assets/icons/icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Explore the seven worlds",
+      "short_name": "Explore",
+      "url": "./?source=shortcut#/explore",
+      "icons": [
+        {
+          "src": "assets/icons/icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Your library",
+      "short_name": "Library",
+      "url": "./?source=shortcut#/saved",
+      "icons": [
+        {
+          "src": "assets/icons/icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Your progress",
+      "short_name": "Progress",
+      "url": "./?source=shortcut#/plan",
+      "icons": [
+        {
+          "src": "assets/icons/icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/phone-today.webp",
+      "sizes": "824x1830",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Today's edition: a personalised path of ideas"
+    },
+    {
+      "src": "assets/screenshots/phone-reader.webp",
+      "sizes": "824x1830",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Swipeable, illustrated idea reader"
+    },
+    {
+      "src": "assets/screenshots/phone-interactive.webp",
+      "sizes": "824x1830",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Interactive visual explanations"
+    },
+    {
+      "src": "assets/screenshots/desktop-today.webp",
+      "sizes": "1366x768",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "AMAD on a larger screen"
+    }
+  ]
 }

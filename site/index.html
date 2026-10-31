@@ -7,7 +7,10 @@
   <meta name="description" content="AMAD is a personalised daily learning and knowledge discovery platform for business growth, strategy, leadership and professional development. Free, open source, no sign-up.">
   <meta name="application-name" content="AMAD">
   <meta name="apple-mobile-web-app-title" content="AMAD">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="format-detection" content="telephone=no">
   <meta property="og:type" content="website">
   <meta property="og:title" content="AMAD · Daily Learning for Business Growth">
   <meta property="og:description" content="A daily, illustrated edition of ideas on strategy, enterprise commercial, territory mapping, performance, account management, executive engagement and branding.">
@@ -15,12 +18,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#EEF0F5" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0A0E1F" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/svg+xml" href="assets/amad-mark.svg">
-  <link rel="apple-touch-icon" href="assets/amad-mark.svg">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/amad-mark.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -38,17 +41,18 @@
       <a href="#/plan" data-tab="plan">Progress</a>
     </nav>
     <div class="topbar-right">
+      <span class="net-pill" id="net-pill" role="status" hidden>Offline</span>
       <a class="streak" id="streak" href="#/plan" title="Daily reading streak" data-icon="flame"><b>0</b><span class="sr-only"> day streak</span></a>
       <button class="icon-btn" id="theme-toggle" aria-label="Switch light or dark mode" data-icon="moon"></button>
-      <a class="btn small" id="share-idea-link" target="_blank" rel="noopener" data-icon="plus">Share an idea</a>
+      <a class="btn small" id="share-idea-link" data-external="share" data-icon="plus">Share an idea</a>
     </div>
   </header>
 
   <main id="main" tabindex="-1"></main>
 
   <footer class="footer">
-    <p><b>AMAD</b> is free, open source and needs no sign-up. Your progress stays in this browser.
-      <a id="repo-link" target="_blank" rel="noopener">Contribute on GitHub</a>. <a href="#/about">About, sources and photo credits</a>.</p>
+    <p><b>AMAD</b> is free, open source and needs no sign-up. Your progress stays on this device.
+      <a id="repo-link" data-external="repo">Contribute on GitHub</a>. <a href="#/about">About, sources and photo credits</a>.</p>
   </footer>
 
   <nav class="bottom-nav" aria-label="Sections">
@@ -62,7 +66,12 @@
   <div class="overlay reader-overlay" id="reader" role="dialog" aria-modal="true" aria-labelledby="reader-title" hidden></div>
   <div class="overlay ob-overlay" id="onboarding" role="dialog" aria-modal="true" aria-labelledby="ob-title" hidden></div>
   <div class="overlay cel-overlay" id="celebrate" hidden></div>
+  <div class="overlay sheet-overlay" id="leave" role="dialog" aria-modal="true" aria-labelledby="leave-title" hidden></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="update-bar" id="update-bar" role="status" hidden>
+    <span>A new version of AMAD is ready.</span>
+    <button class="btn small gilt" data-action="apply-update">Update</button>
+  </div>
 
   <script src="assets/art.js" defer></script>
   <script src="assets/visuals.js" defer></script>

@@ -32,6 +32,12 @@ jobs:
         with:
           ref: ${{ github.event.repository.default_branch }}
       - uses: actions/configure-pages@v5
+      - name: Stamp the service worker with a hash of the app files
+        # The daily feed is excluded so feed-only deploys don't make every phone re-download the app shell.
+        run: |
+          BUILD=$(find site -type f ! -path site/data/feed.json ! -path site/sw.js -print0 | sort -z | xargs -0 sha1sum | sha1sum | cut -c1-12)
+          sed -i "s/__BUILD__/$BUILD/" site/sw.js
+          grep -q "amad-shell-\${BUILD}\|const BUILD = \"$BUILD\"" site/sw.js && echo "Service worker build $BUILD"
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

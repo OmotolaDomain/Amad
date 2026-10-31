@@ -22,6 +22,25 @@ It runs entirely on GitHub: **GitHub Pages** hosts it, **GitHub Actions** refres
 | **Share and discuss** | Share any idea by link, or discuss it in a GitHub issue. |
 | **Mobile-first and dark mode** | Plain HTML/CSS/JS with no build step and no frameworks. |
 
+## Install AMAD as an app (Android)
+
+AMAD is a Progressive Web App, so it installs straight from the website with no app store:
+
+1. Open **https://omotoladomain.github.io/Amad/** in **Chrome** on your Android phone.
+2. Either tap **Install** on the "Add AMAD to your home screen" card (it appears on Today after you've read your first idea, and in **Progress → AMAD on your phone**), or open Chrome's **⋮** menu and choose **Install app** (on some phones: **Add to Home screen → Install**).
+3. Confirm. The AMAD icon appears on your home screen and in your app drawer.
+
+When opened from that icon, AMAD runs full screen without browser controls, works offline for ideas you've already opened, and checks for the daily headlines whenever you come back to it. Long-press the icon for shortcuts to Today, Explore, Library and Progress.
+
+### How the app works offline
+
+- `site/sw.js` (service worker, scope `/Amad/`) precaches the app shell, fonts and learning data on first visit.
+- App code and data are **network-first** (3.5 s timeout, then cache), so updates arrive as soon as you're online.
+- The daily feed (`data/feed.json`) is **always network-first**, so a cached copy never hides new headlines.
+- Photos are cached as you view them (up to 160), so ideas you've opened keep their imagery offline.
+- Each deploy stamps the service worker with a hash of the app files (feed excluded). When a new version is ready, the app shows an **Update** button rather than reloading by itself.
+- Icons: `python scripts/make_icons.py`. Typefaces are self-hosted (SIL Open Font License, see `site/assets/fonts/`).
+
 ## Design
 
 AMAD's visual system is documented in [DESIGN.md](DESIGN.md). Each of the seven categories is a *world* with its own duotone photography, colours and an animated line-art motif. Ideas appear as magazine-style covers, and the reader is a swipeable, illustrated story. Sixteen ideas include an **interactive visual explanation**, such as the sales velocity calculator, NRR waterfall, ERRC grid, buying-group time split, territory balancer and Pyramid Principle. Motion is purposeful and switches off when the visitor's device asks for reduced motion.
@@ -37,6 +56,9 @@ site/                     ← the website (deployed as-is to GitHub Pages)
   assets/art.js           ← seeded line-art motifs for each world
   assets/visuals.js       ← interactive visual explanations
   assets/img/             ← duotone WebP photos (480px and 960px)
+  assets/icons/, assets/fonts/, assets/screenshots/  ← app icons, self-hosted fonts, install screenshots
+  manifest.webmanifest    ← installable app definition (relative URLs, works under /Amad/)
+  sw.js                   ← service worker: offline support and updates
   data/collections.json   ← curated learning paths
   data/credits.json       ← photo attribution
   data/topics.json        ← the 7 topics + keywords used to classify news
@@ -48,6 +70,7 @@ scripts/
   add_idea_from_issue.py  ← turns an approved "Share an idea" issue into an idea
   validate.py             ← schema checks run on every PR
   process_images.py       ← turns photos into world duotone WebP files
+  make_icons.py           ← renders the PWA icons from the AMAD mark
 .github/workflows/
   daily-feed.yml          ← 05:17 UTC every day: fetch → validate → commit
   publish-idea.yml        ← label an idea issue `approved` → it's published

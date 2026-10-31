@@ -58,6 +58,10 @@
   const world = (id) => state.topicById[id] || {};
   const worldVars = (id) => { const t = world(id); return `--shadow:${t.shadow || "#141B3C"};--hi:${t.highlight || "#EEF0F5"};--topic:${t.color || "#141B3C"}`; };
   const motionOK = () => !REDUCED.matches;
+  const STANDALONE = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  document.documentElement.classList.toggle("standalone", STANDALONE);
+  // A short vibration on Android for moments that deserve it (saving, finishing the day). Never essential.
+  const buzz = (pattern) => { try { if (motionOK() && navigator.vibrate) navigator.vibrate(pattern); } catch { /* unsupported */ } };
 
   const ICON = {
     today: '<path d="M12 3v2M12 19v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M3 12h2M19 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/><circle cx="12" cy="12" r="4"/>',
@@ -72,6 +76,8 @@
     check: '<path d="m5 12 5 5 9-10"/>', search: '<circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/>',
     flame: '<path d="M12 3c1 4 5 5 5 10a5 5 0 0 1-10 0c0-2 1-3 2-4 0 2 1 3 2 3 0-3-1-5 1-9z"/>',
     moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/>', plus: '<path d="M12 5v14M5 12h14"/>',
+    out: '<path d="M14 4h6v6M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    install: '<path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/>', offline: '<path d="M2 8.8a15 15 0 0 1 4.2-2.6M10.7 5a15 15 0 0 1 11.3 3.8M5 12.9a10 10 0 0 1 5.2-2.8M15 10.4a10 10 0 0 1 4 2.5M8.5 16.4a5 5 0 0 1 7 0M12 20h.01M3 3l18 18"/>',
   };
   const icon = (name, cls = "") => `<svg class="icon ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${ICON[name]}</svg>`;
 
@@ -98,6 +104,62 @@
     catch (e) { console.warn("Could not load", path, e); return fallback; }
   }
 
+  // ---------- Leaving AMAD ----------
+  // GitHub pages (discussions, the idea form, the repository) open outside the app and need a GitHub account,
+  // so they get a short explanation first. Publisher links say which site they open.
+  const LEAVE = {
+    discuss: { title: "Discuss this idea on GitHub", body: "Discussions happen in a GitHub issue, on GitHub's website. You'll need a free GitHub account to comment. Your progress in AMAD isn't affected.", cta: "Open discussion on GitHub" },
+    share: { title: "Share an idea on GitHub", body: "Ideas are submitted through a short form on GitHub's website. You'll need a free GitHub account. A maintainer reviews it before it appears in AMAD.", cta: "Open the form on GitHub" },
+    source: { title: "Suggest a source on GitHub", body: "Sources are suggested through a short form on GitHub's website. You'll need a free GitHub account.", cta: "Open the form on GitHub" },
+    repo: { title: "Open AMAD's code on GitHub", body: "AMAD is open source. Its code, ideas and discussions live on GitHub's website.", cta: "Open GitHub" },
+    profile: { title: "Open a GitHub profile", body: "This opens the contributor's profile on GitHub's website.", cta: "Open profile on GitHub" },
+  };
+  const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
+  /** A link to GitHub that explains it leaves the app before opening. */
+  const ghLink = (kind, href, inner, cls = "") =>
+    `<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener" data-leave="${kind}">${inner}<span class="ext" aria-hidden="true">${icon("out")}</span><span class="sr-only"> (opens GitHub in a new tab)</span></a>`;
+  /** A link to another website, marked as external. */
+  const extLink = (href, inner, cls = "") =>
+    `<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${inner}<span class="ext" aria-hidden="true">${icon("out")}</span><span class="sr-only"> (opens ${esc(host(href))} in a new tab)</span></a>`;
+  function openLeave(kind, href) {
+    const L = LEAVE[kind] || LEAVE.repo;
+    $("#leave").innerHTML = `<div class="sheet-card" tabindex="-1">
+        <span class="leave-icon">${icon("out")}</span>
+        <h2 id="leave-title">${L.title}</h2>
+        <p>${L.body}</p>
+        <p class="leave-dest">${STANDALONE ? "Opens in your browser" : "Opens in a new tab"}: <b>${esc(host(href))}</b></p>
+        <div class="sheet-actions">
+          <button class="btn ghost" data-action="close-leave">Stay in AMAD</button>
+          <a class="btn" href="${esc(href)}" target="_blank" rel="noopener" data-action="confirm-leave">${L.cta}${icon("out")}</a>
+        </div></div>`;
+    overlay.open("leave");
+    $("#leave .sheet-card").focus();
+  }
+  // Overlays that the Android back button should close (leave sheet, onboarding, celebration).
+  const overlay = {
+    stack: [],
+    open(id) { $("#" + id).hidden = false; this.stack.push(id); history.pushState({ overlay: id }, "", location.href); },
+    after: null,
+    /** Hide an overlay and drop its history entry; `then` runs once the back navigation has finished. */
+    close(id, viaHistory = false, then = null) {
+      const i = this.stack.lastIndexOf(id);
+      if (i < 0) { then?.(); return; }
+      this.stack.splice(i, 1);
+      $("#" + id).hidden = true;
+      if (!viaHistory && history.state?.overlay === id) { this.after = then; history.back(); }
+      else then?.();
+    },
+  };
+  window.addEventListener("popstate", () => {
+    if (overlay.after) { const f = overlay.after; overlay.after = null; f(); return; }
+    const top = overlay.stack[overlay.stack.length - 1];
+    if (top && history.state?.overlay !== top) {
+      overlay.close(top, true);
+      if (top === "onboarding") { document.documentElement.classList.remove("reading"); store.set("onboarded", true); render(); }
+      if (top === "celebrate") render();
+    }
+  });
+
   // ---------- Imagery ----------
   // Photos live at assets/img/<key>-480.webp and -960.webp (duotone, see DESIGN.md §7).
   // Keys: an idea id, "world-<topic>", "col-<collection>" or "welcome". Missing photos fall back to the world's.
@@ -106,8 +168,9 @@
     const k = photoKey(key, topic);
     if (!k) return "";
     const base = `assets/img/${k}`;
+    const focus = state.credits[k]?.focus;
     return `<img class="photo" src="${base}-960.webp" srcset="${base}-480.webp 480w, ${base}-960.webp 960w" sizes="${sizes}"
-      alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onload="this.classList.add('ready')">`;
+      ${focus ? `style="object-position:${esc(focus)}"` : ""} alt="${esc(alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" onload="this.classList.add('ready')">`;
   }
   const media = (key, topic, seed, opts) => `<div class="media" style="${worldVars(topic)}">${photo(key, topic, opts)}${Art.motif(world(topic).motif, seed)}</div>`;
 
@@ -199,10 +262,11 @@
     if (!url) return "";
     return `<li class="news ${lead ? "news-lead" : ""}" style="${worldVars(it.topic)}">
       <a href="${esc(url)}" target="_blank" rel="noopener noreferrer">
-        <span class="news-thumb">${photo(`world-${it.topic}`, it.topic, { sizes: lead ? "(min-width:1024px) 40vw, 100vw" : "96px" })}${Art.motif(t.motif, it.id)}</span>
+        <span class="news-thumb" aria-hidden="true">${Art.motif(t.motif, it.id)}<span class="news-mono">${esc((it.source || "?").trim().charAt(0).toUpperCase())}</span></span>
         <span class="news-body"><span class="world-tag">${esc(t.name || "")}</span><span class="news-title">${esc(it.title)}</span>
         ${it.summary ? `<span class="news-sum">${esc(it.summary)}</span>` : ""}
-        <span class="news-src">${esc(it.source)}, ${timeAgo(it.published)}</span></span>
+        <span class="news-src">${esc(it.source)}, ${timeAgo(it.published)}<span class="news-out">${icon("out")}${esc(host(url))}</span></span></span>
+        <span class="sr-only"> (opens ${esc(host(url))} in a new tab)</span>
       </a></li>`;
   }
   const emptyState = (motifName, title, body) => `<div class="empty">${Art.motif(motifName, title)}<h3>${title}</h3>${body}</div>`;
@@ -257,6 +321,7 @@
           </aside>
         </section>
 
+        ${installCard()}
         <section class="block" data-reveal>
           <div class="block-head"><h2>Collections</h2><p>Curated paths through several ideas.</p></div>
           <div class="collections">${state.collections.map((c, i) => collectionCard(c, i === 0)).join("")}</div>
@@ -297,7 +362,7 @@
           ${worldChips(topic, "data-explore-topic")}
         </div>
         ${needle ? `<p class="results-count">${list.length} result${list.length === 1 ? "" : "s"} for “${esc(q)}”</p>` : ""}
-        ${list.length ? results : emptyState("prism", "Nothing matches yet", `<p>Try another word, or <a href="${GH}/issues/new?template=share-idea.yml" target="_blank" rel="noopener">share an idea</a> about it.</p>`)}`;
+        ${list.length ? results : emptyState("prism", "Nothing matches yet", `<p>Try another word, or ${ghLink("share", `${GH}/issues/new?template=share-idea.yml`, "share an idea")} about it.</p>`)}`;
     },
 
     collection(id) {
@@ -320,7 +385,7 @@
           <p>Headlines from public business publications, refreshed every morning by an open GitHub Action. ${state.feed.updated ? `Last updated ${timeAgo(state.feed.updated)}.` : ""} Links open the original publisher.</p></header>
         ${worldChips(topic, "data-fresh-topic")}
         ${list.length ? `<ul class="news-list wide">${list.map((x, i) => newsItem(x, i === 0)).join("")}</ul>`
-          : emptyState("network", state.feed.updated ? "Nothing new in this world" : "Headlines arrive each morning", `<p>${state.feed.updated ? "No headlines from the last two weeks. Try another world." : "The first daily refresh hasn't run yet."}</p><p><a href="${GH}/issues/new?template=suggest-source.yml" target="_blank" rel="noopener">Suggest a source</a></p>`)}`;
+          : emptyState("network", state.feed.updated ? "Nothing new in this world" : "Headlines arrive each morning", `<p>${state.feed.updated ? "No headlines from the last two weeks. Try another world." : "The first daily refresh hasn't run yet."}</p><p>${ghLink("source", `${GH}/issues/new?template=suggest-source.yml`, "Suggest a source")}</p>`)}`;
     },
 
     saved() {
@@ -357,6 +422,7 @@
           }).join("")}</div></section>
         <section class="block" data-reveal><div class="block-head"><h2>Milestones</h2></div>
           <ul class="milestones">${milestones.map(([m, ok]) => `<li class="${ok ? "won" : ""}"><span class="medal">${ok ? icon("check") : ""}</span>${m}</li>`).join("")}</ul></section>
+        <section class="block"><div class="block-head"><h2>AMAD on your phone</h2></div>${appSection()}</section>
         <section class="block"><div class="block-head"><h2>Your data</h2></div>
           <p class="muted">AMAD never asks you to sign up. Everything on this page is stored on this device only.</p>
           <button class="btn ghost" data-action="reset">Reset my progress</button></section>`;
@@ -366,7 +432,7 @@
       const srcs = state.sources.map((s) => `<li>${esc(s.name)} <span class="muted">(${s.topics.map((t) => esc(world(t).name || t)).join(", ")})</span></li>`).join("");
       const credits = Object.entries(state.credits).map(([k, c]) => {
         const link = safeUrl(c.landing), lic = safeUrl(c.license_url);
-        return `<li><span class="muted">${esc(k)}:</span> ${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(c.title || "Photo")}</a>` : esc(c.title || "Photo")} by ${esc(c.creator)}, ${lic ? `<a href="${esc(lic)}" target="_blank" rel="noopener">${esc(c.license)}</a>` : esc(c.license)}. Duotone treatment by AMAD.</li>`;
+        return `<li><span class="muted">${esc(k)}:</span> ${link ? extLink(link, esc(c.title || "Photo")) : esc(c.title || "Photo")} by ${esc(c.creator)}, ${lic ? `<a href="${esc(lic)}" target="_blank" rel="noopener">${esc(c.license)}</a>` : esc(c.license)}. Duotone treatment by AMAD.</li>`;
       }).join("");
       return `<article class="prose">
         <h1>About AMAD</h1>
@@ -380,7 +446,7 @@
           <li><b>No accounts.</b> Your plan, streak and library stay in your browser.</li>
         </ul>
         <h2>Contribute</h2>
-        <p>Anyone can add ideas. <a href="${GH}/issues/new?template=share-idea.yml" target="_blank" rel="noopener">Fill in the Share an idea form</a>; when a maintainer approves it, it's published automatically. Developers can also <a href="${GH}" target="_blank" rel="noopener">open a pull request</a>.</p>
+        <p>Anyone can add ideas. ${ghLink("share", `${GH}/issues/new?template=share-idea.yml`, "Fill in the Share an idea form")}; when a maintainer approves it, it's published automatically. Developers can also ${ghLink("repo", GH, "open a pull request")}.</p>
         <h2>Photography</h2><p>All photos are openly licensed and shown with a duotone treatment.</p><ul class="credits">${credits || "<li class='muted'>No photos loaded.</li>"}</ul>
         <h2>Feed sources</h2><ul>${srcs || "<li class='muted'>None loaded.</li>"}</ul>
         <p class="muted">Code is MIT licensed. Idea summaries are CC BY 4.0. Trademarks and linked articles belong to their owners.</p>
@@ -406,6 +472,7 @@
       renderReader(true);
       $("#reader").hidden = false;
       document.documentElement.classList.add("reading");
+      setStatusBar(world(idea.topic).shadow);
     };
     // Morph the tapped cover into the reader's cover (View Transitions, where supported).
     const src = document.activeElement?.closest?.("[data-open]")?.querySelector(".media");
@@ -420,6 +487,7 @@
     const done = () => {
       $("#reader").hidden = true;
       document.documentElement.classList.remove("reading");
+      setStatusBar(null);
       reader.idea = null;
       render();
       reader.lastFocus?.focus?.({ preventScroll: true });
@@ -437,20 +505,21 @@
   function pageHTML(pg, idea, t) {
     if (pg.type === "text") {
       return pg.first ? `<span class="world-tag">${esc(t.name)}</span><h2 id="reader-title" class="r-title">${esc(idea.title)}</h2><p class="r-text">${esc(pg.text)}</p>`
-        : `<p class="r-text">${esc(pg.text)}</p>`;
+        : `<span class="r-running">${esc(idea.title)}</span><p class="r-text">${esc(pg.text)}</p>`;
     }
     if (pg.type === "visual") return `<div class="viz-mount" data-visual="${esc(idea.visual)}"></div>`;
     const srcUrl = safeUrl(idea.source?.url), saved = user.saved.includes(idea.id);
     const cr = state.credits[photoKey(idea.id, idea.topic)];
     const next = nextInPath();
     return `<div class="takeaway"><span class="take-label">Try this today</span><p>${esc(idea.takeaway)}</p></div>
-      <p class="r-source">Source: ${srcUrl ? `<a href="${esc(srcUrl)}" target="_blank" rel="noopener noreferrer">${esc(idea.source.name)}</a>` : esc(idea.source?.name)}.
-        Shared by ${idea.contributor === "amad-team" ? "the AMAD team" : `<a href="https://github.com/${encodeURIComponent(idea.contributor)}" target="_blank" rel="noopener">@${esc(idea.contributor)}</a>`}.</p>
+      <p class="r-source">Source: ${srcUrl ? extLink(srcUrl, esc(idea.source.name)) : esc(idea.source?.name)}.
+        Shared by ${idea.contributor === "amad-team" ? "the AMAD team" : ghLink("profile", `https://github.com/${encodeURIComponent(idea.contributor)}`, `@${esc(idea.contributor)}`)}.</p>
       <div class="r-actions">
         <button class="act save ${saved ? "on" : ""}" data-action="save" aria-pressed="${saved}">${icon("library")}<span>${saved ? "Saved" : "Save"}</span><i class="burst" aria-hidden="true">${"<b></b>".repeat(8)}</i></button>
         <button class="act" data-action="share">${icon("share")}<span>Share</span></button>
-        <a class="act" href="${GH}/issues/new?title=${encodeURIComponent(`[Discuss] ${idea.title}`)}&body=${encodeURIComponent(`Idea: ${idea.id}\n\n`)}" target="_blank" rel="noopener">${icon("chat")}<span>Discuss</span></a>
       </div>
+      ${ghLink("discuss", `${GH}/issues/new?title=${encodeURIComponent(`[Discuss] ${idea.title}`)}&body=${encodeURIComponent(`Idea: ${idea.title} (${idea.id})\nLink: ${location.origin}${location.pathname}#/idea/${idea.id}\n\nMy thoughts:\n`)}`,
+        `${icon("chat")}<span class="disc-text"><b>Discuss on GitHub</b><small>Opens github.com. Needs a free GitHub account.</small></span>`, "discuss-link")}
       ${next ? `<button class="next-idea" data-action="next-idea" style="${worldVars(next.topic)}"><span class="next-thumb">${photo(next.id, next.topic, { sizes: "80px" })}</span><span><span class="take-label">Next on today's path</span><b>${esc(next.title)}</b></span>${icon("right")}</button>`
         : `<button class="btn gilt wide" data-action="close-reader">Done</button>`}
       ${cr ? `<p class="r-credit">Photo: ${esc(cr.title || "")} by ${esc(cr.creator)}, ${esc(cr.license)}.</p>` : ""}`;
@@ -467,7 +536,7 @@
             <div class="r-top"><div class="segments" aria-hidden="true">${pages.map(() => "<i><b></b></i>").join("")}</div>
               <button class="icon-btn r-close" data-action="close-reader" aria-label="Close">${icon("close")}</button></div>
             <div class="r-viewport"><div class="r-track">${pages.map((pg, i) => `<section class="r-page r-${pg.type}" aria-hidden="${i !== page}">${pageHTML(pg, idea, t)}</section>`).join("")}</div></div>
-            <nav class="r-nav"><button class="icon-btn" data-action="prev" aria-label="Previous page">${icon("left")}</button><span class="r-count" aria-live="polite"></span><button class="icon-btn r-next" data-action="next" aria-label="Next page">${icon("right")}</button></nav>
+            <nav class="r-nav"><button class="icon-btn r-prev" data-action="prev" aria-label="Previous page">${icon("left")}</button><span class="r-count" aria-live="polite"></span><button class="r-next" data-action="next"><span class="r-next-label">Next</span>${icon("right")}</button></nav>
           </div>
         </div>`;
       const vm = $("#reader [data-visual]");
@@ -481,6 +550,8 @@
     $$("#reader .r-page").forEach((el, i) => { el.setAttribute("aria-hidden", i !== page); el.inert = i !== page; if (i === page) el.scrollTop = 0; });
     $$("#reader .segments i").forEach((s, i) => s.classList.toggle("on", i <= page));
     $("#reader .r-count").textContent = `${page + 1} of ${pages.length}`;
+    $("#reader .sheet").dataset.page = pages[page].type;
+    $("#reader .r-next-label").textContent = pages[page + 1]?.type === "visual" ? "Try it" : pages[page + 1]?.type === "takeaway" ? "Takeaway" : "Next";
     $('#reader [data-action="prev"]').disabled = page === 0;
     $("#reader .r-next").disabled = page === last;
     $("#reader .sheet").classList.toggle("at-end", page === last);
@@ -538,7 +609,8 @@
     el.innerHTML = `<div class="cel-card" role="status"><div class="cel-ring">${ring(1, 120, "gilt big")}${icon("check", "cel-check")}</div>
       <h2>Today's path is complete</h2><p>${streakAlive() > 1 ? `That's ${streakAlive()} days in a row.` : "A new edition arrives tomorrow."}</p>
       <button class="btn gilt" data-action="close-celebrate">Keep going</button></div><canvas aria-hidden="true"></canvas>`;
-    el.hidden = false;
+    overlay.open("celebrate");
+    buzz([18, 40, 18]);
     $(".cel-card .btn", el).focus();
     if (motionOK()) confetti($("canvas", el));
   }
@@ -564,12 +636,12 @@
     ob.step = 0;
     ob.draft = p ? { ...p, topics: [...p.topics] } : { role: null, topics: [], minutes: 10 };
     renderOnboarding();
-    $("#onboarding").hidden = false;
+    overlay.open("onboarding");
     document.documentElement.classList.add("reading");
     $("#onboarding .ob-panel")?.focus();
   }
-  function closeOnboarding() {
-    $("#onboarding").hidden = true;
+  function closeOnboarding(then = null) {
+    overlay.close("onboarding", false, then);
     document.documentElement.classList.remove("reading");
     store.set("onboarded", true);
   }
@@ -600,10 +672,11 @@
   function finishOnboarding() {
     user.plan = ob.draft; store.remove("stash");
     const picks = todaysStash();
-    if (!motionOK()) { closeOnboarding(); toast("Your plan is ready"); location.hash = "#/today"; render(); return; }
+    const done = () => closeOnboarding(() => { if (location.hash !== "#/today") location.hash = "#/today"; else render(); });
+    if (!motionOK()) { toast("Your plan is ready"); done(); return; }
     $("#onboarding .ob-panel").innerHTML = `<div class="ob-done"><div class="ob-stack">${picks.slice(0, 5).map((i, k) => `<span class="ob-card" style="--k:${k};${worldVars(i.topic)}">${photo(i.id, i.topic, { sizes: "160px" })}${Art.motif(world(i.topic).motif, i.id)}</span>`).join("")}</div>
       <h2>Your plan is ready</h2><p class="ob-sub">${picks.length} ideas are waiting on today's path.</p></div>`;
-    setTimeout(() => { closeOnboarding(); location.hash = "#/today"; render(); }, 1700);
+    setTimeout(done, 1700);
   }
 
   // ---------- Routing & rendering ----------
@@ -623,15 +696,19 @@
     if (name === "world" && state.topicById[arg]) { state.explore.topic = arg; state.explore.q = ""; }
     const key = name === "world" ? "explore" : name === "collection" ? `collection/${arg}` : views[name] ? name : "today";
     const changed = key !== lastRoute;
+    if (changed) scrollMemory[lastRoute] = window.scrollY;
     lastRoute = key;
-    paint(key);
-    if (changed) window.scrollTo(0, 0);
+    const go = () => { paint(key); if (changed) window.scrollTo(0, scrollMemory[key] || 0); };
+    // A quick cross-fade between tabs, like a native app (skipped on first paint and under reduced motion).
+    if (changed && !firstPaint && document.startViewTransition && motionOK()) document.startViewTransition(go);
+    else go();
   }
+  const scrollMemory = {};
   function paint(key) {
     const [view, arg] = key.split("/");
     $("#main").innerHTML = views[view](arg);
     firstPaint = false;
-    const tab = view === "collection" ? "today" : view;
+    const tab = view === "collection" ? "today" : view === "about" ? "" : view;
     $$("[data-tab]").forEach((a) => a.classList.toggle("active", a.dataset.tab === tab));
     renderStreak();
     observeReveals();
@@ -655,6 +732,9 @@
 
   // ---------- Events ----------
   document.addEventListener("click", (e) => {
+    const leave = e.target.closest("a[data-leave]");
+    if (leave) { e.preventDefault(); return openLeave(leave.dataset.leave, leave.href); }
+    if (e.target.id === "leave") return overlay.close("leave");
     const el = e.target.closest("[data-open],[data-action],[data-explore-topic],[data-fresh-topic],[data-role],[data-ob-topic],[data-minutes]");
     if (!el) { if (e.target.id === "reader") closeReader(); return; }
     const d = el.dataset;
@@ -693,13 +773,18 @@
         const on = toggleSave(reader.idea.id);
         el.classList.toggle("on", on); el.setAttribute("aria-pressed", on);
         el.querySelector("span").textContent = on ? "Saved" : "Save";
-        if (on && motionOK()) { el.classList.remove("pop"); void el.offsetWidth; el.classList.add("pop"); }
+        if (on && motionOK()) { el.classList.remove("pop"); void el.offsetWidth; el.classList.add("pop"); buzz(12); }
         return;
       }
       case "share": return shareIdea(reader.idea);
-      case "close-celebrate": $("#celebrate").hidden = true; return render();
+      case "close-celebrate": return overlay.close("celebrate", false, render);
+      case "close-leave": return overlay.close("leave");
+      case "confirm-leave": setTimeout(() => overlay.close("leave"), 50); return; // let the link open first
+      case "install": return promptInstall();
+      case "dismiss-install": store.set("installDismissed", Date.now()); $$(".install-card").forEach((c) => c.remove()); return;
+      case "apply-update": return applyUpdate();
       case "onboard": e.preventDefault(); return openOnboarding();
-      case "ob-skip": closeOnboarding(); return render();
+      case "ob-skip": return closeOnboarding(render);
       case "ob-back": ob.step--; return renderOnboarding();
       case "ob-next":
         if (ob.step < 2) { ob.step++; return renderOnboarding(); }
@@ -715,8 +800,9 @@
     if (e.target.matches("[data-search]")) { state.explore.q = e.target.value; rerenderExplore(); }
   });
   document.addEventListener("keydown", (e) => {
-    if (!$("#celebrate").hidden && e.key === "Escape") { $("#celebrate").hidden = true; render(); return; }
-    if (!$("#onboarding").hidden && e.key === "Escape") { closeOnboarding(); render(); return; }
+    if (!$("#leave").hidden && e.key === "Escape") { overlay.close("leave"); return; }
+    if (!$("#celebrate").hidden && e.key === "Escape") { overlay.close("celebrate", false, render); return; }
+    if (!$("#onboarding").hidden && e.key === "Escape") { closeOnboarding(render); return; }
     if ($("#reader").hidden || e.target.matches("input")) return;
     if (e.key === "Escape") closeReader();
     else if (e.key === "ArrowRight") turn(1);
@@ -733,10 +819,102 @@
     store.set("theme", next); applyTheme(next);
   });
 
+  // ---------- Installable app ----------
+  let installPrompt = null;
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); // we show our own, quieter install option instead of the browser's banner
+    installPrompt = e;
+    if (["today", "plan"].includes(lastRoute) && $("#reader").hidden) paint(lastRoute);
+  });
+  window.addEventListener("appinstalled", () => {
+    installPrompt = null;
+    $$(".install-card").forEach((c) => c.remove());
+    toast("AMAD is installed. Open it from your home screen.");
+  });
+  // Shown on Today only when the browser offers installation, after the first idea, and not if dismissed recently.
+  function installCard() {
+    if (!installPrompt || STANDALONE) return "";
+    if (!Object.keys(user.read).length) return "";
+    if (Date.now() - (store.get("installDismissed", 0) || 0) < 30 * 864e5) return "";
+    return `<aside class="install-card" aria-label="Install AMAD">
+      <img src="assets/icons/icon-96.png" alt="" width="48" height="48">
+      <div><b>Add AMAD to your home screen</b><span>Opens full screen like an app, and your saved ideas work offline.</span></div>
+      <div class="install-actions"><button class="btn small" data-action="install">Install</button><button class="linkbtn" data-action="dismiss-install">Not now</button></div>
+    </aside>`;
+  }
+  function appSection() {
+    if (STANDALONE) return `<p class="muted">You're using the installed app. Ideas you've opened, your library and progress work offline.</p>`;
+    if (installPrompt) return `<p class="muted">Install AMAD to open it full screen from your home screen, with offline reading.</p><p><button class="btn" data-action="install">${icon("install")}Install AMAD</button></p>`;
+    return `<p class="muted">To install AMAD on Android, open your browser's menu (⋮) and choose <b>Install app</b> or <b>Add to Home screen</b>. It then opens full screen, without browser controls.</p>`;
+  }
+  async function promptInstall() {
+    if (!installPrompt) return;
+    installPrompt.prompt();
+    const { outcome } = await installPrompt.userChoice;
+    installPrompt = null;
+    if (outcome !== "accepted") toast("No problem. You can install AMAD later from Progress.");
+    render();
+  }
+
+  // Service worker: offline support and updates. Only tapping "Update" reloads the page.
+  let waitingWorker = null, updateRequested = false;
+  function showUpdate(worker) { waitingWorker = worker; $("#update-bar").hidden = false; }
+  function applyUpdate() {
+    updateRequested = true;
+    $("#update-bar").hidden = true;
+    if (waitingWorker) waitingWorker.postMessage("skip-waiting"); else location.reload();
+  }
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    navigator.serviceWorker.addEventListener("controllerchange", () => { if (updateRequested) location.reload(); });
+    window.addEventListener("load", async () => {
+      try {
+        const reg = await navigator.serviceWorker.register("sw.js");
+        if (reg.waiting && navigator.serviceWorker.controller) showUpdate(reg.waiting);
+        reg.addEventListener("updatefound", () => {
+          const w = reg.installing;
+          w?.addEventListener("statechange", () => { if (w.state === "installed" && navigator.serviceWorker.controller) showUpdate(w); });
+        });
+        document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") reg.update().catch(() => {}); });
+      } catch (err) { console.warn("Service worker not registered", err); }
+    });
+  }
+
+  // Online/offline indicator.
+  function updateNet() {
+    const off = navigator.onLine === false;
+    $("#net-pill").hidden = !off;
+    document.documentElement.classList.toggle("offline", off);
+  }
+  window.addEventListener("online", () => { updateNet(); refreshFeed(true); });
+  window.addEventListener("offline", () => { updateNet(); toast("You're offline. Ideas you've opened are still here."); });
+
+  // Pick up the daily feed when the app comes back to the foreground (installed apps rarely reload).
+  let lastFeedCheck = Date.now();
+  async function refreshFeed(force = false) {
+    if (!force && Date.now() - lastFeedCheck < 15 * 60e3) return;
+    lastFeedCheck = Date.now();
+    const feed = await getJSON("data/feed.json", null);
+    if (feed && feed.updated && feed.updated !== state.feed.updated) {
+      state.feed = feed;
+      if ($("#reader").hidden && ["today", "fresh"].includes(lastRoute)) { const y = window.scrollY; paint(lastRoute); window.scrollTo(0, y); }
+    }
+  }
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") refreshFeed(); });
+
+  // While reading, tint the status bar with the idea's world; restore afterwards.
+  const themeMetas = $$('meta[name="theme-color"]');
+  const themeDefaults = themeMetas.map((m) => m.content);
+  function setStatusBar(colour) { themeMetas.forEach((m, i) => (m.content = colour || themeDefaults[i])); }
+
   // ---------- Boot ----------
   (async () => {
-    $("#share-idea-link").href = `${GH}/issues/new?template=share-idea.yml`;
-    $("#repo-link").href = GH;
+    for (const [sel, kind, href] of [["#share-idea-link", "share", `${GH}/issues/new?template=share-idea.yml`], ["#repo-link", "repo", GH]]) {
+      Object.assign($(sel), { href, target: "_blank", rel: "noopener" });
+      $(sel).dataset.leave = kind;
+    }
+    if (location.search) history.replaceState(history.state, "", location.pathname + location.hash); // drop ?source=pwa
+    history.scrollRestoration = "manual";
+    updateNet();
     $$("[data-icon]").forEach((el) => el.insertAdjacentHTML("afterbegin", icon(el.dataset.icon)));
     const [topics, ideas, feed, sources, collections, credits] = await Promise.all([
       getJSON("data/topics.json", { topics: [] }),
