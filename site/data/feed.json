@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-07T11:43:35Z",
+  "updated": "2026-11-08T11:56:35Z",
   "items": [
-    {
-      "id": "52a4e0a85407",
-      "topic": "executive",
-      "title": "How AI is transforming automotive quality operations",
-      "link": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/how-ai-is-transforming-automotive-quality-operations",
-      "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
-      "summary": "Yoav Levy, cofounder and CEO of Upstream, explains how AI can reduce warranty and recall costs through early issue detection, accelerated investigations, and targeted countermeasures."
-    },
     {
       "id": "9fcffc021e6b",
       "topic": "performance",
       "title": "Could aviation at last be close to earning its wings?",
       "link": "https://www.mckinsey.com/industries/travel/our-insights/could-aviation-at-last-be-close-to-earning-its-wings",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "The aviation value chain’s recent performance tells divergent stories: More airlines are creating value, and more are doing so consistently—yet the industry still cannot cover its cost of capital."
+    },
+    {
+      "id": "52a4e0a85407",
+      "topic": "executive",
+      "title": "How AI is transforming automotive quality operations",
+      "link": "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/how-ai-is-transforming-automotive-quality-operations",
+      "source": "McKinsey Insights",
+      "published": "2026-11-08T11:56:25Z",
+      "summary": "Yoav Levy, cofounder and CEO of Upstream, explains how AI can reduce warranty and recall costs through early issue detection, accelerated investigations, and targeted countermeasures."
     },
     {
       "id": "94a3afa0c9d2",
@@ -25,7 +25,7 @@
       "title": "Reinventing the channel: How can your partner ecosystem fuel AI growth?",
       "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/reinventing-the-channel-how-can-your-partner-ecosystem-fuel-ai-growth",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "AI presents an opportunity for technology vendors to reinvent their sales channels. This comprehensive overhaul would require five key moves."
     },
     {
@@ -34,7 +34,7 @@
       "title": "Rethinking growth with AI: A conversation with Slack CMO Ryan Gavin",
       "link": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/rethinking-growth-with-ai-a-conversation-with-slack-cmo-ryan-gavin",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "At Cannes Lions 2026, Slack CMO Ryan Gavin and McKinsey Partner Jeff Jacobs discussed how AI can turn productivity gains into a lever for growth."
     },
     {
@@ -43,7 +43,7 @@
       "title": "Turning executive judgment into organizational intelligence: Leveraging AI in CEO leadership",
       "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "The judgment of the CEO and top leaders is one of the most valuable sources of knowledge in the organization. AI can now codify that tacit wisdom and make it available to everyone, for the first time."
     },
     {
@@ -52,7 +52,7 @@
       "title": "Closing banking’s AI value gap: A CEO guide",
       "link": "https://www.mckinsey.com/industries/financial-services/our-insights/closing-bankings-ai-value-gap-a-ceo-guide",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "As AI adoption races ahead, great value is being left behind. Leaders need an operating model that turns investment into AI capital that can be deployed again and again."
     },
     {
@@ -61,7 +61,7 @@
       "title": "Overcoming the R&D bottleneck: Building a causal decision system",
       "link": "https://www.mckinsey.com/industries/life-sciences/our-insights/overcoming-the-r-and-d-bottleneck-building-a-causal-decision-system",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "Tackling stalled development productivity requires sharp decision making. Leading biopharma are replacing fragmented analysis with connected, causal decision systems to optimize speed, cost, and success rates."
     },
     {
@@ -70,17 +70,8 @@
       "title": "Waniwani’s CEO on the agentic future of insurance distribution",
       "link": "https://www.mckinsey.com/industries/financial-services/our-insights/waniwanis-ceo-on-the-agentic-future-of-insurance-distribution",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "AI agents could fundamentally change the economics of insurance distribution. Waniwani CEO Robin Diligent explains the opportunities, risks, and implications for insurers."
-    },
-    {
-      "id": "4d668301e207",
-      "topic": "strategy",
-      "title": "Author Talks: Why you can’t separate strategy from value—and vice versa",
-      "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa",
-      "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
-      "summary": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies."
     },
     {
       "id": "550519f1bc4a",
@@ -88,8 +79,17 @@
       "title": "Wärtsilä CEO Håkan Agnevall: Focus, flexibility, and the next wave of growth",
       "link": "https://www.mckinsey.com/industries/industrials/our-insights/wartsila-ceo-hakan-agnevall-focus-flexibility-and-the-next-wave-of-growth",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "Industrial leaders can turn disruption into growth by sharpening their focus, scaling to meet surging data-center power demand, and putting AI and continuous improvement to work."
+    },
+    {
+      "id": "4d668301e207",
+      "topic": "strategy",
+      "title": "Author Talks: Why you can’t separate strategy from value—and vice versa",
+      "link": "https://www.mckinsey.com/featured-insights/mckinsey-on-books/author-talks-why-you-cant-separate-strategy-from-value-and-vice-versa",
+      "source": "McKinsey Insights",
+      "published": "2026-11-08T11:56:25Z",
+      "summary": "Three McKinsey experts in strategy and corporate finance explore the four foundational principles that underpin all successful value-creating strategies."
     },
     {
       "id": "b6a6a8fbed94",
@@ -97,7 +97,7 @@
       "title": "The algorithm isn’t the advantage–the team is",
       "link": "https://www.mckinsey.com/industries/financial-services/our-insights/the-algorithm-isnt-the-advantage-the-team-is",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "FICO CEO Will Lansing says a strong ownership culture, not a smarter computational method, will set the data analytics company apart from competitors in this AI era."
     },
     {
@@ -106,7 +106,7 @@
       "title": "Global Economics Intelligence executive summary, September 2026",
       "link": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/global-economics-intelligence",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "Central banks move to tighten interest rate policies as energy price spikes fuel inflation; growth looks sparse in some economies, but activity indicators see manufacturing and services expanding."
     },
     {
@@ -115,7 +115,7 @@
       "title": "Agentic AI in strategic sourcing: Hype or hero?",
       "link": "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "As more procurement functions invest in agentic AI to capture savings and drive efficiency, the question is increasingly: Is it worth it?"
     },
     {
@@ -124,7 +124,7 @@
       "title": "‘Hold course and adapt as you go’: An interview with Manon van Beek",
       "link": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/hold-course-and-adapt-as-you-go-an-interview-with-manon-van-beek",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "As she prepares to step down, the CEO of leading European grid operator TenneT reflects on scaling energy infrastructure, navigating geopolitical shocks, and building resilience amid uncertainty."
     },
     {
@@ -133,7 +133,7 @@
       "title": "The UK’s regional talent trap and how it restricts regional growth: UK Productivity Series, part 2",
       "link": "https://www.mckinsey.com/uk/our-insights/the-uks-regional-talent-trap-and-how-it-restricts-regional-growth-uk-productivity-series-part-2",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "The regional distribution of Britain’s economy traps operational leadership talent in London and the South East and prevents businesses across the country from improving their competitiveness. But actions from business and policymakers could reverse this trend."
     },
     {
@@ -142,8 +142,17 @@
       "title": "Three horizons of quantum: A business road map to the future computing economy",
       "link": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/three-horizons-of-quantum-a-business-road-map-to-the-future-computing-economy",
       "source": "McKinsey Insights",
-      "published": "2026-11-07T11:43:35Z",
+      "published": "2026-11-08T11:56:25Z",
       "summary": "In the next decade, quantum technology could create trillions in value and break encryption, delivering opportunity but also risk. Leading companies are acting now to secure a competitive advantage."
+    },
+    {
+      "id": "1be8e931aea0",
+      "topic": "branding",
+      "title": "Ambiguity or clarity?",
+      "link": "https://seths.blog/2026/11/ambiguity-or-clarity/",
+      "source": "Seth's Blog",
+      "published": "2026-11-08T10:03:00Z",
+      "summary": "This is a choice we rarely name. Putting effort into how much ambiguity we can handle can define a career and give us a path forward in our social and cultural interactions as well. Our desire for clarity is based on safety and how we think about risk. If you know exactly what…"
     },
     {
       "id": "72612d1af838",
@@ -1748,15 +1757,6 @@
       "summary": ""
     },
     {
-      "id": "6c7ec204d91d",
-      "topic": "branding",
-      "title": "Kevin L. Davis | Notable Leaders in Communications 2026",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQU1RNktoUk9SR1ctRXA2V3cwTE5VUFc3WjJwUTBMd0IzV3hxRnM0N19Bd205YjRkX244R1BkcU14QkJSUFJheFVkOUNyOGlwREkxbEdWdHF0X3doei1ZMkFQVmZRTnZEZHZ3aTFYZHFUekRZSXZBbkJBelViNXotellzdFdkdGJWcjNrSmRPbEF2bThSQ0o1c0xFNWs2dEdEY1dlb0YySFRnQQ?oc=5",
-      "source": "Crain's Chicago Business",
-      "published": "2026-11-02T18:20:54Z",
-      "summary": ""
-    },
-    {
       "id": "a052e8b59fe4",
       "topic": "strategy",
       "title": "Artificial Intelligence (AI) in Wound Care Market Report Analyzes Market Trends, Segment Details, and Business Strategy",
@@ -2241,18 +2241,37 @@
       "source": "The Brewer Magazine",
       "published": "2026-10-26T12:00:00Z",
       "summary": ""
-    },
-    {
-      "id": "d8cb56000913",
-      "topic": "territory",
-      "title": "Australia’s 67,000-hectare cattle property case ends with Daly River protection",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbHlTYTlJaFFqTmVDZi02R1BySm5tRGMxQ2p3ZkM2TUptQjRFZzRudUR0ZERKZ3BSdmdqZ29LVk5sODdyS3Uzdkh2NGFaR05iSG9PSXBGU2RWVGJ3d0VhNlZEeVJQbER0Vk1uTmZ1eFg4aUtxUnNsa1VyMGZ1X01MbXBqVXFodlVnVGNJbUtQTGVjcFJrZWNSSkhpUWdYTjNsXzIxd200aw?oc=5",
-      "source": "inkl",
-      "published": "2026-10-25T01:45:22Z",
-      "summary": ""
     }
   ],
   "errors": [
+    {
+      "source": "Google News: account management",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: branding",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: business strategy",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: enterprise sales",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: executive engagement",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: sales performance",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
+    {
+      "source": "Google News: territory planning",
+      "error": "HTTPError: HTTP Error 503: Service Unavailable"
+    },
     {
       "source": "HBR",
       "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)>"
